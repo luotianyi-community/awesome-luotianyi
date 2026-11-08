@@ -303,33 +303,6 @@
       "stars": 0
     },
     {
-      "id": 585931879,
-      "full_name": "lytCNAORevision2018/Python_Learning_Examples_Based_on_Vsingers",
-      "desc": "使用Vsinger为背景，Python基础部分的代码。参考书目：Python编程：从入门到实践（第二版），[美]埃里克·马瑟斯著，袁国忠译，人民邮电出版社，2020.10（2022.8重印）",
-      "stars": 1,
-      "language": "Python",
-      "pushed_at": "2023-02-17T12:05:00Z",
-      "archived": false,
-      "fork": false,
-      "score": 55,
-      "signals": [
-        "description:strong",
-        "readme:strong"
-      ],
-      "category_suggestion": "docs",
-      "sources": [
-        "catalog"
-      ],
-      "evidence": [
-        "github-search",
-        "description:strong",
-        "readme:strong"
-      ],
-      "first_seen": "2026-11-08",
-      "last_seen": "2026-11-08",
-      "issue": null
-    },
-    {
       "id": 588789400,
       "full_name": "Miyuki1215/Miyuki1215.githhub.io",
       "desc": "All about Mizuki --who is a Vsinger",
