@@ -1,0 +1,2167 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "id": 364659132,
+      "full_name": "luo-tian-yi/lty_ver",
+      "desc": "洛天依殿下包子铺ver2.0",
+      "stars": 1,
+      "language": "JavaScript",
+      "pushed_at": "2021-05-05T17:43:46Z",
+      "archived": false,
+      "fork": false,
+      "score": 135,
+      "signals": [
+        "description:strong",
+        "name:strong",
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "description:strong",
+        "name:strong",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1370075727,
+      "full_name": "w8888-hh/luotianyi-running-app",
+      "desc": "洛天依陪跑应用 - 节拍器 + 心率监测 + 音乐播放 + 语音引导的跑步健身 Web 应用",
+      "stars": 8,
+      "language": "HTML",
+      "pushed_at": "2026-11-05T12:25:00Z",
+      "archived": false,
+      "fork": false,
+      "score": 131,
+      "signals": [
+        "description:strong",
+        "name:strong",
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "description:strong",
+        "name:strong",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 368865182,
+      "full_name": "YuxiangWang0525/luotianyi-anti-fan-publish-one",
+      "desc": "洛天依黑粉披露GitHub临时站",
+      "stars": 0,
+      "language": null,
+      "pushed_at": "2021-05-19T12:43:20Z",
+      "archived": false,
+      "fork": false,
+      "score": 125,
+      "signals": [
+        "description:strong",
+        "name:strong",
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "description:strong",
+        "name:strong",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1353770565,
+      "full_name": "ourcx/luotianyi-ai-passport",
+      "desc": "洛天依 trae passport 小应用",
+      "stars": 1,
+      "language": "C",
+      "pushed_at": "2026-09-02T03:03:09Z",
+      "archived": false,
+      "fork": false,
+      "score": 106,
+      "signals": [
+        "description:strong",
+        "name:strong",
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "description:strong",
+        "name:strong",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1132127354,
+      "full_name": "YiGuMoYan/lty_agent",
+      "desc": "",
+      "stars": 1,
+      "language": "Python",
+      "pushed_at": "2026-02-15T14:15:28Z",
+      "archived": false,
+      "fork": false,
+      "score": 95,
+      "signals": [
+        "name:strong",
+        "readme:strong"
+      ],
+      "category_suggestion": "tts-ai",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "name:strong",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 395428512,
+      "full_name": "yi-tytyty-tianyi-luotianyi-tianyi712/.Vsinger",
+      "desc": "Vsinger",
+      "stars": 0,
+      "language": null,
+      "pushed_at": "2021-09-20T02:06:43Z",
+      "archived": false,
+      "fork": false,
+      "score": 85,
+      "signals": [
+        "description:strong",
+        "name:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "description:strong",
+        "name:strong",
+        "readme:none"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 725060357,
+      "full_name": "luotianyimiku/luotianyimiku.github.io",
+      "desc": "website",
+      "stars": 0,
+      "language": "HTML",
+      "pushed_at": "2024-07-02T05:35:09Z",
+      "archived": false,
+      "fork": false,
+      "score": 80,
+      "signals": [
+        "name:strong",
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "name:strong",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 112372290,
+      "full_name": "duoduoeeee/hbv",
+      "desc": "Says happy birthday automatically to Luo Tianyi and Yan He, two of the most popular Chinese Vocaloid singers",
+      "stars": 1,
+      "language": "JavaScript",
+      "pushed_at": "2017-11-28T18:39:20Z",
+      "archived": false,
+      "fork": false,
+      "score": 77,
+      "signals": [
+        "description:strong",
+        "description:weak",
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "description:strong",
+        "description:weak",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1169915899,
+      "full_name": "himyjan/yt-vsinger-singer-disover",
+      "desc": "yt song disover",
+      "stars": 6,
+      "language": "TypeScript",
+      "pushed_at": "2026-11-08T09:57:36Z",
+      "archived": false,
+      "fork": false,
+      "score": 70,
+      "signals": [
+        "name:strong",
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "name:strong",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1420279806,
+      "full_name": "Yiying-P/VOCAL-Browser",
+      "desc": "VOCAL-Browser",
+      "stars": 0,
+      "language": "HTML",
+      "pushed_at": "2026-10-15T07:53:01Z",
+      "archived": false,
+      "fork": false,
+      "score": 56,
+      "signals": [
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 234353248,
+      "full_name": "hanshirong/vsinger1.0",
+      "desc": "a vsinger project use angular",
+      "stars": 0,
+      "language": "TypeScript",
+      "pushed_at": "2023-01-07T13:48:23Z",
+      "archived": false,
+      "fork": false,
+      "score": 55,
+      "signals": [
+        "description:strong",
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "description:strong",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1288210315,
+      "full_name": "luotianyi712-lab/luotianyi",
+      "desc": "",
+      "stars": 0,
+      "language": "Python",
+      "pushed_at": "2026-07-06T16:24:46Z",
+      "archived": false,
+      "fork": false,
+      "score": 55,
+      "signals": [
+        "name:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "name:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 585931879,
+      "full_name": "lytCNAORevision2018/Python_Learning_Examples_Based_on_Vsingers",
+      "desc": "使用Vsinger为背景，Python基础部分的代码。参考书目：Python编程：从入门到实践（第二版），[美]埃里克·马瑟斯著，袁国忠译，人民邮电出版社，2020.10（2022.8重印）",
+      "stars": 1,
+      "language": "Python",
+      "pushed_at": "2023-02-17T12:05:00Z",
+      "archived": false,
+      "fork": false,
+      "score": 55,
+      "signals": [
+        "description:strong",
+        "readme:strong"
+      ],
+      "category_suggestion": "docs",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "description:strong",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 588789400,
+      "full_name": "Miyuki1215/Miyuki1215.githhub.io",
+      "desc": "All about Mizuki --who is a Vsinger",
+      "stars": 0,
+      "language": "HTML",
+      "pushed_at": "2023-01-14T02:42:00Z",
+      "archived": false,
+      "fork": false,
+      "score": 55,
+      "signals": [
+        "description:strong",
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "description:strong",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1405690235,
+      "full_name": "nanashi-unofficial/nanashi-fansite",
+      "desc": "VSinger ななし律歌の非公式ファンサイト",
+      "stars": 0,
+      "language": "JavaScript",
+      "pushed_at": "2026-10-19T11:18:20Z",
+      "archived": false,
+      "fork": false,
+      "score": 55,
+      "signals": [
+        "description:strong",
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "description:strong",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1245710321,
+      "full_name": "AR-Vidal/Vsinger-Studio",
+      "desc": "",
+      "stars": 0,
+      "language": "JavaScript",
+      "pushed_at": "2026-05-22T08:22:43Z",
+      "archived": false,
+      "fork": false,
+      "score": 51,
+      "signals": [
+        "name:strong",
+        "readme:weak"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "name:strong",
+        "readme:weak"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1368242221,
+      "full_name": "ChenQiuguo/ChenQiuguo.GitHub.io",
+      "desc": "",
+      "stars": 1,
+      "language": "HTML",
+      "pushed_at": "2026-11-08T09:49:09Z",
+      "archived": false,
+      "fork": false,
+      "score": 50,
+      "signals": [
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1246481459,
+      "full_name": "HuxiaoRoar/Poilive2dNLTY1lingshi",
+      "desc": "",
+      "stars": 0,
+      "language": "JavaScript",
+      "pushed_at": "2026-07-12T10:53:59Z",
+      "archived": false,
+      "fork": false,
+      "score": 50,
+      "signals": [
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1078292805,
+      "full_name": "indoly/celestial-grub",
+      "desc": "",
+      "stars": 0,
+      "language": null,
+      "pushed_at": "2025-10-17T15:42:26Z",
+      "archived": false,
+      "fork": false,
+      "score": 50,
+      "signals": [
+        "readme:strong"
+      ],
+      "category_suggestion": "theme-skin",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1371710577,
+      "full_name": "llql1211/BiliMarketMonitor",
+      "desc": "B站市集价格监视器 | A monitor for Bilibili Market",
+      "stars": 3,
+      "language": "Python",
+      "pushed_at": "2026-11-02T01:06:03Z",
+      "archived": false,
+      "fork": false,
+      "score": 50,
+      "signals": [
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1044450379,
+      "full_name": "Pearl-Luo/Pearl-Luo",
+      "desc": "",
+      "stars": 0,
+      "language": null,
+      "pushed_at": "2026-02-01T09:12:49Z",
+      "archived": false,
+      "fork": false,
+      "score": 50,
+      "signals": [
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 442627209,
+      "full_name": "luotianyi-dev/vocaloid-bilibili-stickers",
+      "desc": "哔哩哔哩 V 家表情包",
+      "stars": 18,
+      "language": "Python",
+      "pushed_at": "2024-08-17T04:37:36Z",
+      "archived": false,
+      "fork": false,
+      "score": 49,
+      "signals": [
+        "description:weak",
+        "owner:strong",
+        "readme:strong"
+      ],
+      "category_suggestion": "audio-assets",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "description:weak",
+        "owner:strong",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 484832595,
+      "full_name": "cyjin-yl/tianyitap",
+      "desc": "Mikutap 的一个多歌姬支持修改版。(2023 年 3 月后 tianyitap.com 域名过期，本 repo 已与其无关。)",
+      "stars": 32,
+      "language": "JavaScript",
+      "pushed_at": "2022-09-04T13:46:53Z",
+      "archived": false,
+      "fork": false,
+      "score": 45,
+      "signals": [
+        "readme:strong",
+        "topics:strong",
+        "topics:weak"
+      ],
+      "category_suggestion": "audio-assets",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "readme:strong",
+        "topics:strong",
+        "topics:weak"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1265907104,
+      "full_name": "Jeffreyz8102/vsinger-live-track",
+      "desc": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "pushed_at": "2026-06-22T06:37:45Z",
+      "archived": false,
+      "fork": false,
+      "score": 45,
+      "signals": [
+        "name:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "name:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1431076475,
+      "full_name": "jmgay114514/LuoTianyi",
+      "desc": "",
+      "stars": 0,
+      "language": "HTML",
+      "pushed_at": "2026-10-24T12:21:21Z",
+      "archived": false,
+      "fork": false,
+      "score": 45,
+      "signals": [
+        "name:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "name:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1203100853,
+      "full_name": "Kinshutei/vtuber_vsinger_VinculumFamiliae",
+      "desc": "",
+      "stars": 0,
+      "language": "HTML",
+      "pushed_at": "2026-04-07T16:43:55Z",
+      "archived": false,
+      "fork": false,
+      "score": 45,
+      "signals": [
+        "name:strong"
+      ],
+      "category_suggestion": "live2d",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "name:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1427104678,
+      "full_name": "Kotokowa/luotianyiPost",
+      "desc": "",
+      "stars": 0,
+      "language": "JavaScript",
+      "pushed_at": "2026-10-30T16:58:42Z",
+      "archived": false,
+      "fork": false,
+      "score": 45,
+      "signals": [
+        "name:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "name:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 467027691,
+      "full_name": "Kousaka-Kirino/luotianyi521jpg.github.io",
+      "desc": "",
+      "stars": 0,
+      "language": "HTML",
+      "pushed_at": "2022-03-19T14:54:50Z",
+      "archived": false,
+      "fork": false,
+      "score": 45,
+      "signals": [
+        "name:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "name:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1432117491,
+      "full_name": "Not-the-same/luotianyi",
+      "desc": "",
+      "stars": 0,
+      "language": "HTML",
+      "pushed_at": "2026-10-24T12:41:42Z",
+      "archived": false,
+      "fork": false,
+      "score": 45,
+      "signals": [
+        "name:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "name:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 912285157,
+      "full_name": "Sunskimmer822/vsinger",
+      "desc": "",
+      "stars": 0,
+      "language": null,
+      "pushed_at": "2025-02-04T17:25:29Z",
+      "archived": false,
+      "fork": false,
+      "score": 45,
+      "signals": [
+        "name:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "name:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 978648437,
+      "full_name": "YanChenBai/vsinger-songlint",
+      "desc": "一个可以支持多用户，多域名配置，歌单顺序自由调整，点赞...的歌单平台，开发中...",
+      "stars": 2,
+      "language": "TypeScript",
+      "pushed_at": "2025-05-30T10:02:49Z",
+      "archived": false,
+      "fork": false,
+      "score": 45,
+      "signals": [
+        "name:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "name:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1138714601,
+      "full_name": "zxt4230980/LuoTianyiVOCALOID",
+      "desc": "",
+      "stars": 0,
+      "language": null,
+      "pushed_at": "2026-01-21T03:01:51Z",
+      "archived": false,
+      "fork": false,
+      "score": 45,
+      "signals": [
+        "name:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "name:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1447238448,
+      "full_name": "ZYZXYYDS/LuoTianYi",
+      "desc": "Introduction of Luo",
+      "stars": 0,
+      "language": "CSS",
+      "pushed_at": "2026-11-06T12:25:49Z",
+      "archived": false,
+      "fork": false,
+      "score": 45,
+      "signals": [
+        "name:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "name:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 912703642,
+      "full_name": "Luotianyi-0712/Luotianyi-0712",
+      "desc": "my",
+      "stars": 0,
+      "language": null,
+      "pushed_at": "2026-11-08T08:48:01Z",
+      "archived": false,
+      "fork": false,
+      "score": 43,
+      "signals": [
+        "name:strong",
+        "readme:none"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "name:strong",
+        "readme:none"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 337998328,
+      "full_name": "Luotianyi0712/Luotianyi0712.github.io",
+      "desc": "",
+      "stars": 0,
+      "language": "JavaScript",
+      "pushed_at": "2021-02-11T10:41:03Z",
+      "archived": false,
+      "fork": false,
+      "score": 43,
+      "signals": [
+        "name:strong",
+        "readme:none"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "name:strong",
+        "readme:none"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 382050170,
+      "full_name": "Giannis-Rou/Vocaloid",
+      "desc": "Η μίμηση του ανθρώπου με την φωνή του μέλλοντος Vocaloid ",
+      "stars": 0,
+      "language": null,
+      "pushed_at": "2021-07-01T15:09:03Z",
+      "archived": false,
+      "fork": false,
+      "score": 39,
+      "signals": [
+        "description:weak",
+        "readme:strong"
+      ],
+      "category_suggestion": "audio-assets",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "description:weak",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1022493753,
+      "full_name": "jnj52016/yuezhengling-chat",
+      "desc": "乐正绫个人主页与聊天应用",
+      "stars": 3,
+      "language": "TypeScript",
+      "pushed_at": "2025-07-19T08:32:05Z",
+      "archived": false,
+      "fork": false,
+      "score": 39,
+      "signals": [
+        "description:weak",
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "description:weak",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 107293531,
+      "full_name": "Luke-lujunxian/Vocaloid-files",
+      "desc": "一个放个人Vocaloid工程的地方",
+      "stars": 3,
+      "language": null,
+      "pushed_at": "2018-09-27T06:02:00Z",
+      "archived": false,
+      "fork": false,
+      "score": 39,
+      "signals": [
+        "description:weak",
+        "readme:strong"
+      ],
+      "category_suggestion": "audio-assets",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "description:weak",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1291196881,
+      "full_name": "march-7th-mini/ColorfulTone-theme-for-TriliumNext-new-layout",
+      "desc": "This pack provides 9 visual enhancement plugins for the TriliumNext New Layout, blending VOCALOID / 765PRO idols support colors with heading styles, colored tree navigation, blockquote/list/toast styling, and useful UI tools.>>>>>>>本合集为适配 TriliumNext 引入的现代主题的新布局样式提供 9 个视觉增强插件，融合初音未来 / 765偶像大师本家角色等应援色配色，包含标题着色、树导航彩色循环、引用块/列表/T Toast 样式及实用 UI",
+      "stars": 2,
+      "language": "JavaScript",
+      "pushed_at": "2026-07-22T16:23:28Z",
+      "archived": false,
+      "fork": false,
+      "score": 39,
+      "signals": [
+        "description:weak",
+        "readme:strong"
+      ],
+      "category_suggestion": "theme-skin",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "description:weak",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 41724144,
+      "full_name": "klovelovely/6cf-f00",
+      "desc": "洛天依X乐正绫",
+      "stars": 1,
+      "language": "HTML",
+      "pushed_at": "2015-09-01T07:44:31Z",
+      "archived": false,
+      "fork": false,
+      "score": 38,
+      "signals": [
+        "description:strong",
+        "description:weak"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "description:strong",
+        "description:weak"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 468213689,
+      "full_name": "memorydream/CyanStars",
+      "desc": "Vsinger相关的音游企划",
+      "stars": 0,
+      "language": "C#",
+      "pushed_at": "2024-10-26T07:27:51Z",
+      "archived": false,
+      "fork": false,
+      "score": 36,
+      "signals": [
+        "description:strong",
+        "readme:weak"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "description:strong",
+        "readme:weak"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 430127788,
+      "full_name": "luo-tian-yi/wish",
+      "desc": "原神祈愿「赤团开时」",
+      "stars": 0,
+      "language": "Python",
+      "pushed_at": "2021-11-21T07:57:24Z",
+      "archived": false,
+      "fork": false,
+      "score": 35,
+      "signals": [
+        "owner:strong",
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "owner:strong",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 110330702,
+      "full_name": "fireindark707/ChineseV_GUFENG",
+      "desc": "中文Vocaloid古風曲資料庫",
+      "stars": 2,
+      "language": null,
+      "pushed_at": "2022-08-28T16:23:26Z",
+      "archived": false,
+      "fork": false,
+      "score": 34,
+      "signals": [
+        "description:weak",
+        "readme:weak",
+        "topics:strong",
+        "topics:weak"
+      ],
+      "category_suggestion": "audio-assets",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "description:weak",
+        "readme:weak",
+        "topics:strong",
+        "topics:weak"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1248838471,
+      "full_name": "Croon00/vsinger_info",
+      "desc": "",
+      "stars": 0,
+      "language": "Python",
+      "pushed_at": "2026-11-01T07:14:58Z",
+      "archived": false,
+      "fork": false,
+      "score": 33,
+      "signals": [
+        "name:strong",
+        "readme:none"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "name:strong",
+        "readme:none"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1136747471,
+      "full_name": "Karunari-luoling/LuoTianYi_GrubTheme",
+      "desc": "",
+      "stars": 0,
+      "language": null,
+      "pushed_at": "2026-01-18T09:34:01Z",
+      "archived": false,
+      "fork": false,
+      "score": 33,
+      "signals": [
+        "name:strong",
+        "readme:none"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "name:strong",
+        "readme:none"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1003970794,
+      "full_name": "Minigamer42/pr-sorter-vsinger-covers",
+      "desc": "",
+      "stars": 0,
+      "language": "JavaScript",
+      "pushed_at": "2025-07-02T19:22:19Z",
+      "archived": false,
+      "fork": false,
+      "score": 33,
+      "signals": [
+        "name:strong",
+        "readme:none"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "name:strong",
+        "readme:none"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1003964092,
+      "full_name": "Minigamer42/pr-sorter-vsinger-originals",
+      "desc": "",
+      "stars": 0,
+      "language": "JavaScript",
+      "pushed_at": "2025-06-21T15:06:04Z",
+      "archived": false,
+      "fork": false,
+      "score": 33,
+      "signals": [
+        "name:strong",
+        "readme:none"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "name:strong",
+        "readme:none"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 975270150,
+      "full_name": "RyogiMutsuki/luotianyi",
+      "desc": "",
+      "stars": 0,
+      "language": null,
+      "pushed_at": "2026-07-31T17:09:08Z",
+      "archived": false,
+      "fork": false,
+      "score": 33,
+      "signals": [
+        "name:strong",
+        "readme:none"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "name:strong",
+        "readme:none"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 584432620,
+      "full_name": "shinoaliceKabocha/flutter.vsinger.graph",
+      "desc": "",
+      "stars": 0,
+      "language": "Dart",
+      "pushed_at": "2023-01-02T15:07:27Z",
+      "archived": false,
+      "fork": false,
+      "score": 33,
+      "signals": [
+        "name:strong",
+        "readme:none"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "name:strong",
+        "readme:none"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1143295841,
+      "full_name": "snowrabbit-top/vsinger",
+      "desc": "",
+      "stars": 0,
+      "language": "HTML",
+      "pushed_at": "2026-01-28T08:40:59Z",
+      "archived": false,
+      "fork": false,
+      "score": 33,
+      "signals": [
+        "name:strong",
+        "readme:none"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "name:strong",
+        "readme:none"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 202685184,
+      "full_name": "xiaxinghe4096/LuoTianYiW.github.io",
+      "desc": "",
+      "stars": 0,
+      "language": null,
+      "pushed_at": "2019-08-16T08:10:06Z",
+      "archived": false,
+      "fork": false,
+      "score": 33,
+      "signals": [
+        "name:strong",
+        "readme:none"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "name:strong",
+        "readme:none"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1443034686,
+      "full_name": "2755579/2755579",
+      "desc": "在代码里造一场烟火",
+      "stars": 0,
+      "language": null,
+      "pushed_at": "2026-11-03T12:55:13Z",
+      "archived": false,
+      "fork": false,
+      "score": 31,
+      "signals": [
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1350545349,
+      "full_name": "Aoi-Karlin/astrbot_plugin_mediawikitools",
+      "desc": "",
+      "stars": 1,
+      "language": "Python",
+      "pushed_at": "2026-08-29T12:45:16Z",
+      "archived": false,
+      "fork": false,
+      "score": 31,
+      "signals": [
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 573344133,
+      "full_name": "baobao1270/mid2beep",
+      "desc": "Convert MIDI file to GRUB tune or beep command",
+      "stars": 10,
+      "language": "Shell",
+      "pushed_at": "2023-12-26T06:02:01Z",
+      "archived": false,
+      "fork": false,
+      "score": 31,
+      "signals": [
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1328364792,
+      "full_name": "berny-rdev/Nerd-by-Events",
+      "desc": "A nearby events tracker that you can sort by fandom to find local events matching your interests",
+      "stars": 0,
+      "language": "TypeScript",
+      "pushed_at": "2026-08-21T18:31:15Z",
+      "archived": false,
+      "fork": false,
+      "score": 31,
+      "signals": [
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 736369146,
+      "full_name": "ClF3/tianyi-grub-theme",
+      "desc": "",
+      "stars": 3,
+      "language": null,
+      "pushed_at": "2024-01-03T07:48:35Z",
+      "archived": false,
+      "fork": false,
+      "score": 31,
+      "signals": [
+        "readme:strong"
+      ],
+      "category_suggestion": "theme-skin",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 964566919,
+      "full_name": "Dora-Honor/Dora-Honor",
+      "desc": "Config files for my GitHub profile.",
+      "stars": 2,
+      "language": null,
+      "pushed_at": "2026-10-30T10:43:44Z",
+      "archived": false,
+      "fork": false,
+      "score": 31,
+      "signals": [
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 894955674,
+      "full_name": "Gr3yPh/Gr3yPh",
+      "desc": "Config files for my GitHub profile.",
+      "stars": 1,
+      "language": null,
+      "pushed_at": "2026-09-05T12:31:54Z",
+      "archived": false,
+      "fork": false,
+      "score": 31,
+      "signals": [
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 66566853,
+      "full_name": "HevLfreis/Chat2x",
+      "desc": "Drrr like chatroom with anime characters",
+      "stars": 12,
+      "language": "JavaScript",
+      "pushed_at": "2017-01-22T08:20:57Z",
+      "archived": false,
+      "fork": false,
+      "score": 31,
+      "signals": [
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1063719001,
+      "full_name": "Hisou-Tenshi/Hisou-Tenshi",
+      "desc": "GitHub Profile",
+      "stars": 3,
+      "language": null,
+      "pushed_at": "2026-11-07T14:11:30Z",
+      "archived": false,
+      "fork": false,
+      "score": 31,
+      "signals": [
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 873635685,
+      "full_name": "icedata-top/hantang-daily",
+      "desc": "",
+      "stars": 2,
+      "language": "Java",
+      "pushed_at": "2026-06-06T15:54:18Z",
+      "archived": false,
+      "fork": false,
+      "score": 31,
+      "signals": [
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1050209448,
+      "full_name": "lauyikfung/lauyikfung",
+      "desc": "",
+      "stars": 0,
+      "language": null,
+      "pushed_at": "2025-10-28T02:19:56Z",
+      "archived": false,
+      "fork": false,
+      "score": 31,
+      "signals": [
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1102682870,
+      "full_name": "LinusTrevian/New-Singer-Grub",
+      "desc": "",
+      "stars": 4,
+      "language": null,
+      "pushed_at": "2025-12-07T15:35:21Z",
+      "archived": false,
+      "fork": false,
+      "score": 31,
+      "signals": [
+        "readme:strong"
+      ],
+      "category_suggestion": "theme-skin",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1319980291,
+      "full_name": "LonakoBc/luo-yi-ba",
+      "desc": "",
+      "stars": 6,
+      "language": "JavaScript",
+      "pushed_at": "2026-10-22T09:32:29Z",
+      "archived": false,
+      "fork": false,
+      "score": 31,
+      "signals": [
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 281150380,
+      "full_name": "MeetWq/vocal-album-list",
+      "desc": "",
+      "stars": 5,
+      "language": null,
+      "pushed_at": "2023-03-07T04:13:28Z",
+      "archived": false,
+      "fork": false,
+      "score": 31,
+      "signals": [
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1338429048,
+      "full_name": "MF-Dust/Nori.Desktop",
+      "desc": "从信息之海，来到你的桌面。",
+      "stars": 67,
+      "language": "C#",
+      "pushed_at": "2026-11-08T06:10:15Z",
+      "archived": false,
+      "fork": false,
+      "score": 31,
+      "signals": [
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1250287891,
+      "full_name": "Moke-Zhiyu/Moke-Zhiyu",
+      "desc": "HELLO WORLD",
+      "stars": 0,
+      "language": null,
+      "pushed_at": "2026-05-26T13:58:50Z",
+      "archived": false,
+      "fork": false,
+      "score": 31,
+      "signals": [
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 35365158,
+      "full_name": "NetNerd/MB_VocaDbLyrics",
+      "desc": "A MusicBee lyrics provider for VocaDB.",
+      "stars": 8,
+      "language": "Visual Basic .NET",
+      "pushed_at": "2020-09-08T01:57:27Z",
+      "archived": false,
+      "fork": false,
+      "score": 31,
+      "signals": [
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 871710774,
+      "full_name": "NingmengLemon/NingmengLemon",
+      "desc": "",
+      "stars": 0,
+      "language": null,
+      "pushed_at": "2026-09-14T09:04:48Z",
+      "archived": false,
+      "fork": false,
+      "score": 31,
+      "signals": [
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1086200878,
+      "full_name": "RhythmWings/More_Collectibles_Figurines",
+      "desc": "逃离鸭科夫 更多二次元手办mod",
+      "stars": 2,
+      "language": null,
+      "pushed_at": "2025-10-30T10:37:26Z",
+      "archived": false,
+      "fork": false,
+      "score": 31,
+      "signals": [
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 543859248,
+      "full_name": "sandyzikun/oneblue",
+      "desc": "A Simple Colormap for Matplotlib.",
+      "stars": 0,
+      "language": "Python",
+      "pushed_at": "2022-10-01T03:35:11Z",
+      "archived": false,
+      "fork": false,
+      "score": 31,
+      "signals": [
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 89922256,
+      "full_name": "sastation/bilibili",
+      "desc": "analyze bilibili.com data",
+      "stars": 0,
+      "language": "Python",
+      "pushed_at": "2024-12-02T12:29:13Z",
+      "archived": false,
+      "fork": false,
+      "score": 31,
+      "signals": [
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1116581544,
+      "full_name": "uigleki/collection",
+      "desc": "Works that enrich rather than diminish - created from love, not manipulation.",
+      "stars": 0,
+      "language": "TypeScript",
+      "pushed_at": "2026-11-05T03:40:19Z",
+      "archived": false,
+      "fork": false,
+      "score": 31,
+      "signals": [
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1112411830,
+      "full_name": "warwickpark/Is_Vocaloid",
+      "desc": "",
+      "stars": 0,
+      "language": "Python",
+      "pushed_at": "2025-12-08T16:25:05Z",
+      "archived": false,
+      "fork": false,
+      "score": 31,
+      "signals": [
+        "readme:strong"
+      ],
+      "category_suggestion": "audio-assets",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1243240481,
+      "full_name": "wingtings/OuterWildsMOD-The-Singer-of-the-End-of-the-world",
+      "desc": "USTC CG 26 Final Project",
+      "stars": 9,
+      "language": "C#",
+      "pushed_at": "2026-06-06T16:31:22Z",
+      "archived": false,
+      "fork": false,
+      "score": 31,
+      "signals": [
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 609479718,
+      "full_name": "winner896/josn-",
+      "desc": "",
+      "stars": 0,
+      "language": null,
+      "pushed_at": "2023-03-12T13:51:29Z",
+      "archived": false,
+      "fork": false,
+      "score": 31,
+      "signals": [
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 151607256,
+      "full_name": "yichya/yichya",
+      "desc": "My Blog",
+      "stars": 1,
+      "language": "SCSS",
+      "pushed_at": "2026-08-29T13:14:10Z",
+      "archived": false,
+      "fork": false,
+      "score": 31,
+      "signals": [
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1369875568,
+      "full_name": "Cbabagit/esp32-cc1101-ook-tx",
+      "desc": "一个洛天依近年演唱会的荧光棒控制方案",
+      "stars": 12,
+      "language": "C++",
+      "pushed_at": "2026-10-08T09:34:14Z",
+      "archived": false,
+      "fork": false,
+      "score": 30,
+      "signals": [
+        "description:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "description:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 723569083,
+      "full_name": "ffccyy555/-",
+      "desc": "洛天依简介",
+      "stars": 1,
+      "language": null,
+      "pushed_at": "2023-11-26T09:00:53Z",
+      "archived": false,
+      "fork": false,
+      "score": 30,
+      "signals": [
+        "description:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "description:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 572463645,
+      "full_name": "marshmary/neru",
+      "desc": "Landing page for my fav vsinger",
+      "stars": 0,
+      "language": "JavaScript",
+      "pushed_at": "2022-12-04T13:38:34Z",
+      "archived": false,
+      "fork": false,
+      "score": 30,
+      "signals": [
+        "description:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "description:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1130941795,
+      "full_name": "MemeTray/gifs-fufu",
+      "desc": "我是洛天依（）",
+      "stars": 0,
+      "language": null,
+      "pushed_at": "2026-01-27T11:51:22Z",
+      "archived": false,
+      "fork": false,
+      "score": 30,
+      "signals": [
+        "description:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "description:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1328484579,
+      "full_name": "utaito/utaito",
+      "desc": "VSingerの歌枠、タイムスタンプ、検索、まとめ",
+      "stars": 0,
+      "language": "HTML",
+      "pushed_at": "2026-08-09T07:42:22Z",
+      "archived": false,
+      "fork": false,
+      "score": 30,
+      "signals": [
+        "description:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "description:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1201379119,
+      "full_name": "WinMCHG31400/VSingerProject",
+      "desc": "VSinger project files",
+      "stars": 1,
+      "language": null,
+      "pushed_at": "2026-06-07T14:27:30Z",
+      "archived": false,
+      "fork": false,
+      "score": 30,
+      "signals": [
+        "description:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "description:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    }
+  ]
+}

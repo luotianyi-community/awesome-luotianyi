@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "terms": {
+    "strong": ["洛天依", "樂天依", "天依", "luotianyi", "luo tian yi", "luotian yi", "luo tianyi", "tianyicraft", "vsinger", "lty"],
+    "weak": ["vocaloid", "中文 vocaloid", "虚拟歌手", "虚拟歌姬", "中文v家", "v家", "锦依卫", "乐正绫", "言和", "墨清弦", "乐正龙牙", "征羽摩柯", "心华", "声库", "voicebank", "utau", "tianyi"]
+  },
+  "weights": {
+    "name_strong": 45,
+    "owner_strong": 10,
+    "description_strong": 30,
+    "description_weak": 8,
+    "topics_strong": 15,
+    "topics_weak": 5,
+    "readme_strong": 25,
+    "readme_weak": 6,
+    "archived": -20,
+    "fork": -10
+  },
+  "thresholds": {
+    "queue": 30,
+    "issue": 55
+  },
+  "caps": {
+    "candidate_per_run": 400,
+    "readme_fetches": 70,
+    "issues_per_run": 20,
+    "issues_per_owner": 4,
+    "metadata_refresh": 220
+  },
+  "search_queries": [
+    "luotianyi in:name,description,readme",
+    "\"洛天依\" in:name,description,readme",
+    "vsinger in:name,description,readme",
+    "topic:luotianyi",
+    "\"luo tian yi\" in:name,description,readme",
+    "tianyi vocaloid in:name,description,readme",
+    "tianyicraft in:name,description,readme",
+    "\"lty\" luotianyi in:name,description"
+  ],
+  "radar_queries": {
+    "commits": ["洛天依", "\"luotianyi\"", "\"Luo Tianyi\"", "tianyicraft"],
+    "issues": ["洛天依", "luotianyi", "\"Luo Tianyi\""]
+  },
+  "owner_denylist": ["api-evangelist", "fossabot"],
+  "skip_topics": ["company", "apis-json"]
+}

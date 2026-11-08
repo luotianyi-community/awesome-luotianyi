@@ -1,0 +1,73 @@
+name: triage
+
+on:
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+concurrency:
+  group: "triage-${{ github.event.issue.number }}"
+  cancel-in-progress: true
+
+jobs:
+  triage:
+    name: apply decision command
+    runs-on: ubuntu-latest
+    if: "contains(github.event.issue.title, '[candidate]')"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Triage issue comment
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: node scripts/triage-issue.mjs
+
+      - name: Detect data changes
+        id: changes
+        run: |
+          if [ -n "$(git status --porcelain -- data)" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "data/ 有改动，需要渲染与校验"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "data/ 无改动，跳过渲染与提交"
+          fi
+
+      - name: Render README
+        if: steps.changes.outputs.changed == 'true'
+        run: node scripts/render-readme.mjs
+
+      - name: Validate
+        if: steps.changes.outputs.changed == 'true'
+        run: node scripts/validate.mjs
+
+      - name: Commit decision
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A -- data
+          if [ -f README.md ]; then git add -- README.md; fi
+          if [ -f README_EN.md ]; then git add -- README_EN.md; fi
+          if git diff --cached --quiet; then
+            echo "暂存区为空，跳过提交"
+            exit 0
+          fi
+          git commit -m "chore(triage): apply decision for #${ISSUE_NUMBER} [skip ci]"
+          git push

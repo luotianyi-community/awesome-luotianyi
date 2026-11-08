@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "id": "desktop-pet",
+      "zh": "桌面宠物与看板娘",
+      "en": "Desktop Pets & Mascots",
+      "emoji": "🐱",
+      "order": 1,
+      "hints": ["桌宠", "desktop pet", "desktoppet", "pet", "看板娘", "宠物", "companion", "钟爱", "桌搭"]
+    },
+    {
+      "id": "live2d",
+      "zh": "Live2D 模型与网页插件",
+      "en": "Live2D Models & Widgets",
+      "emoji": "🎭",
+      "order": 2,
+      "hints": ["live2d", "live 2d", "模型", "model", "widget", "mascot", "vtuber", "动作", "模型文件", "MMD"]
+    },
+    {
+      "id": "tts-ai",
+      "zh": "语音合成与对话 AI",
+      "en": "TTS & Conversational AI",
+      "emoji": "🗣️",
+      "order": 3,
+      "hints": ["tts", "gpt-sovits", "sovits", "语音", "voice", "声线", "chatbot", "对话", "agent", "llm", "大模型", "推理", "vits", "rvc"]
+    },
+    {
+      "id": "theme-skin",
+      "zh": "主题·美化·壁纸",
+      "en": "Themes, Skins & Wallpapers",
+      "emoji": "🎨",
+      "order": 4,
+      "hints": ["theme", "skin", "皮肤", "主题", "壁纸", "wallpaper", "grub", "表盘", "watchface", "美化", "color scheme", "配色", "sticker", "表情包"]
+    },
+    {
+      "id": "data-tools",
+      "zh": "数据·知识库·工具链",
+      "en": "Data, Wiki & Tooling",
+      "emoji": "🧰",
+      "order": 5,
+      "hints": ["数据库", "database", "dataset", "wiki", "知识", "tool", "工具", "parser", "解析", "list", "歌词", "lyric", "统计", "scraper", "爬虫"]
+    },
+    {
+      "id": "game-mod",
+      "zh": "游戏·模组·硬件二创",
+      "en": "Games, Mods & Hardware Art",
+      "emoji": "🎮",
+      "order": 6,
+      "hints": ["mod", "game", "游戏", "minecraft", "pcb", "硬件", "桌游", "fabric", "音游", "rhythm", "card", "实体"]
+    },
+    {
+      "id": "audio-assets",
+      "zh": "音频·乐谱·创作素材",
+      "en": "Audio, Sheets & Creative Assets",
+      "emoji": "🎵",
+      "order": 7,
+      "hints": ["audio", "music", "音乐", "乐谱", "midi", "vocaloid", "声库", "voicebank", "vsqx", "工程", "混音", "cover"]
+    },
+    {
+      "id": "community-site",
+      "zh": "社区站点与周边服务",
+      "en": "Community Sites & Services",
+      "emoji": "🌐",
+      "order": 8,
+      "hints": ["blog", "博客", "site", "website", "社区", "服务", "api", "bot", "机器人", "qq", "discord", "导航"]
+    },
+    {
+      "id": "docs",
+      "zh": "教程与文档",
+      "en": "Docs & Tutorials",
+      "emoji": "📚",
+      "order": 9,
+      "hints": ["教程", "文档", "doc", "docs", "tutorial", "guide", "wiki", "手册", "learning", "示例", "说明"]
+    }
+  ],
+  "fallback": "data-tools"
+}

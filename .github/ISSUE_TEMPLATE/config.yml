@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 使用讨论区（一般性提问、想法、提案）
+    url: https://github.com/luotianyi-community/awesome-luotianyi/discussions
+    about: 收录标准之外的讨论、分类体系建议、规则修改提案请走 Discussions，不要开 Issue。
+  - name: 阅读收录标准与治理规则
+    url: https://github.com/luotianyi-community/awesome-luotianyi/blob/main/docs/CRITERIA.md
+    about: 提名被拒前请先确认是否命中排除项（archived / 空仓库 / fork / 名字碰撞 / 仅 URL 命中）。
+  - name: 报告安全或隐私问题（私密）
+    url: https://github.com/luotianyi-community/awesome-luotianyi/security/advisories/new
+    about: 令牌泄露、脚本注入、恶意条目、权利人下架请求请走私密渠道，不要在公开 Issue 里描述细节。

@@ -1,0 +1,197 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "id": 1227440274,
+      "full_name": "1437649480/miku-hermes-chat",
+      "reason": "初音未来主题对话系统，洛天依未出现",
+      "by": "maintainer",
+      "at": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 965315013,
+      "full_name": "16Miku/chat2-spring-ai",
+      "reason": "初音未来主题 AI 项目，与洛天依无关",
+      "by": "maintainer",
+      "at": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1317457432,
+      "full_name": "api-evangelist/luotianyi",
+      "reason": "第三方 API 目录自动生成页面，非洛天依项目",
+      "by": "maintainer",
+      "at": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1317835558,
+      "full_name": "FangHean/miku-luotianyi-classifier-web",
+      "reason": "无描述的分类器演示仓库，无主题内容",
+      "by": "maintainer",
+      "at": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1179463125,
+      "full_name": "fun2025-git/luotianyi",
+      "reason": "无描述、无 README 的占位仓库",
+      "by": "maintainer",
+      "at": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 929864928,
+      "full_name": "FunctionSir/yolo-coser-recognition",
+      "reason": "角色识别演示，洛天依仅为被识别类别之一",
+      "by": "maintainer",
+      "at": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1152806974,
+      "full_name": "gppy312-wq/vsinger-chronicle",
+      "reason": "日文虚拟歌手资讯站，主体与洛天依无关",
+      "by": "maintainer",
+      "at": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 691397867,
+      "full_name": "hyrious/palette",
+      "reason": "通用颜色工具集，仅 README 提及洛天依配色",
+      "by": "maintainer",
+      "at": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1153582434,
+      "full_name": "Jonah-Wu23/anima-companion",
+      "reason": "通用二次元陪伴系统，洛天依不是项目主体",
+      "by": "maintainer",
+      "at": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 996300382,
+      "full_name": "Keisuke-Hiraki/yuni-youtube-analytics",
+      "reason": "YuNi 是日本虚拟歌手，不是洛天依",
+      "by": "maintainer",
+      "at": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 93931417,
+      "full_name": "LovelyA72/8051qianchenrumeng",
+      "reason": "8051 播放《千本樱》，与洛天依无关",
+      "by": "maintainer",
+      "at": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1078642629,
+      "full_name": "Luotianyi-0712/cto",
+      "reason": "通用 OpenAI 兼容代理服务，仅 owner 用户名命中洛天依",
+      "by": "maintainer",
+      "at": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1136602267,
+      "full_name": "LuoTianyi-arm64/printrgb",
+      "reason": "终端彩色输出工具，仅 owner 用户名命中",
+      "by": "maintainer",
+      "at": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 497261140,
+      "full_name": "luotianyi-wzd/lty-cli",
+      "reason": "个人 CLI 脚手架试验仓库，无洛天依内容",
+      "by": "maintainer",
+      "at": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 462622199,
+      "full_name": "luotianyi233/luotianyi233",
+      "reason": "GitHub 个人主页自动生成仓库，仅因用户名命中",
+      "by": "maintainer",
+      "at": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 646723592,
+      "full_name": "luotianyi34/luotianyi34.github.io",
+      "reason": "个人博客仓库，无洛天依主题内容",
+      "by": "maintainer",
+      "at": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1287890466,
+      "full_name": "luotianyi712-lab/luotianyi_bot",
+      "reason": "通用机器人框架，与洛天依无关，仅 owner 名命中",
+      "by": "maintainer",
+      "at": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1065602349,
+      "full_name": "Mustard-hub/Mustard-hub",
+      "reason": "GitHub 个人主页自动生成仓库，无洛天依相关内容",
+      "by": "maintainer",
+      "at": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 785703945,
+      "full_name": "PLFJY/PLFJY",
+      "reason": "GitHub 个人主页自动生成仓库，无任何项目内容",
+      "by": "maintainer",
+      "at": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 324033512,
+      "full_name": "SoraKasvgano/YaheiPHP7ProbeByLuminous",
+      "reason": "仅在描述中附带 luotianyi.vc 链接，项目本体无关",
+      "by": "maintainer",
+      "at": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 255495687,
+      "full_name": "wangxinleo/practise-vue-shop-front",
+      "reason": "Vue 练习商店项目，已归档，与洛天依无关",
+      "by": "maintainer",
+      "at": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 267779471,
+      "full_name": "wangxinleo/practise-vue-shop-server",
+      "reason": "Vue 练习商店后端，已归档，与洛天依无关",
+      "by": "maintainer",
+      "at": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 228039296,
+      "full_name": "xvyourang/luotianyiily",
+      "reason": "仅注册「洛天依.我爱你」域名占位，无实际项目内容",
+      "by": "maintainer",
+      "at": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1425039329,
+      "full_name": "zhuzhuxing131420-maker/wanan-jiaoda-assistant",
+      "reason": "校园助手应用，与洛天依无关",
+      "by": "maintainer",
+      "at": "2026-11-08",
+      "issue": null
+    }
+  ]
+}

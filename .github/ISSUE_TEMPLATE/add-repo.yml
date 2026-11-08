@@ -1,0 +1,90 @@
+name: 收录新仓库
+description: 提名一个与洛天依（Luo Tianyi）相关的 GitHub 仓库，交由维护者裁决是否收录
+labels: ["repo-candidate", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > 提名前请先读 [收录标准](https://github.com/luotianyi-community/awesome-luotianyi/blob/main/docs/CRITERIA.md)。
+        >
+        > 三条最常见的拒绝原因：
+        > 1. 仓库里找不到 洛天依 / Luo Tianyi / 天依 / Vsinger 的明确内容（只是名字或域名里带 luotianyi）；
+        > 2. 仓库已归档（archived）、是空仓库、或没有任何独立改动的 fork；
+        > 3. 主体是未授权模型/音源/美术素材的分发（违反 [NOTICE.md](https://github.com/luotianyi-community/awesome-luotianyi/blob/main/NOTICE.md)）。
+        >
+        > 一旦仓库被裁决为 listed / excluded / rejected，自动化不会再为它建 Issue，因此请只对**新面孔**提名。
+  - type: input
+    id: repo-url
+    attributes:
+      label: 仓库地址
+      description: "公开仓库主页地址，形如 https://github.com/owner/repo。不要填组织页、User 页、Release 页、镜像站或 fork 地址。"
+      placeholder: "https://github.com/owner/repo"
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: 分类
+      description: 选择最贴合该仓库主要用途的一类。一个条目只能归一类；拿不准时在下方说明里写理由，由维护者最终决定。
+      options:
+        - label: "desktop-pet — 桌面宠物与看板娘"
+          value: desktop-pet
+        - label: "live2d — Live2D 模型与网页插件"
+          value: live2d
+        - label: "tts-ai — 语音合成与对话 AI"
+          value: tts-ai
+        - label: "theme-skin — 主题·美化·壁纸"
+          value: theme-skin
+        - label: "data-tools — 数据·知识库·工具链"
+          value: data-tools
+        - label: "game-mod — 游戏·模组·硬件二创"
+          value: game-mod
+        - label: "audio-assets — 音频·乐谱·创作素材"
+          value: audio-assets
+        - label: "community-site — 社区站点与周边服务"
+          value: community-site
+        - label: "docs — 教程与文档"
+          value: docs
+      multiple: false
+    validations:
+      required: true
+  - type: textarea
+    id: why-relevant
+    attributes:
+      label: 为什么相关
+      description: |
+        请给出**可核验的证据**，而不是「感觉像」。证据 = 别人点开仓库就能看到的东西。
+
+        合格的写法：
+        - README 首段原文：`基于洛天依 Live2D 模型的网页看板娘`
+        - About 描述原文：`洛天依桌面看板娘，基于 Electron`
+        - 存在文件 `assets/luotianyi.model3.json` 与目录 `res/天依/`
+        - 代码常量 `const SINGER = "luotianyi"`，且注释说明为洛天依调教
+
+        不合格的写法：
+        - owner 名叫 luotianyi（名字碰撞，不算）
+        - 仓库描述里的链接指向 luotianyi.vc（仅 URL 命中，不算）
+        - 应该是天依同人组做的（无法核验）
+      value: |
+        1. 主题出现的位置（About / README 标题 / 首段）：
+        2. 关键文件路径与内容：
+        3. 该仓库为洛天依做了什么（一句话）：
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: 补充说明（可选）
+      description: 许可证、活跃度、是否 fork、是否与其他条目同源；若你是项目作者请注明，会由其他维护者复核。
+      placeholder: "例如：MIT 许可，最近一次提交 2026-09；我是项目作者，收录请由其他维护者复核。"
+    validations:
+      required: false
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: 确认
+      options:
+        - label: 我已读过收录标准（docs/CRITERIA.md），并确认该仓库未归档、非空仓库、不是无独立改动的 fork。
+          required: true
+        - label: 我确认该仓库不以上述未授权资源的分发为主要内容。
+          required: true

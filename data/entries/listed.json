@@ -1,0 +1,1247 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "id": 1026976908,
+      "full_name": "SheepLiu712/Agent-LuoTianyi",
+      "aliases": [],
+      "category": "tts-ai",
+      "desc": "虚拟歌手洛天依（Luo Tianyi）智能对话Agent。",
+      "stars": 101,
+      "language": "Python",
+      "pushed_at": "2026-11-07T15:50:01Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:177"
+      ]
+    },
+    {
+      "id": 521366333,
+      "full_name": "LazyCreeper/LuoTianyi",
+      "aliases": [],
+      "category": "theme-skin",
+      "desc": "该主题基于宝塔Linux面板 8.0.4 制作。",
+      "stars": 32,
+      "language": "CSS",
+      "pushed_at": "2025-04-07T17:13:31Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:78"
+      ]
+    },
+    {
+      "id": 182939764,
+      "full_name": "unsignedzhang/luotianyi-live2d",
+      "aliases": [],
+      "category": "live2d",
+      "desc": "为你的博客或网站添加一个洛天依live2D看板娘",
+      "stars": 26,
+      "language": "JavaScript",
+      "pushed_at": "2019-04-23T08:33:45Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:100"
+      ]
+    },
+    {
+      "id": 1133685018,
+      "full_name": "xdedmmc2/GPT-SoVITS-Luo-Tianyi",
+      "aliases": [],
+      "category": "tts-ai",
+      "desc": "让天依亲口说爱你！——基于GPT-SoVITS的一款模拟洛天依声线的语音生成模型",
+      "stars": 24,
+      "language": null,
+      "pushed_at": "2026-02-08T02:00:27Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:151"
+      ]
+    },
+    {
+      "id": 281003219,
+      "full_name": "x66ccff/lty-lv2d-v3",
+      "aliases": [],
+      "category": "live2d",
+      "desc": "💙🩵LuoTianyi洛天依 v3 interactive mascot / Live2d widget for blog / 看板娘🩵💙",
+      "stars": 16,
+      "language": "JavaScript",
+      "pushed_at": "2026-05-22T04:03:16Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:171"
+      ]
+    },
+    {
+      "id": 929780783,
+      "full_name": "Pearl-Luo/Tianyicraft",
+      "aliases": [],
+      "category": "game-mod",
+      "stars": 14,
+      "language": null,
+      "pushed_at": "2026-11-07T06:15:21Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:151"
+      ],
+      "desc": "Tianyicraft 是美化 Minecraft 的洛天依主题资源包，覆盖死亡提示到界面文案"
+    },
+    {
+      "id": 54115202,
+      "full_name": "1a57danc3/chrome-luotianyi-theme",
+      "aliases": [],
+      "category": "theme-skin",
+      "desc": "Chrome 擴展商店的舊版本不再更新, 我也想上傳到官方平臺， 可惜註冊費用太貴算了。。。",
+      "stars": 13,
+      "language": null,
+      "pushed_at": "2016-03-17T13:28:55Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:76"
+      ]
+    },
+    {
+      "id": 1350635162,
+      "full_name": "alsunmengy/LuoTianyi-PCB-Art",
+      "aliases": [],
+      "category": "game-mod",
+      "desc": "洛天依南北组主题沉金艺术纪念PCB票卡，嘉立创开源硬件，无电气功能纯收藏卡",
+      "stars": 11,
+      "language": null,
+      "pushed_at": "2026-11-08T10:30:13Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:131"
+      ]
+    },
+    {
+      "id": 677294530,
+      "full_name": "luotianyi-dev/luotianyi-random-lyric",
+      "aliases": [],
+      "category": "data-tools",
+      "desc": "此项目提供了一个 洛天依 的经典曲目歌词选段的数据库，并以此实现了一个获得随机歌词的程序。",
+      "stars": 10,
+      "language": "Python",
+      "pushed_at": "2025-03-03T17:09:46Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:116"
+      ]
+    },
+    {
+      "id": 445354119,
+      "full_name": "luotianyi-dev/luotianyi-http-stickers",
+      "aliases": [],
+      "category": "data-tools",
+      "stars": 8,
+      "language": "Python",
+      "pushed_at": "2023-12-28T06:41:27Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:110"
+      ],
+      "desc": "洛天依 HTTP 状态码表情包生成"
+    },
+    {
+      "id": 1068902436,
+      "full_name": "qifanmaker/LuoTianyi-Agent",
+      "aliases": [],
+      "category": "tts-ai",
+      "desc": "LuoTianyi-Agent with LLM, GPT-SoVITS, Live2D",
+      "stars": 8,
+      "language": "Python",
+      "pushed_at": "2026-02-18T15:59:07Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:131"
+      ]
+    },
+    {
+      "id": 1447110730,
+      "full_name": "lty-hongsejinwei/dsh-luotianyi-skin",
+      "aliases": [],
+      "category": "theme-skin",
+      "desc": "洛天依主题皮肤 for DeepSeek Harness (DSH) — /洛天依和雅音宫羽 #66CCFF",
+      "stars": 7,
+      "language": "JavaScript",
+      "pushed_at": "2026-11-05T14:42:26Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:135"
+      ]
+    },
+    {
+      "id": 425279639,
+      "full_name": "JingyuNankin/StatisticsOfChineseVirtualSingers",
+      "aliases": [],
+      "category": "data-tools",
+      "desc": "Statistics of Chinese Virtual Singers，中文虚拟歌手调查。主要用于发布中文虚拟歌手领域有关数据。",
+      "stars": 6,
+      "language": null,
+      "pushed_at": "2022-04-19T12:41:04Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:64"
+      ]
+    },
+    {
+      "id": 164273080,
+      "full_name": "Jobsecond/pigeon-pv-list",
+      "aliases": [],
+      "category": "data-tools",
+      "stars": 5,
+      "language": null,
+      "pushed_at": "2019-04-20T15:31:24Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:69"
+      ],
+      "desc": "洛天依、言和《鸽子》PV 集合索引"
+    },
+    {
+      "id": 1273456632,
+      "full_name": "ChinaYosh007/LuoTianYi-pet",
+      "aliases": [],
+      "category": "desktop-pet",
+      "stars": 4,
+      "language": null,
+      "pushed_at": "2026-06-18T14:53:29Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:81"
+      ],
+      "desc": "New-Item -ItemType Directory -Force \"$env:USERPROFILE\\.codex\\pets\" | Out-Null"
+    },
+    {
+      "id": 1261787530,
+      "full_name": "fyf-buaa/LuoTianyi-db",
+      "aliases": [],
+      "category": "data-tools",
+      "desc": "洛天依（LuoTianyi）为主，以及和其相关的中V知识。包括：音乐，创作者，演唱会，活动，人设，世界观，角色观，重要的时间和事件节点等等...",
+      "stars": 4,
+      "language": "PowerShell",
+      "pushed_at": "2026-07-01T16:18:10Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:161"
+      ]
+    },
+    {
+      "id": 503525852,
+      "full_name": "luotianyi-dev/luotianyi-wordpress-librelive2d",
+      "aliases": [],
+      "category": "live2d",
+      "desc": "开源的 Wordpress Live2D 插件",
+      "stars": 4,
+      "language": "PHP",
+      "pushed_at": "2024-12-31T07:35:35Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:80"
+      ]
+    },
+    {
+      "id": 1354688534,
+      "full_name": "mcxianyujun/luo-tianyi-piano",
+      "aliases": [],
+      "category": "audio-assets",
+      "desc": "中文 洛天依-midi-钢琴 | English luo-tianyi-midi-piano",
+      "stars": 4,
+      "language": "JavaScript",
+      "pushed_at": "2026-09-08T16:53:32Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:101"
+      ]
+    },
+    {
+      "id": 1312508326,
+      "full_name": "MUKEKANN/Luo-Agent",
+      "aliases": [],
+      "category": "tts-ai",
+      "desc": "洛天依风格的本地桌面 AI Agent 实验项目",
+      "stars": 4,
+      "language": "TypeScript",
+      "pushed_at": "2026-07-26T09:08:31Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:61"
+      ]
+    },
+    {
+      "id": 658213453,
+      "full_name": "tianyi-fanclub/tianyi-birthday-countdown",
+      "aliases": [],
+      "category": "community-site",
+      "desc": "这是洛天依饭制 生日会倒计时🎂 网站。",
+      "stars": 4,
+      "language": "CSS",
+      "pushed_at": "2025-11-16T06:36:23Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:95"
+      ]
+    },
+    {
+      "id": 1331552235,
+      "full_name": "YYRMMAYO/xuxin-desktop-pet",
+      "aliases": [],
+      "category": "desktop-pet",
+      "desc": "安卓悬浮窗桌宠：初音未来/洛天依/乐正绫程序化角色建模、骨骼动画、语音互动与陪伴系统（Kotlin/Canvas）",
+      "stars": 4,
+      "language": "Kotlin",
+      "pushed_at": "2026-10-31T11:58:35Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:94"
+      ]
+    },
+    {
+      "id": 1248167522,
+      "full_name": "Cartethyia-0612/Tianyicraft-Soundpack",
+      "aliases": [],
+      "category": "game-mod",
+      "desc": "存储Tianyicraft音乐附加包的仓库",
+      "stars": 3,
+      "language": null,
+      "pushed_at": "2026-08-01T04:02:33Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:131"
+      ]
+    },
+    {
+      "id": 1249276956,
+      "full_name": "hedanbaomi/tianyi-inspired-companion",
+      "aliases": [],
+      "category": "desktop-pet",
+      "desc": "洛天依陪伴 Skill - 日常聊天、学习陪跑、音乐讨论与轻度安慰",
+      "stars": 3,
+      "language": null,
+      "pushed_at": "2026-05-25T14:30:48Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:61"
+      ]
+    },
+    {
+      "id": 1337910076,
+      "full_name": "llly712/tianyi-desktop-pet",
+      "aliases": [],
+      "category": "desktop-pet",
+      "desc": "洛天依桌面AI助手 - PMX/Live2D渲染 + TTS + 本地Agent + AstrBot接入",
+      "stars": 3,
+      "language": "Python",
+      "pushed_at": "2026-09-19T02:36:56Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:61"
+      ]
+    },
+    {
+      "id": 1245858366,
+      "full_name": "StarryFirefly-Armillary/Tianyi-Claude-Pet",
+      "aliases": [],
+      "category": "desktop-pet",
+      "desc": "洛天依 Claude Code 桌宠，基于 aemeath_withclaude 修改。",
+      "stars": 3,
+      "language": "Rust",
+      "pushed_at": "2026-06-05T03:44:19Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:86"
+      ]
+    },
+    {
+      "id": 1319734920,
+      "full_name": "Aoi-Karlin/Luo_Tianyi_v6Accel",
+      "aliases": [],
+      "category": "live2d",
+      "desc": "本仓库存储来自Azured的第六版洛天依人设。请自行取用。",
+      "stars": 2,
+      "language": null,
+      "pushed_at": "2026-08-02T01:54:06Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:70"
+      ]
+    },
+    {
+      "id": 1359224288,
+      "full_name": "bai111111/dsh-pet-luotianyi",
+      "aliases": [],
+      "category": "desktop-pet",
+      "desc": "洛天依桌宠：住在 DSH 里的虚拟歌姬。可拖动可互动，台词支持预设/AI 两种模式，内置 token 用量与费用统计栏，支持换图 + AI 自动抠图与预览微调。",
+      "stars": 2,
+      "language": "JavaScript",
+      "pushed_at": "2026-10-30T10:39:38Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:154"
+      ]
+    },
+    {
+      "id": 1175163459,
+      "full_name": "Drigrow/120712",
+      "aliases": [],
+      "category": "community-site",
+      "desc": "A website for Luo Tianyi",
+      "stars": 2,
+      "language": "HTML",
+      "pushed_at": "2026-03-15T16:19:43Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:94"
+      ]
+    },
+    {
+      "id": 1389297988,
+      "full_name": "fyf-buaa/luotianyi-feicuishi",
+      "aliases": [],
+      "category": "live2d",
+      "stars": 2,
+      "language": null,
+      "pushed_at": "2026-09-26T14:05:57Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:131"
+      ],
+      "desc": "洛天依「翡翠石」Live2D 模型"
+    },
+    {
+      "id": 1383475168,
+      "full_name": "Kevin14827/LuoTianyi-TTS",
+      "aliases": [],
+      "category": "tts-ai",
+      "desc": "基于 GPT-SoVITS v2Pro 微调的洛天依语音合成模型，权重见 Releases",
+      "stars": 2,
+      "language": "Python",
+      "pushed_at": "2026-09-23T13:53:05Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:146"
+      ]
+    },
+    {
+      "id": 1337911872,
+      "full_name": "llly712/pocket-tianyi",
+      "aliases": [],
+      "category": "game-mod",
+      "desc": "Pocket-sized Luo Tianyi vocal synthesizer based on ESP32-S3",
+      "stars": 2,
+      "language": "Python",
+      "pushed_at": "2026-10-05T03:44:04Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:69"
+      ]
+    },
+    {
+      "id": 761255367,
+      "full_name": "tianyi-fanclub/tianyi-covered-song-lyrics",
+      "aliases": [],
+      "category": "data-tools",
+      "desc": "为 B 站上的 VOCALOID·UTAU 分区的音乐提供现成的LRC歌词文件",
+      "stars": 2,
+      "language": null,
+      "pushed_at": "2024-11-10T05:25:19Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:71"
+      ]
+    },
+    {
+      "id": 1203843386,
+      "full_name": "yunmianY/luotianyi_blog",
+      "aliases": [],
+      "category": "community-site",
+      "desc": "关于洛天依的fastapi，vue3,mysql的博客",
+      "stars": 2,
+      "language": "Vue",
+      "pushed_at": "2026-04-07T12:54:07Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:75"
+      ]
+    },
+    {
+      "id": 1157723010,
+      "full_name": "2024080911015/luotianyi_model",
+      "aliases": [],
+      "category": "desktop-pet",
+      "desc": "一个可爱的洛天依桌面宠物应用，可以在Windows桌面上显示一个交互式的Q版洛天依。",
+      "stars": 1,
+      "language": "HTML",
+      "pushed_at": "2026-02-15T15:15:59Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:101"
+      ]
+    },
+    {
+      "id": 1168840595,
+      "full_name": "Abc133123/LTYAI-Agent",
+      "aliases": [],
+      "category": "tts-ai",
+      "desc": "洛天依AI基于现代AI技术制作的脚本 让你第一时间知道怎么实现LTYAI-ASI目标",
+      "stars": 1,
+      "language": "Python",
+      "pushed_at": "2026-03-01T02:13:33Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:55"
+      ]
+    },
+    {
+      "id": 1168819873,
+      "full_name": "Abc133123/LTYAI-ASI",
+      "aliases": [],
+      "category": "docs",
+      "desc": "洛天依 超级人工智能 白皮书---高中生期待能创建ASI吗 可以的这是梦想或者幻象 能打造AIGC项目吗 没时间  能管理项目吗 这个真没能力",
+      "stars": 1,
+      "language": "Python",
+      "pushed_at": "2026-03-02T10:13:52Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:86"
+      ]
+    },
+    {
+      "id": 911285894,
+      "full_name": "Hermite215/ACE-Vsinger-software-",
+      "aliases": [],
+      "category": "docs",
+      "desc": "Help more people know Vsinger",
+      "stars": 1,
+      "language": null,
+      "pushed_at": "2025-01-02T17:02:32Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:131"
+      ]
+    },
+    {
+      "id": 608913369,
+      "full_name": "kkryuw/Luotianyi-Yuezhengling-Yanhe-vocaloid5-orignal-source",
+      "aliases": [],
+      "category": "audio-assets",
+      "stars": 1,
+      "language": null,
+      "pushed_at": "2023-03-03T01:37:24Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:147"
+      ],
+      "desc": "洛天依、乐正绫、言和的 VOCALOID5 官方声库资源整理"
+    },
+    {
+      "id": 877318669,
+      "full_name": "leisquid/vsinger-voicebank-packages-design",
+      "aliases": [],
+      "category": "audio-assets",
+      "desc": "Vsinger voicebank packages design",
+      "stars": 1,
+      "language": null,
+      "pushed_at": "2024-10-31T14:48:43Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:114"
+      ]
+    },
+    {
+      "id": 1406821155,
+      "full_name": "Maitokine/luotianyipet",
+      "aliases": [],
+      "category": "desktop-pet",
+      "desc": "洛天依桌面宠物 - Windows 桌面陪伴桌宠（Electron 二创，个人自用）",
+      "stars": 1,
+      "language": "JavaScript",
+      "pushed_at": "2026-10-06T12:07:57Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:125"
+      ]
+    },
+    {
+      "id": 176635847,
+      "full_name": "qqwqqk/Vocaloid.github.io",
+      "aliases": [],
+      "category": "community-site",
+      "desc": "vsinger music player",
+      "stars": 1,
+      "language": "TypeScript",
+      "pushed_at": "2020-07-07T07:06:58Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:61"
+      ]
+    },
+    {
+      "id": 1441882853,
+      "full_name": "SamXiaoyiyuan/luotianyi-chatbot",
+      "aliases": [],
+      "category": "tts-ai",
+      "desc": "以 洛天依 身份陪你聊天的对话机器人： 原生 HTML / CSS / JavaScript 前端（用 axios 对接后端）+ FastAPI 后端（用 uv 管理依赖）+ DeepSeek 大模型 。",
+      "stars": 1,
+      "language": "Python",
+      "pushed_at": "2026-11-01T14:24:01Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:101"
+      ]
+    },
+    {
+      "id": 194849536,
+      "full_name": "ssYanhuo/LuoTianyi-Watchface",
+      "aliases": [],
+      "category": "theme-skin",
+      "desc": "洛天依概念表盘，适用于Wear OS by Google。A Wear OS watchface based on Vsinger official Luo Tianyi concept watch.",
+      "stars": 1,
+      "language": "Java",
+      "pushed_at": "2019-07-03T12:06:01Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:138"
+      ]
+    },
+    {
+      "id": 1446351349,
+      "full_name": "zb23333ww/koishi-plugin-vsinger-gacha",
+      "aliases": [],
+      "category": "game-mod",
+      "desc": "基于js的一套VSinger b站收藏集模拟抽卡插件",
+      "stars": 1,
+      "language": "JavaScript",
+      "pushed_at": "2026-11-07T13:09:46Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:100"
+      ]
+    },
+    {
+      "id": 1114130912,
+      "full_name": "2362371984/luotianyi-website",
+      "aliases": [],
+      "category": "community-site",
+      "desc": "洛天依主题网站页面改动方案与修改版页面（含 index.html 与修改脚本）",
+      "stars": 0,
+      "language": "HTML",
+      "pushed_at": "2026-10-21T17:51:57Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:70"
+      ]
+    },
+    {
+      "id": 563546343,
+      "full_name": "Arce0406/vsinger-translation",
+      "aliases": [],
+      "category": "docs",
+      "desc": "VSinger 相關公告、訪談與募資說明的中文翻譯，以及從海外贈送花籃（スタンド花）到日本的教學文件",
+      "stars": 0,
+      "language": "HTML",
+      "pushed_at": "2024-10-22T16:01:38Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:115"
+      ]
+    },
+    {
+      "id": 661064292,
+      "full_name": "dajunHuang/Luotianyi_Firework_Fabric_Mod",
+      "aliases": [],
+      "category": "game-mod",
+      "desc": "Add some fireworks for Luo's 11th birthday.",
+      "stars": 0,
+      "language": "Java",
+      "pushed_at": "2024-11-06T14:21:16Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:70"
+      ]
+    },
+    {
+      "id": 1336715276,
+      "full_name": "dmnkx/vsinger-rn",
+      "aliases": [],
+      "category": "data-tools",
+      "desc": "React Native List App",
+      "stars": 0,
+      "language": "TypeScript",
+      "pushed_at": "2026-08-17T05:32:46Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:70"
+      ]
+    },
+    {
+      "id": 1379840955,
+      "full_name": "Dragonzhi/luotianyi-song-list",
+      "aliases": [],
+      "category": "data-tools",
+      "desc": "一份个人维护的 洛天依（Vsinger 旗下中文虚拟歌手） 历年投稿精选歌单与自动化维护工具集。",
+      "stars": 0,
+      "language": "Python",
+      "pushed_at": "2026-09-21T13:58:37Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:101"
+      ]
+    },
+    {
+      "id": 1235919640,
+      "full_name": "Fujishima-Rurino/vsinger-song-finder",
+      "aliases": [],
+      "category": "data-tools",
+      "desc": "node.js utility to search through vsinger/tuber streams for specific songs",
+      "stars": 0,
+      "language": "JavaScript",
+      "pushed_at": "2026-05-11T21:52:20Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:100"
+      ]
+    },
+    {
+      "id": 1091095304,
+      "full_name": "FunnyMudTureGoPee/CK3_Vsinger_mod",
+      "aliases": [],
+      "category": "game-mod",
+      "stars": 0,
+      "language": null,
+      "pushed_at": "2026-06-07T06:58:05Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:70"
+      ],
+      "desc": "CK3（十字军之王3）Vsinger 肖像 mod"
+    },
+    {
+      "id": 1424560834,
+      "full_name": "fzr110911G/luotianyi",
+      "aliases": [],
+      "category": "community-site",
+      "stars": 0,
+      "language": "HTML",
+      "pushed_at": "2026-10-25T04:53:54Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:75"
+      ],
+      "desc": "洛天依介绍页（HTML 静态站）"
+    },
+    {
+      "id": 1413486387,
+      "full_name": "haufionect/tianyi-playground",
+      "aliases": [],
+      "category": "game-mod",
+      "desc": "洛天依主题的小游戏乐园：接马卡龙 / 节奏敲击 / 天依琴。纯前端，零依赖，音乐全部 Web Audio 现场合成。",
+      "stars": 0,
+      "language": "JavaScript",
+      "pushed_at": "2026-10-10T17:40:36Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:86"
+      ]
+    },
+    {
+      "id": 1423895083,
+      "full_name": "hiluoxiaohe/luo-tianyi-sddm-login",
+      "aliases": [],
+      "category": "theme-skin",
+      "desc": "Luo Tianyi theme for SDDM (Qt6)",
+      "stars": 0,
+      "language": "QML",
+      "pushed_at": "2026-10-18T05:11:04Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:114"
+      ]
+    },
+    {
+      "id": 1425837714,
+      "full_name": "HuTao71566/dsh-skin-tianyi-azure",
+      "aliases": [],
+      "category": "theme-skin",
+      "desc": "DeepSeek Harness洛天依皮肤",
+      "stars": 0,
+      "language": "JavaScript",
+      "pushed_at": "2026-10-20T12:26:12Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:86"
+      ]
+    },
+    {
+      "id": 1351054666,
+      "full_name": "J-SLY/LuoTianyi",
+      "aliases": [],
+      "category": "theme-skin",
+      "desc": "洛天依概念表盘（Wear OS）",
+      "stars": 0,
+      "language": null,
+      "pushed_at": "2026-09-03T13:17:36Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:70"
+      ]
+    },
+    {
+      "id": 184075388,
+      "full_name": "koibi2/Vocaloid-singer-name-in-VSQX",
+      "aliases": [],
+      "category": "data-tools",
+      "desc": "Vocaloid歌手信息的对应表。vocaloid singer's name in vsqx(vocaloid3、4)。",
+      "stars": 0,
+      "language": null,
+      "pushed_at": "2019-05-29T13:32:57Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:64"
+      ]
+    },
+    {
+      "id": 1263775584,
+      "full_name": "lishu620/luotianyi-wiki",
+      "aliases": [],
+      "category": "community-site",
+      "stars": 0,
+      "language": "TypeScript",
+      "pushed_at": "2026-10-26T13:11:32Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:131"
+      ],
+      "desc": "虚拟歌手 洛天依 的资料站：介绍角色、管理她的歌，并把同好制作的页面整理成一套可以一键跳转的导航。"
+    },
+    {
+      "id": 364250034,
+      "full_name": "luo-tian-yi/lty",
+      "aliases": [],
+      "category": "live2d",
+      "stars": 0,
+      "language": null,
+      "pushed_at": "2021-05-04T12:39:07Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:135"
+      ],
+      "desc": "洛天依 Live2D 模型文件（洛天依殿下的包子铺）"
+    },
+    {
+      "id": 1284852273,
+      "full_name": "Sakaki773/Vsinger_reversi",
+      "aliases": [],
+      "category": "game-mod",
+      "stars": 0,
+      "language": "Python",
+      "pushed_at": "2026-07-04T09:28:02Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:139"
+      ],
+      "desc": "洛天依与言和主题的翻转棋小游戏"
+    },
+    {
+      "id": 1287308602,
+      "full_name": "Sakaki773/VsingerShudu",
+      "aliases": [],
+      "category": "game-mod",
+      "desc": "洛天依主题 9x9 数独游戏，包含 PC Tkinter 原型和原生 Android APK 版本。主题色以洛天依应援色 66CCFF 为主，界面使用淡化/虚化背景图，尽量保证主题感和可读性平衡。",
+      "stars": 0,
+      "language": "Java",
+      "pushed_at": "2026-07-04T02:55:01Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:64"
+      ]
+    },
+    {
+      "id": 1236431677,
+      "full_name": "sunny-luoyun/bilibili_vc",
+      "aliases": [],
+      "category": "data-tools",
+      "stars": 0,
+      "language": "Python",
+      "pushed_at": "2026-06-13T01:50:44Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:64"
+      ],
+      "desc": "B 站中文 VOCALOID 周刊统计数据整理"
+    },
+    {
+      "id": 1183919025,
+      "full_name": "Vel044/vsinger-fanclub-card",
+      "aliases": [],
+      "category": "game-mod",
+      "desc": "Vsinger fanclub 粉丝俱乐部卡，洛天依、言和、乐正绫、乐正龙牙、墨清弦、徴羽摩柯",
+      "stars": 0,
+      "language": "Python",
+      "pushed_at": "2026-03-17T04:52:53Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:146"
+      ]
+    },
+    {
+      "id": 1208420397,
+      "full_name": "xiaoluo-712/luotianyi-chat",
+      "aliases": [],
+      "category": "tts-ai",
+      "stars": 0,
+      "language": "HTML",
+      "pushed_at": "2026-04-12T14:18:56Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:83"
+      ],
+      "desc": "洛天依虚拟歌手聊天室（HTML 前端）"
+    },
+    {
+      "id": 1127101084,
+      "full_name": "XinChengP/Luo_Tianyi_Image",
+      "aliases": [],
+      "category": "data-tools",
+      "stars": 0,
+      "language": null,
+      "pushed_at": "2026-01-03T10:47:41Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:101"
+      ],
+      "desc": "这是一个用于存放洛天依相关图片的图床仓库，方便统一管理和引用素材。"
+    },
+    {
+      "id": 834191305,
+      "full_name": "yumuq/Luo-Tianyi",
+      "aliases": [],
+      "category": "game-mod",
+      "stars": 0,
+      "language": null,
+      "pushed_at": "2024-07-26T16:25:19Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:70"
+      ],
+      "desc": "洛天依 Minecraft 材质包，当前包含天空材质"
+    },
+    {
+      "id": 342121672,
+      "full_name": "YuxiangWang0525/luotianyi-PCL2-Theme-Pack",
+      "aliases": [],
+      "category": "theme-skin",
+      "stars": 0,
+      "language": null,
+      "pushed_at": "2021-02-25T06:38:03Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:125"
+      ],
+      "desc": "洛天依主题的 PCL2 启动器特别版主题包"
+    },
+    {
+      "id": 1447031336,
+      "full_name": "zb23333ww/astrbot_plugin_vsinger_gacha",
+      "aliases": [],
+      "category": "game-mod",
+      "desc": "B站收藏集抽卡 · AstrBot 移植版（Pillow 渲染，积分与 Azure 打卡互通）",
+      "stars": 0,
+      "language": "Python",
+      "pushed_at": "2026-11-07T14:36:05Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:70"
+      ]
+    },
+    {
+      "id": 976439027,
+      "full_name": "Zenflash233/luotianyi-10th-grub-theme",
+      "aliases": [],
+      "category": "theme-skin",
+      "desc": "洛天依 10 周年纪念 GRUB 主题: 光与影的对白",
+      "stars": 0,
+      "language": null,
+      "pushed_at": "2024-12-31T07:32:35Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:125"
+      ]
+    }
+  ]
+}

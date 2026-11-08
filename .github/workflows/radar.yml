@@ -1,0 +1,129 @@
+name: radar
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+    inputs:
+      pages:
+        description: "每个查询抓取的页数"
+        required: false
+        default: "1"
+        type: string
+      dry_run:
+        description: "演练模式：不写盘、不开 Issue、不提交"
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: radar
+  cancel-in-progress: false
+
+jobs:
+  radar:
+    name: scan radar and open candidates
+    runs-on: ubuntu-latest
+    if: github.actor != 'github-actions[bot]'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      # 退出码 0=正常，1=失败，2=限流放弃（不算失败）
+      - name: Scan radar
+        id: radar
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PAGES: ${{ github.event.inputs.pages || '1' }}
+          DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
+        run: |
+          set +e
+          args=("--root" "." "--pages" "${PAGES}")
+          if [ "${DRY_RUN}" = "true" ]; then args+=("--dry-run"); fi
+          node scripts/scan-radar.mjs "${args[@]}"
+          code=$?
+          echo "exit_code=${code}" >> "$GITHUB_OUTPUT"
+          if [ "${code}" -eq 0 ] || [ "${code}" -eq 2 ]; then
+            if [ "${code}" -eq 2 ]; then
+              echo "::warning::scan-radar 因限流退出(2)：本轮不视为失败，水位线已落盘，下一轮续跑"
+            fi
+            exit 0
+          fi
+          echo "::error::scan-radar 失败，退出码 ${code}"
+          exit "${code}"
+
+      - name: Open candidate issues
+        id: issues
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
+        run: |
+          set +e
+          args=("--limit" "20")
+          if [ "${DRY_RUN}" = "true" ]; then args+=("--dry-run"); fi
+          node scripts/open-issues.mjs "${args[@]}"
+          code=$?
+          echo "exit_code=${code}" >> "$GITHUB_OUTPUT"
+          if [ "${code}" -eq 0 ] || [ "${code}" -eq 2 ]; then
+            if [ "${code}" -eq 2 ]; then
+              echo "::warning::open-issues 因限流退出(2)：本轮不视为失败，下一轮续跑"
+            fi
+            exit 0
+          fi
+          echo "::error::open-issues 失败，退出码 ${code}"
+          exit "${code}"
+
+      - name: Report radar outcome
+        if: always()
+        run: |
+          echo "### radar" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "- scan-radar outcome: ${{ steps.radar.outcome }} (exit ${{ steps.radar.outputs.exit_code }})" >> "$GITHUB_STEP_SUMMARY"
+          echo "- open-issues outcome: ${{ steps.issues.outcome }} (exit ${{ steps.issues.outputs.exit_code }})" >> "$GITHUB_STEP_SUMMARY"
+
+      # 限流(2) 已在上面按“不算失败”处理；真实失败在这里显式暴露
+      - name: Fail on genuine radar error
+        if: steps.radar.outcome == 'failure' || steps.issues.outcome == 'failure'
+        run: |
+          echo "::error::radar 抓取或开 Issue 真实失败（scan=${{ steps.radar.outputs.exit_code }} issues=${{ steps.issues.outputs.exit_code }}），本轮中止，不提交 state"
+          exit 1
+
+      # radar 只碰 data/state 与候选队列；README 由 catalog-sync 统一渲染，
+      # 这里刻意不跑 render / validate，避免两个工作流同时改 README 撞车。
+      - name: Commit state changes
+        if: github.event.inputs.dry_run != 'true'
+        env:
+          DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
+        run: |
+          if [ "${DRY_RUN}" = "true" ]; then
+            echo "dry-run：跳过提交"
+            exit 0
+          fi
+          if [ -z "$(git status --porcelain -- data)" ]; then
+            echo "data/ 无改动，跳过提交"
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A -- data
+          if git diff --cached --quiet; then
+            echo "暂存区为空，跳过提交"
+            exit 0
+          fi
+          STAMP="$(date -u +%Y-%m-%d)"
+          git commit -m "chore(radar): update state ${STAMP} [skip ci]"
+          git push

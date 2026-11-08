@@ -1,0 +1,68 @@
+name: 报告条目问题
+description: 反馈已收录条目的分类、描述、链接或状态问题
+labels: ["needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > 一个 Issue 只报一个问题。若是一批条目同类问题（例如多个链接失效），请在说明里逐条列出。
+        >
+        > 注意：仓库改名或转移到新 owner **不算**链接失效，只需更新展示名，旧名会进入 aliases。
+  - type: input
+    id: entry-url
+    attributes:
+      label: 条目地址
+      description: "被反馈的仓库主页地址，形如 https://github.com/owner/repo。不要填 README 锚点或镜像站地址。"
+      placeholder: "https://github.com/owner/repo"
+    validations:
+      required: true
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: 问题类型
+      description: 分类错误会由维护者重新裁决；链接失效与已归档会被改为 excluded；应移除需要给出可核验理由。
+      options:
+        - label: 分类错误（该条目归在错误的分类下）
+          value: 分类错误
+        - label: 描述错误（desc 与实际功能不符）
+          value: 描述错误
+        - label: 链接失效（404 或需要登录）
+          value: 链接失效
+        - label: 已归档（archived）
+          value: 已归档
+        - label: 应移除（不再与洛天依相关，或包含未授权资源）
+          value: 应移除
+      multiple: false
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: 说明
+      description: |
+        请写清三件事：
+        1. 当前情况：README 或数据里现在写的是什么，页面实际显示的是什么；
+        2. 应改为什么：具体目标值（哪个分类 id、哪句描述、移除还是保留）；
+        3. 依据：可核验的证据，例如 README 原文、关键文件路径、归档横幅的文字。
+
+        失效类问题请注明现象：是 404、需要登录，还是 301 跳转到了新地址。
+      value: |
+        当前情况：
+        应改为：
+        依据：
+    validations:
+      required: true
+  - type: textarea
+    id: suggested-desc
+    attributes:
+      label: 建议的描述（可选）
+      description: 若问题类型是「描述错误」，可在此写一句 80 字以内的替代描述：写它做什么，不写评价性语气。
+    validations:
+      required: false
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: 确认
+      options:
+        - label: 我已确认这不是仓库改名或转移（改名请单独说明新地址，不计入链接失效）。
+          required: false
