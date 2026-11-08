@@ -13,7 +13,7 @@
 </div>
 
 <!-- BEGIN:STATS -->
-**69 repositories · 9 categories · data updated 2026-11-08**
+**70 repositories · 9 categories · data updated 2026-11-08**
 
 | Category | Repos |
 | --- | --- |
@@ -24,10 +24,10 @@
 | 🧰 Data, Wiki & Tooling | 12 |
 | 🎮 Games, Mods & Hardware Art | 13 |
 | 🎵 Audio, Sheets & Creative Assets | 3 |
-| 🌐 Community Sites & Services | 7 |
+| 🌐 Community Sites & Services | 8 |
 | 📚 Docs & Tutorials | 3 |
 
-**Primary languages**：other (23) · Python (15) · JavaScript (10) · HTML (6) · TypeScript (4) · Java (3)
+**Primary languages**：other (23) · Python (15) · JavaScript (10) · HTML (7) · TypeScript (4) · Java (3)
 <!-- END:STATS -->
 
 ## Contents
@@ -158,8 +158,9 @@ Bonuses: a README, a LICENSE, a commit within the last 12 months, stars ≥ 3.
 - [kkryuw/Luotianyi-Yuezhengling-Yanhe-vocaloid5-orignal-source](https://github.com/kkryuw/Luotianyi-Yuezhengling-Yanhe-vocaloid5-orignal-source) `★1` — 洛天依、乐正绫、言和的 VOCALOID5 官方声库资源整理
 - [leisquid/vsinger-voicebank-packages-design](https://github.com/leisquid/vsinger-voicebank-packages-design) `★1` — Vsinger voicebank packages design
 
-### 🌐 Community Sites & Services (7)
+### 🌐 Community Sites & Services (8)
 
+- [w8888-hh/luotianyi-running-app](https://github.com/w8888-hh/luotianyi-running-app) `★8 · HTML` — 洛天依陪跑应用 - 节拍器 + 心率监测 + 音乐播放 + 语音引导的跑步健身 Web 应用
 - [tianyi-fanclub/tianyi-birthday-countdown](https://github.com/tianyi-fanclub/tianyi-birthday-countdown) `★4 · CSS` — 这是洛天依饭制 生日会倒计时🎂 网站。
 - [Drigrow/120712](https://github.com/Drigrow/120712) `★2 · HTML` — A website for Luo Tianyi
 - [yunmianY/luotianyi_blog](https://github.com/yunmianY/luotianyi_blog) `★2 · Vue` — 关于洛天依的fastapi，vue3,mysql的博客

@@ -200,6 +200,23 @@
       ]
     },
     {
+      "id": 1370075727,
+      "full_name": "w8888-hh/luotianyi-running-app",
+      "aliases": [],
+      "category": "community-site",
+      "desc": "洛天依陪跑应用 - 节拍器 + 心率监测 + 音乐播放 + 语音引导的跑步健身 Web 应用",
+      "stars": 8,
+      "language": "HTML",
+      "pushed_at": "2026-11-05T12:25:00Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "issue:2",
+      "evidence": [
+        "issue:2 approved by IPF-Sinon"
+      ]
+    },
+    {
       "id": 1447110730,
       "full_name": "lty-hongsejinwei/dsh-luotianyi-skin",
       "aliases": [],
