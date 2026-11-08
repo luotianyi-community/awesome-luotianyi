@@ -57,6 +57,8 @@ async function main() {
 
   for (const item of seenMap.values()) {
     processed += 1;
+    // never propose the index itself, or a fork of it
+    if (String(item.full_name).toLowerCase() === String(args.repo || 'luotianyi-community/awesome-luotianyi').toLowerCase()) continue;
     const known = lookup(registry, item);
     if (known) {
       if (known.status === 'listed') {

@@ -130,4 +130,4 @@
 {"at":"2026-11-08T11:10:00Z","action":"reject","repo":"wangxinleo/practise-vue-shop-server","id":267779471,"reason":"Vue 练习商店后端，已归档，与洛天依无关","actor":"maintainer"}
 {"at":"2026-11-08T11:10:00Z","action":"reject","repo":"xvyourang/luotianyiily","id":228039296,"reason":"仅注册「洛天依.我爱你」域名占位，无实际项目内容","actor":"maintainer"}
 {"at":"2026-11-08T11:10:00Z","action":"reject","repo":"zhuzhuxing131420-maker/wanan-jiaoda-assistant","id":1425039329,"reason":"校园助手应用，与洛天依无关","actor":"maintainer"}
-{"at":"2026-11-08T11:15:41Z","action":"catalog-scan","scanned":0,"queued":0,"excluded":0,"updated":0,"water":"2026-11-08"}
+{"at":"2026-11-08T11:24:27Z","action":"catalog-scan","scanned":297,"queued":1,"excluded":0,"updated":0,"water":"2026-11-08"}

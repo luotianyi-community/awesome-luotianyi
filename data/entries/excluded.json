@@ -34,19 +34,19 @@
     {
       "id": 1333885130,
       "full_name": "lty-vsinger/DMC-Combat-System",
-      "reason": "name collision only: no luotianyi signal in description/topics/readme",
+      "reason": "name-collision",
       "at": "2026-11-08"
     },
     {
       "id": 1270102966,
       "full_name": "lty-vsinger/escape",
-      "reason": "name collision only: no luotianyi signal in description/topics/readme",
+      "reason": "name-collision",
       "at": "2026-11-08"
     },
     {
       "id": 1253640576,
       "full_name": "lty-vsinger/Famg_Zi_Lang_Deom",
-      "reason": "name collision only: no luotianyi signal in description/topics/readme",
+      "reason": "name-collision",
       "at": "2026-11-08"
     },
     {
@@ -64,7 +64,7 @@
     {
       "id": 365577681,
       "full_name": "luo-tian-yi/Happy-Mother-s-Day",
-      "reason": "name collision only: no luotianyi signal in description/topics/readme",
+      "reason": "name-collision",
       "at": "2026-11-08"
     },
     {
@@ -82,13 +82,13 @@
     {
       "id": 758896299,
       "full_name": "Luotianyi-0712/3Dmigoto-Sword",
-      "reason": "name collision only: no luotianyi signal in description/topics/readme",
+      "reason": "name-collision",
       "at": "2026-11-08"
     },
     {
       "id": 562134033,
       "full_name": "Luotianyi-0712/Arm-pro-",
-      "reason": "name collision only: no luotianyi signal in description/topics/readme",
+      "reason": "name-collision",
       "at": "2026-11-08"
     },
     {
@@ -106,31 +106,31 @@
     {
       "id": 1104635589,
       "full_name": "Luotianyi-0712/NahidaImpact-Server",
-      "reason": "name collision only: no luotianyi signal in description/topics/readme",
+      "reason": "name-collision",
       "at": "2026-11-08"
     },
     {
       "id": 875512559,
       "full_name": "Luotianyi-0712/NTQQproto",
-      "reason": "name collision only: no luotianyi signal in description/topics/readme",
+      "reason": "name-collision",
       "at": "2026-11-08"
     },
     {
       "id": 1240009339,
       "full_name": "Luotianyi-0712/OpenOIDC",
-      "reason": "name collision only: no luotianyi signal in description/topics/readme",
+      "reason": "name-collision",
       "at": "2026-11-08"
     },
     {
       "id": 748252795,
       "full_name": "Luotianyi-0712/speed",
-      "reason": "name collision only: no luotianyi signal in description/topics/readme",
+      "reason": "name-collision",
       "at": "2026-11-08"
     },
     {
       "id": 1328511803,
       "full_name": "LuoTianyi-arm64/bf-asm",
-      "reason": "name collision only: no luotianyi signal in description/topics/readme",
+      "reason": "name-collision",
       "at": "2026-11-08"
     },
     {
@@ -190,7 +190,7 @@
     {
       "id": 1355100853,
       "full_name": "Vsinger-yi/securing-your-code",
-      "reason": "name collision only: no luotianyi signal in description/topics/readme",
+      "reason": "name-collision",
       "at": "2026-11-08"
     },
     {

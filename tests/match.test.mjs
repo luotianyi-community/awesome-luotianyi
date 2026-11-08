@@ -100,6 +100,25 @@ test('clear luotianyi repository reaches issue threshold', () => {
   assert.ok(result.score >= DEFAULT_RULES.thresholds.issue);
 });
 
+test('a strong term in the repo name is evidence even without a README', () => {
+  // Real case: LuoTianyi_GrubTheme ships only fonts and a screenshot, no textual README body.
+  const result = evaluateRepo(
+    repo({ full_name: 'Karunari-luoling/LuoTianYi_GrubTheme', name: 'LuoTianYi_GrubTheme', description: '', topics: [] }),
+    DEFAULT_RULES,
+    { readme: '效果图如下 ![](https://example.com/x.jpg)', readmeChecked: true }
+  );
+  assert.equal(result.verdict === 'queue' || result.verdict === 'issue', true, 'must stay reviewable, not excluded');
+});
+
+test('owner-only match is never auto-listed as a candidate', () => {
+  const result = evaluateRepo(
+    repo({ full_name: 'lty-vsinger/escape', name: 'escape', description: '', topics: [] }),
+    DEFAULT_RULES,
+    { readme: '# escape\nA small puzzle game.', readmeChecked: true }
+  );
+  assert.equal(result.verdict, 'excluded:name-collision');
+});
+
 test('archived and empty repositories are excluded', () => {
   assert.equal(evaluateRepo(repo({ archived: true, description: '洛天依' }), DEFAULT_RULES, {}).verdict, 'excluded:archived');
   assert.equal(evaluateRepo(repo({ size: 0, description: '洛天依桌宠' }), DEFAULT_RULES, {}).verdict, 'excluded:empty');

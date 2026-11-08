@@ -81,6 +81,8 @@ async function main() {
 
   for (const item of signals.values()) {
     scanned += 1;
+    // never propose the index itself
+    if (item.repo.toLowerCase() === String(args.repo || 'luotianyi-community/awesome-luotianyi').toLowerCase()) continue;
     const known = lookup(registry, { full_name: item.repo });
     if (known) {
       skipped += 1;

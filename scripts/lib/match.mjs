@@ -226,7 +226,7 @@ export function evaluateRepo(repo, rules, extra) {
   // (e.g. owner "Luotianyi-0712" publishing an unrelated OpenIDC server), so only
   // owner-only matches may be treated as a collision, and only after we have actually
   // read a README that carries no signal.
-  const nameHit = asciiOnly(nameText, cfg.terms.strong).length + cjkOnly(nameText, cfg.terms.strong).length;
+  const nameHit = asciiOnly(nameText, cfg.terms.strong).length + cjkOnly(nameText, cfg.terms.strong).length;  // strong term in the repo name: creator chose it deliberately
   const ownerHit = asciiOnly(ownerText, cfg.terms.strong).length + cjkOnly(ownerText, cfg.terms.strong).length;
   const inspected = !!ctx.readmeChecked;
   const nameCollision = nameHit === 0 && ownerHit > 0 && !hasContentSignal && inspected;
@@ -239,7 +239,7 @@ export function evaluateRepo(repo, rules, extra) {
     hasContentSignal,
     contentHits,
     negativeHits,
-    verdict: classify(repo, { score, nameCollision, contentHits, negativeHits, inspected }),
+    verdict: classify(repo, { score, nameCollision, contentHits, negativeHits, inspected, nameHit }),
     detail: { nameStrong, ownerStrong, descStrong, descWeak, topicStrong, topicWeak, readmeStrong, readmeWeak }
   };
 }
@@ -248,8 +248,11 @@ function classify(repo, state) {
   if (repo.archived) return 'excluded:archived';
   if (Number(repo.size) === 0) return 'excluded:empty';
   if (state.nameCollision && state.inspected) return 'excluded:name-collision';
-  if (state.score >= 55 && state.contentHits > 0) return 'issue';
-  if (state.score >= 30 && state.contentHits > 0) return 'queue';
+  // A strong term in the repository NAME counts as evidence even when the repo has no
+  // README at all: e.g. LuoTianYi_GrubTheme ships only fonts and a screenshot.
+  const evidenced = state.contentHits > 0 || state.nameHit > 0;
+  if (state.score >= 55 && evidenced) return 'issue';
+  if (state.score >= 30 && evidenced) return 'queue';
   return 'low';
 }
 
