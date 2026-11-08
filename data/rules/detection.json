@@ -1,8 +1,9 @@
 {
   "version": 1,
   "terms": {
-    "strong": ["洛天依", "樂天依", "天依", "luotianyi", "luo tian yi", "luotian yi", "luo tianyi", "tianyicraft", "vsinger", "lty"],
-    "weak": ["vocaloid", "中文 vocaloid", "虚拟歌手", "虚拟歌姬", "中文v家", "v家", "锦依卫", "乐正绫", "言和", "墨清弦", "乐正龙牙", "征羽摩柯", "心华", "声库", "voicebank", "utau", "tianyi"]
+    "strong": ["洛天依", "樂天依", "天依", "luotianyi", "luo tian yi", "luotian yi", "luo tianyi", "tianyicraft", "vsinger"],
+    "weak": ["lty", "vocaloid", "中文 vocaloid", "虚拟歌手", "虚拟歌姬", "中文v家", "v家", "锦依卫", "乐正绫", "言和", "墨清弦", "乐正龙牙", "征羽摩柯", "心华", "声库", "voicebank", "utau", "tianyi"],
+    "negative": ["ななし律歌", "律歌", "non-official fansite of nanashi"]
   },
   "weights": {
     "name_strong": 45,
@@ -14,7 +15,10 @@
     "readme_strong": 25,
     "readme_weak": 6,
     "archived": -20,
-    "fork": -10
+    "fork": -10,
+    "negative": -35,
+    "no_readme_signal": -12,
+    "owner_denylist": -60
   },
   "thresholds": {
     "queue": 30,

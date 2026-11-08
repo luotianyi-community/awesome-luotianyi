@@ -251,7 +251,9 @@ function classify(repo, state) {
   // A strong term in the repository NAME counts as evidence even when the repo has no
   // README at all: e.g. LuoTianYi_GrubTheme ships only fonts and a screenshot.
   const evidenced = state.contentHits > 0 || state.nameHit > 0;
-  if (state.score >= 55 && evidenced) return 'issue';
+  // Opening an issue costs a maintainer's attention, so it needs real textual evidence
+  // (description / topics / README). A promising name alone only earns a queue slot.
+  if (state.score >= 55 && state.contentHits > 0) return 'issue';
   if (state.score >= 30 && evidenced) return 'queue';
   return 'low';
 }
