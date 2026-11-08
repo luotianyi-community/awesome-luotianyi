@@ -31,35 +31,6 @@
       "stars": 0
     },
     {
-      "id": 1353770565,
-      "full_name": "ourcx/luotianyi-ai-passport",
-      "language": "C",
-      "pushed_at": "2026-09-02T03:03:09Z",
-      "archived": false,
-      "fork": false,
-      "score": 106,
-      "signals": [
-        "description:strong",
-        "name:strong",
-        "readme:strong"
-      ],
-      "category_suggestion": "data-tools",
-      "sources": [
-        "catalog"
-      ],
-      "evidence": [
-        "github-search",
-        "description:strong",
-        "name:strong",
-        "readme:strong"
-      ],
-      "first_seen": "2026-11-08",
-      "last_seen": "2026-11-08",
-      "issue": null,
-      "desc": "洛天依 trae passport 小应用",
-      "stars": 1
-    },
-    {
       "id": 395428512,
       "full_name": "yi-tytyty-tianyi-luotianyi-tianyi712/.Vsinger",
       "desc": "Vsinger",
@@ -278,6 +249,39 @@
       "issue": null
     },
     {
+      "id": 912703642,
+      "full_name": "Luotianyi-0712/Luotianyi-0712",
+      "language": null,
+      "pushed_at": "2026-11-08T16:33:48Z",
+      "archived": false,
+      "fork": false,
+      "score": 55,
+      "signals": [
+        "name:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog",
+        "radar"
+      ],
+      "evidence": [
+        "github-search",
+        "name:strong",
+        "readme:none",
+        "issue:1:Hi",
+        "pull-request:1:Hi"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": {
+        "number": 16,
+        "url": "https://github.com/luotianyi-community/awesome-luotianyi/issues/16",
+        "created_at": "2026-11-08"
+      },
+      "desc": "my",
+      "stars": 0
+    },
+    {
       "id": 1288210315,
       "full_name": "luotianyi712-lab/luotianyi",
       "language": "Python",
@@ -298,7 +302,11 @@
       ],
       "first_seen": "2026-11-08",
       "last_seen": "2026-11-08",
-      "issue": null,
+      "issue": {
+        "number": 17,
+        "url": "https://github.com/luotianyi-community/awesome-luotianyi/issues/17",
+        "created_at": "2026-11-08"
+      },
       "desc": "",
       "stars": 0
     },
@@ -327,7 +335,11 @@
       ],
       "first_seen": "2026-11-08",
       "last_seen": "2026-11-08",
-      "issue": null
+      "issue": {
+        "number": 18,
+        "url": "https://github.com/luotianyi-community/awesome-luotianyi/issues/18",
+        "created_at": "2026-11-08"
+      }
     },
     {
       "id": 1245710321,
@@ -540,6 +552,33 @@
       "stars": 32
     },
     {
+      "id": 1127217350,
+      "full_name": "Eiheir/Luo_Tianyi_Image",
+      "desc": "佬の美图",
+      "stars": 2,
+      "language": "JavaScript",
+      "pushed_at": "2026-11-03T11:08:36Z",
+      "archived": false,
+      "fork": false,
+      "score": 45,
+      "signals": [
+        "name:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "radar"
+      ],
+      "evidence": [
+        "commit:f77ca0e:Merge branch 'main' of https://github.com/Eiheir/Luo_Tianyi_",
+        "commit:10c107d:Initial commit: Luo Tianyi image collection",
+        "commit:f480537:Merge branch 'main' of https://github.com/Eiheir/Luo_Tianyi_",
+        "name:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
       "id": 1265907104,
       "full_name": "Jeffreyz8102/vsinger-live-track",
       "desc": "",
@@ -665,6 +704,31 @@
       "stars": 0
     },
     {
+      "id": 261752391,
+      "full_name": "LIGHT-just/luotianyi.github.io",
+      "desc": "",
+      "stars": 0,
+      "language": "HTML",
+      "pushed_at": "2021-05-07T14:17:55Z",
+      "archived": false,
+      "fork": false,
+      "score": 45,
+      "signals": [
+        "name:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "radar"
+      ],
+      "evidence": [
+        "commit:6ddfbd5:luotianyi",
+        "name:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
       "id": 1432117491,
       "full_name": "Not-the-same/luotianyi",
       "language": "HTML",
@@ -688,6 +752,35 @@
       "issue": null,
       "desc": "",
       "stars": 0
+    },
+    {
+      "id": 1353770565,
+      "full_name": "ourcx/luotianyi-ai-passport",
+      "language": "C",
+      "pushed_at": "2026-09-02T03:03:09Z",
+      "archived": false,
+      "fork": false,
+      "score": 45,
+      "signals": [
+        "name:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog",
+        "radar"
+      ],
+      "evidence": [
+        "github-search",
+        "description:strong",
+        "name:strong",
+        "readme:strong",
+        "commit:5366cf3:feat(player): add Luo Tianyi mini MV jukebox"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null,
+      "desc": "洛天依 trae passport 小应用",
+      "stars": 1
     },
     {
       "id": 912285157,
@@ -787,33 +880,6 @@
       "last_seen": "2026-11-08",
       "issue": null,
       "desc": "Introduction of Luo",
-      "stars": 0
-    },
-    {
-      "id": 912703642,
-      "full_name": "Luotianyi-0712/Luotianyi-0712",
-      "language": null,
-      "pushed_at": "2026-11-08T08:48:01Z",
-      "archived": false,
-      "fork": false,
-      "score": 43,
-      "signals": [
-        "name:strong",
-        "readme:none"
-      ],
-      "category_suggestion": "data-tools",
-      "sources": [
-        "catalog"
-      ],
-      "evidence": [
-        "github-search",
-        "name:strong",
-        "readme:none"
-      ],
-      "first_seen": "2026-11-08",
-      "last_seen": "2026-11-08",
-      "issue": null,
-      "desc": "my",
       "stars": 0
     },
     {
