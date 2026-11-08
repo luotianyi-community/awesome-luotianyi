@@ -2,9 +2,33 @@
   "version": 1,
   "entries": [
     {
+      "id": 270896436,
+      "full_name": "641i130/ddb-extraction",
+      "reason": "archived",
+      "at": "2026-11-08"
+    },
+    {
       "id": 290931886,
       "full_name": "adc1236/luotianyia.github.io",
       "reason": "empty repository",
+      "at": "2026-11-08"
+    },
+    {
+      "id": 328569206,
+      "full_name": "BalloonUpdate/Tool",
+      "reason": "archived",
+      "at": "2026-11-08"
+    },
+    {
+      "id": 257693843,
+      "full_name": "baobao1270/awsl.css",
+      "reason": "archived",
+      "at": "2026-11-08"
+    },
+    {
+      "id": 76251021,
+      "full_name": "chunlaili/timetraveller",
+      "reason": "empty",
       "at": "2026-11-08"
     },
     {
@@ -20,15 +44,45 @@
       "at": "2026-11-08"
     },
     {
+      "id": 74162787,
+      "full_name": "huangblue/xie",
+      "reason": "empty",
+      "at": "2026-11-08"
+    },
+    {
+      "id": 17314713,
+      "full_name": "i3thuan5/tai5-uan5_gian5-gi2_tsu1-liau7-khoo3",
+      "reason": "archived",
+      "at": "2026-11-08"
+    },
+    {
       "id": 609395743,
       "full_name": "kkryuw/Luotianyi-Yuezhengling-Yanhe-VOCALOID5",
       "reason": "empty repository",
       "at": "2026-11-08"
     },
     {
+      "id": 65316939,
+      "full_name": "Kxnrl/Store",
+      "reason": "archived",
+      "at": "2026-11-08"
+    },
+    {
+      "id": 357777833,
+      "full_name": "LeeKyungwook/get-arxiv-noti",
+      "reason": "empty",
+      "at": "2026-11-08"
+    },
+    {
       "id": 261768649,
       "full_name": "LIGHT-just/luotianyi",
       "reason": "empty repository",
+      "at": "2026-11-08"
+    },
+    {
+      "id": 51901507,
+      "full_name": "loulin/favorites",
+      "reason": "empty",
       "at": "2026-11-08"
     },
     {
@@ -164,8 +218,38 @@
       "at": "2026-11-08"
     },
     {
+      "id": 165367391,
+      "full_name": "NotoOotori/chinese_chess_online",
+      "reason": "archived",
+      "at": "2026-11-08"
+    },
+    {
+      "id": 256303584,
+      "full_name": "ryuuganime/very-old-and-random-anime-db",
+      "reason": "archived",
+      "at": "2026-11-08"
+    },
+    {
+      "id": 293834611,
+      "full_name": "seunghyunhan/daily-arxiv-noti",
+      "reason": "empty",
+      "at": "2026-11-08"
+    },
+    {
+      "id": 10296022,
+      "full_name": "Sleepwalking/Rocaloid-old",
+      "reason": "archived",
+      "at": "2026-11-08"
+    },
+    {
       "id": 1046169420,
       "full_name": "ssdomei232/v-alarm",
+      "reason": "archived",
+      "at": "2026-11-08"
+    },
+    {
+      "id": 587697268,
+      "full_name": "SunsetMkt/Bilibili-Video-Reply-Crawler-Production",
       "reason": "archived",
       "at": "2026-11-08"
     },
@@ -173,6 +257,18 @@
       "id": 1440811983,
       "full_name": "Tianyi-Communtiy-Team/CVIMap-docs",
       "reason": "empty repository",
+      "at": "2026-11-08"
+    },
+    {
+      "id": 66262472,
+      "full_name": "u2017/pohai",
+      "reason": "empty",
+      "at": "2026-11-08"
+    },
+    {
+      "id": 67267053,
+      "full_name": "u2017/zx",
+      "reason": "empty",
       "at": "2026-11-08"
     },
     {
@@ -194,6 +290,18 @@
       "at": "2026-11-08"
     },
     {
+      "id": 8412168,
+      "full_name": "warmecho/ci",
+      "reason": "empty",
+      "at": "2026-11-08"
+    },
+    {
+      "id": 70043014,
+      "full_name": "WingLim/Write",
+      "reason": "archived",
+      "at": "2026-11-08"
+    },
+    {
       "id": 215734446,
       "full_name": "wo-jio/-",
       "reason": "empty repository",
@@ -212,15 +320,33 @@
       "at": "2026-11-08"
     },
     {
+      "id": 77112591,
+      "full_name": "YUE-Inc/StrengthsFinder2.0",
+      "reason": "empty",
+      "at": "2026-11-08"
+    },
+    {
       "id": 1141573495,
       "full_name": "YuFengyinOvO/LuoTIanyi-wallpapperData",
       "reason": "empty repository",
       "at": "2026-11-08"
     },
     {
+      "id": 563161320,
+      "full_name": "Yukeaaa/arxiv-daily",
+      "reason": "empty",
+      "at": "2026-11-08"
+    },
+    {
       "id": 140865187,
       "full_name": "yzjdxl/vsinger",
       "reason": "empty repository",
+      "at": "2026-11-08"
+    },
+    {
+      "id": 64990811,
+      "full_name": "zhangsong246/JOB",
+      "reason": "empty",
       "at": "2026-11-08"
     },
     {
@@ -233,6 +359,12 @@
       "id": 85374723,
       "full_name": "zhengxiaoyao0716/TianYi-YanHe---ShiLiHongZhuang",
       "reason": "archived",
+      "at": "2026-11-08"
+    },
+    {
+      "id": 342762605,
+      "full_name": "zoq/arxiv-updates",
+      "reason": "empty",
       "at": "2026-11-08"
     }
   ]

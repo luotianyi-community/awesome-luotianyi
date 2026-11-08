@@ -28,7 +28,11 @@
       ],
       "first_seen": "2026-11-08",
       "last_seen": "2026-11-08",
-      "issue": null
+      "issue": {
+        "number": 1,
+        "url": "https://github.com/luotianyi-community/awesome-luotianyi/issues/1",
+        "created_at": "2026-11-08"
+      }
     },
     {
       "id": 1370075727,
@@ -57,7 +61,11 @@
       ],
       "first_seen": "2026-11-08",
       "last_seen": "2026-11-08",
-      "issue": null
+      "issue": {
+        "number": 2,
+        "url": "https://github.com/luotianyi-community/awesome-luotianyi/issues/2",
+        "created_at": "2026-11-08"
+      }
     },
     {
       "id": 368865182,
@@ -86,36 +94,11 @@
       ],
       "first_seen": "2026-11-08",
       "last_seen": "2026-11-08",
-      "issue": null
-    },
-    {
-      "id": 1353770565,
-      "full_name": "ourcx/luotianyi-ai-passport",
-      "desc": "洛天依 trae passport 小应用",
-      "stars": 1,
-      "language": "C",
-      "pushed_at": "2026-09-02T03:03:09Z",
-      "archived": false,
-      "fork": false,
-      "score": 106,
-      "signals": [
-        "description:strong",
-        "name:strong",
-        "readme:strong"
-      ],
-      "category_suggestion": "data-tools",
-      "sources": [
-        "catalog"
-      ],
-      "evidence": [
-        "github-search",
-        "description:strong",
-        "name:strong",
-        "readme:strong"
-      ],
-      "first_seen": "2026-11-08",
-      "last_seen": "2026-11-08",
-      "issue": null
+      "issue": {
+        "number": 3,
+        "url": "https://github.com/luotianyi-community/awesome-luotianyi/issues/3",
+        "created_at": "2026-11-08"
+      }
     },
     {
       "id": 1132127354,
@@ -142,7 +125,11 @@
       ],
       "first_seen": "2026-11-08",
       "last_seen": "2026-11-08",
-      "issue": null
+      "issue": {
+        "number": 4,
+        "url": "https://github.com/luotianyi-community/awesome-luotianyi/issues/4",
+        "created_at": "2026-11-08"
+      }
     },
     {
       "id": 395428512,
@@ -170,7 +157,11 @@
       ],
       "first_seen": "2026-11-08",
       "last_seen": "2026-11-08",
-      "issue": null
+      "issue": {
+        "number": 5,
+        "url": "https://github.com/luotianyi-community/awesome-luotianyi/issues/5",
+        "created_at": "2026-11-08"
+      }
     },
     {
       "id": 725060357,
@@ -197,7 +188,11 @@
       ],
       "first_seen": "2026-11-08",
       "last_seen": "2026-11-08",
-      "issue": null
+      "issue": {
+        "number": 6,
+        "url": "https://github.com/luotianyi-community/awesome-luotianyi/issues/6",
+        "created_at": "2026-11-08"
+      }
     },
     {
       "id": 112372290,
@@ -226,7 +221,11 @@
       ],
       "first_seen": "2026-11-08",
       "last_seen": "2026-11-08",
-      "issue": null
+      "issue": {
+        "number": 7,
+        "url": "https://github.com/luotianyi-community/awesome-luotianyi/issues/7",
+        "created_at": "2026-11-08"
+      }
     },
     {
       "id": 1169915899,
@@ -253,7 +252,11 @@
       ],
       "first_seen": "2026-11-08",
       "last_seen": "2026-11-08",
-      "issue": null
+      "issue": {
+        "number": 8,
+        "url": "https://github.com/luotianyi-community/awesome-luotianyi/issues/8",
+        "created_at": "2026-11-08"
+      }
     },
     {
       "id": 1420279806,
@@ -278,7 +281,11 @@
       ],
       "first_seen": "2026-11-08",
       "last_seen": "2026-11-08",
-      "issue": null
+      "issue": {
+        "number": 9,
+        "url": "https://github.com/luotianyi-community/awesome-luotianyi/issues/9",
+        "created_at": "2026-11-08"
+      }
     },
     {
       "id": 234353248,
@@ -305,7 +312,44 @@
       ],
       "first_seen": "2026-11-08",
       "last_seen": "2026-11-08",
-      "issue": null
+      "issue": {
+        "number": 10,
+        "url": "https://github.com/luotianyi-community/awesome-luotianyi/issues/10",
+        "created_at": "2026-11-08"
+      }
+    },
+    {
+      "id": 912703642,
+      "full_name": "Luotianyi-0712/Luotianyi-0712",
+      "desc": "my",
+      "stars": 0,
+      "language": null,
+      "pushed_at": "2026-11-08T08:48:01Z",
+      "archived": false,
+      "fork": false,
+      "score": 55,
+      "signals": [
+        "name:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog",
+        "radar"
+      ],
+      "evidence": [
+        "github-search",
+        "name:strong",
+        "readme:none",
+        "issue:1:Hi",
+        "pull-request:1:Hi"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": {
+        "number": 11,
+        "url": "https://github.com/luotianyi-community/awesome-luotianyi/issues/11",
+        "created_at": "2026-11-08"
+      }
     },
     {
       "id": 1288210315,
@@ -330,7 +374,11 @@
       ],
       "first_seen": "2026-11-08",
       "last_seen": "2026-11-08",
-      "issue": null
+      "issue": {
+        "number": 12,
+        "url": "https://github.com/luotianyi-community/awesome-luotianyi/issues/12",
+        "created_at": "2026-11-08"
+      }
     },
     {
       "id": 585931879,
@@ -357,7 +405,11 @@
       ],
       "first_seen": "2026-11-08",
       "last_seen": "2026-11-08",
-      "issue": null
+      "issue": {
+        "number": 13,
+        "url": "https://github.com/luotianyi-community/awesome-luotianyi/issues/13",
+        "created_at": "2026-11-08"
+      }
     },
     {
       "id": 588789400,
@@ -384,7 +436,11 @@
       ],
       "first_seen": "2026-11-08",
       "last_seen": "2026-11-08",
-      "issue": null
+      "issue": {
+        "number": 14,
+        "url": "https://github.com/luotianyi-community/awesome-luotianyi/issues/14",
+        "created_at": "2026-11-08"
+      }
     },
     {
       "id": 1405690235,
@@ -411,7 +467,11 @@
       ],
       "first_seen": "2026-11-08",
       "last_seen": "2026-11-08",
-      "issue": null
+      "issue": {
+        "number": 15,
+        "url": "https://github.com/luotianyi-community/awesome-luotianyi/issues/15",
+        "created_at": "2026-11-08"
+      }
     },
     {
       "id": 1245710321,
@@ -624,6 +684,33 @@
       "issue": null
     },
     {
+      "id": 1127217350,
+      "full_name": "Eiheir/Luo_Tianyi_Image",
+      "desc": "佬の美图",
+      "stars": 2,
+      "language": "JavaScript",
+      "pushed_at": "2026-11-03T11:08:36Z",
+      "archived": false,
+      "fork": false,
+      "score": 45,
+      "signals": [
+        "name:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "radar"
+      ],
+      "evidence": [
+        "commit:f77ca0e:Merge branch 'main' of https://github.com/Eiheir/Luo_Tianyi_",
+        "commit:10c107d:Initial commit: Luo Tianyi image collection",
+        "commit:f480537:Merge branch 'main' of https://github.com/Eiheir/Luo_Tianyi_",
+        "name:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
       "id": 1265907104,
       "full_name": "Jeffreyz8102/vsinger-live-track",
       "desc": "",
@@ -749,6 +836,31 @@
       "issue": null
     },
     {
+      "id": 261752391,
+      "full_name": "LIGHT-just/luotianyi.github.io",
+      "desc": "",
+      "stars": 0,
+      "language": "HTML",
+      "pushed_at": "2021-05-07T14:17:55Z",
+      "archived": false,
+      "fork": false,
+      "score": 45,
+      "signals": [
+        "name:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "radar"
+      ],
+      "evidence": [
+        "commit:6ddfbd5:luotianyi",
+        "name:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
       "id": 1432117491,
       "full_name": "Not-the-same/luotianyi",
       "desc": "",
@@ -768,6 +880,35 @@
       "evidence": [
         "github-search",
         "name:strong"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "issue": null
+    },
+    {
+      "id": 1353770565,
+      "full_name": "ourcx/luotianyi-ai-passport",
+      "desc": "洛天依 trae passport 小应用",
+      "stars": 1,
+      "language": "C",
+      "pushed_at": "2026-09-02T03:03:09Z",
+      "archived": false,
+      "fork": false,
+      "score": 45,
+      "signals": [
+        "name:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog",
+        "radar"
+      ],
+      "evidence": [
+        "github-search",
+        "description:strong",
+        "name:strong",
+        "readme:strong",
+        "commit:5366cf3:feat(player): add Luo Tianyi mini MV jukebox"
       ],
       "first_seen": "2026-11-08",
       "last_seen": "2026-11-08",
@@ -868,33 +1009,6 @@
       "evidence": [
         "github-search",
         "name:strong"
-      ],
-      "first_seen": "2026-11-08",
-      "last_seen": "2026-11-08",
-      "issue": null
-    },
-    {
-      "id": 912703642,
-      "full_name": "Luotianyi-0712/Luotianyi-0712",
-      "desc": "my",
-      "stars": 0,
-      "language": null,
-      "pushed_at": "2026-11-08T08:48:01Z",
-      "archived": false,
-      "fork": false,
-      "score": 43,
-      "signals": [
-        "name:strong",
-        "readme:none"
-      ],
-      "category_suggestion": "data-tools",
-      "sources": [
-        "catalog"
-      ],
-      "evidence": [
-        "github-search",
-        "name:strong",
-        "readme:none"
       ],
       "first_seen": "2026-11-08",
       "last_seen": "2026-11-08",
