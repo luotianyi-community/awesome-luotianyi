@@ -13,13 +13,13 @@
 </div>
 
 <!-- BEGIN:STATS -->
-**73 个仓库 · 9 个分类 · 数据更新于 2026-11-08**
+**74 个仓库 · 9 个分类 · 数据更新于 2026-11-08**
 
 | 分类 | 仓库数 |
 | --- | --- |
 | 🐱 桌面宠物与看板娘 | 8 |
 | 🎭 Live2D 模型与网页插件 | 7 |
-| 🗣️ 语音合成与对话 AI | 9 |
+| 🗣️ 语音合成与对话 AI | 10 |
 | 🎨 主题·美化·壁纸 | 10 |
 | 🧰 数据·知识库·工具链 | 12 |
 | 🎮 游戏·模组·硬件二创 | 13 |
@@ -27,7 +27,7 @@
 | 🌐 社区站点与周边服务 | 8 |
 | 📚 教程与文档 | 3 |
 
-**主要语言**：other (23) · Python (16) · JavaScript (11) · HTML (8) · TypeScript (4) · Java (3)
+**主要语言**：other (23) · Python (17) · JavaScript (11) · HTML (8) · TypeScript (4) · Java (3)
 <!-- END:STATS -->
 
 ## 目录
@@ -99,7 +99,7 @@
 - [luo-tian-yi/lty_ver](https://github.com/luo-tian-yi/lty_ver) `★1 · JavaScript` — 洛天依殿下包子铺ver2.0
 - [luo-tian-yi/lty](https://github.com/luo-tian-yi/lty) — 洛天依 Live2D 模型文件（洛天依殿下的包子铺）
 
-### 🗣️ 语音合成与对话 AI (9)
+### 🗣️ 语音合成与对话 AI (10)
 
 - [SheepLiu712/Agent-LuoTianyi](https://github.com/SheepLiu712/Agent-LuoTianyi) `★101 · Python` — 虚拟歌手洛天依（Luo Tianyi）智能对话Agent。
 - [xdedmmc2/GPT-SoVITS-Luo-Tianyi](https://github.com/xdedmmc2/GPT-SoVITS-Luo-Tianyi) `★24` — 让天依亲口说爱你！——基于GPT-SoVITS的一款模拟洛天依声线的语音生成模型
@@ -109,6 +109,7 @@
 - [Abc133123/LTYAI-Agent](https://github.com/Abc133123/LTYAI-Agent) `★1 · Python` — 洛天依AI基于现代AI技术制作的脚本 让你第一时间知道怎么实现LTYAI-ASI目标
 - [SamXiaoyiyuan/luotianyi-chatbot](https://github.com/SamXiaoyiyuan/luotianyi-chatbot) `★1 · Python` — 以 洛天依 身份陪你聊天的对话机器人： 原生 HTML / CSS / JavaScript 前端（用 axios 对接后端）+ FastAPI 后端（用 uv 管理依赖）+ DeepSeek 大模型 。
 - [YiGuMoYan/lty_agent](https://github.com/YiGuMoYan/lty_agent) `★1 · Python`
+- [luotianyi712-lab/luotianyi](https://github.com/luotianyi712-lab/luotianyi) `Python`
 - [xiaoluo-712/luotianyi-chat](https://github.com/xiaoluo-712/luotianyi-chat) `HTML` — 洛天依虚拟歌手聊天室（HTML 前端）
 
 ### 🎨 主题·美化·壁纸 (10)
