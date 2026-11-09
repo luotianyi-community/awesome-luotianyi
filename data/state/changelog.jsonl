@@ -177,3 +177,4 @@
 {"at":"2026-11-09T22:44:51Z","action":"catalog-scan","scanned":0,"queued":0,"excluded":0,"updated":0,"water":"2026-11-09"}
 {"at":"2026-11-09T22:45:03Z","action":"approve","repo":"YiGuMoYan/lty_agent","category":"tts-ai","issue":4,"actor":"IPF-Sinon"}
 {"at":"2026-11-09T22:45:18Z","action":"reject","repo":"himyjan/yt-vsinger-singer-disover","reason":"通用 VTuber 追踪平台，vsinger 仅作为检索关键词出现一次，非洛天依项目","issue":8,"actor":"IPF-Sinon"}
+{"at":"2026-11-09T22:50:35Z","action":"reject","repo":"YuxiangWang0525/luotianyi-anti-fan-publish-one","reason":"仅 70 字节 README 的“黑粉披露”临时站，无任何实质项目内容（重发：上次并发推送冲突未落库）","issue":3,"actor":"IPF-Sinon"}

@@ -2,35 +2,6 @@
   "version": 1,
   "entries": [
     {
-      "id": 368865182,
-      "full_name": "YuxiangWang0525/luotianyi-anti-fan-publish-one",
-      "language": null,
-      "pushed_at": "2021-05-19T12:43:20Z",
-      "archived": false,
-      "fork": false,
-      "score": 125,
-      "signals": [
-        "description:strong",
-        "name:strong",
-        "readme:strong"
-      ],
-      "category_suggestion": "data-tools",
-      "sources": [
-        "catalog"
-      ],
-      "evidence": [
-        "github-search",
-        "description:strong",
-        "name:strong",
-        "readme:strong"
-      ],
-      "first_seen": "2026-11-08",
-      "last_seen": "2026-11-08",
-      "issue": null,
-      "desc": "洛天依黑粉披露GitHub临时站",
-      "stars": 0
-    },
-    {
       "id": 395428512,
       "full_name": "yi-tytyty-tianyi-luotianyi-tianyi712/.Vsinger",
       "desc": "Vsinger",
