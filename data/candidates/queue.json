@@ -171,32 +171,6 @@
       "issue": null
     },
     {
-      "id": 1132127354,
-      "full_name": "YiGuMoYan/lty_agent",
-      "language": "Python",
-      "pushed_at": "2026-02-15T14:15:28Z",
-      "archived": false,
-      "fork": false,
-      "score": 56,
-      "signals": [
-        "readme:strong"
-      ],
-      "category_suggestion": "tts-ai",
-      "sources": [
-        "catalog"
-      ],
-      "evidence": [
-        "github-search",
-        "name:strong",
-        "readme:strong"
-      ],
-      "first_seen": "2026-11-08",
-      "last_seen": "2026-11-08",
-      "issue": null,
-      "desc": "",
-      "stars": 1
-    },
-    {
       "id": 1420279806,
       "full_name": "Yiying-P/VOCAL-Browser",
       "language": "HTML",

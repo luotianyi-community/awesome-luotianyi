@@ -793,6 +793,23 @@
       ]
     },
     {
+      "id": 1132127354,
+      "full_name": "YiGuMoYan/lty_agent",
+      "aliases": [],
+      "category": "tts-ai",
+      "desc": "",
+      "stars": 1,
+      "language": "Python",
+      "pushed_at": "2026-02-15T14:15:28Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-09",
+      "source": "issue:4",
+      "evidence": [
+        "issue:4 approved by IPF-Sinon"
+      ]
+    },
+    {
       "id": 1446351349,
       "full_name": "zb23333ww/koishi-plugin-vsinger-gacha",
       "aliases": [],
