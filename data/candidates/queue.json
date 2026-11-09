@@ -31,36 +31,6 @@
       "stars": 1
     },
     {
-      "id": 364659132,
-      "full_name": "luo-tian-yi/lty_ver",
-      "language": "JavaScript",
-      "pushed_at": "2021-05-05T17:43:46Z",
-      "archived": false,
-      "fork": false,
-      "score": 71,
-      "signals": [
-        "description:strong",
-        "owner:strong",
-        "readme:strong"
-      ],
-      "category_suggestion": "data-tools",
-      "sources": [
-        "catalog"
-      ],
-      "evidence": [
-        "github-search",
-        "description:strong",
-        "name:strong",
-        "readme:strong",
-        "owner:strong"
-      ],
-      "first_seen": "2026-11-08",
-      "last_seen": "2026-11-08",
-      "issue": null,
-      "desc": "洛天依殿下包子铺ver2.0",
-      "stars": 1
-    },
-    {
       "id": 1420279806,
       "full_name": "Yiying-P/VOCAL-Browser",
       "language": "HTML",

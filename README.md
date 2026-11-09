@@ -13,12 +13,12 @@
 </div>
 
 <!-- BEGIN:STATS -->
-**71 个仓库 · 9 个分类 · 数据更新于 2026-11-08**
+**72 个仓库 · 9 个分类 · 数据更新于 2026-11-08**
 
 | 分类 | 仓库数 |
 | --- | --- |
 | 🐱 桌面宠物与看板娘 | 8 |
-| 🎭 Live2D 模型与网页插件 | 6 |
+| 🎭 Live2D 模型与网页插件 | 7 |
 | 🗣️ 语音合成与对话 AI | 9 |
 | 🎨 主题·美化·壁纸 | 9 |
 | 🧰 数据·知识库·工具链 | 12 |
@@ -27,7 +27,7 @@
 | 🌐 社区站点与周边服务 | 8 |
 | 📚 教程与文档 | 3 |
 
-**主要语言**：other (23) · Python (16) · JavaScript (10) · HTML (7) · TypeScript (4) · Java (3)
+**主要语言**：other (23) · Python (16) · JavaScript (11) · HTML (7) · TypeScript (4) · Java (3)
 <!-- END:STATS -->
 
 ## 目录
@@ -89,13 +89,14 @@
 - [2024080911015/luotianyi_model](https://github.com/2024080911015/luotianyi_model) `★1 · HTML` — 一个可爱的洛天依桌面宠物应用，可以在Windows桌面上显示一个交互式的Q版洛天依。
 - [Maitokine/luotianyipet](https://github.com/Maitokine/luotianyipet) `★1 · JavaScript` — 洛天依桌面宠物 - Windows 桌面陪伴桌宠（Electron 二创，个人自用）
 
-### 🎭 Live2D 模型与网页插件 (6)
+### 🎭 Live2D 模型与网页插件 (7)
 
 - [unsignedzhang/luotianyi-live2d](https://github.com/unsignedzhang/luotianyi-live2d) `★26 · JavaScript` — 为你的博客或网站添加一个洛天依live2D看板娘
 - [x66ccff/lty-lv2d-v3](https://github.com/x66ccff/lty-lv2d-v3) `★16 · JavaScript` — 💙🩵LuoTianyi洛天依 v3 interactive mascot / Live2d widget for blog / 看板娘🩵💙
 - [luotianyi-dev/luotianyi-wordpress-librelive2d](https://github.com/luotianyi-dev/luotianyi-wordpress-librelive2d) `★4 · PHP` — 开源的 Wordpress Live2D 插件
 - [Aoi-Karlin/Luo_Tianyi_v6Accel](https://github.com/Aoi-Karlin/Luo_Tianyi_v6Accel) `★2` — 本仓库存储来自Azured的第六版洛天依人设。请自行取用。
 - [fyf-buaa/luotianyi-feicuishi](https://github.com/fyf-buaa/luotianyi-feicuishi) `★2` — 洛天依「翡翠石」Live2D 模型
+- [luo-tian-yi/lty_ver](https://github.com/luo-tian-yi/lty_ver) `★1 · JavaScript` — 洛天依殿下包子铺ver2.0
 - [luo-tian-yi/lty](https://github.com/luo-tian-yi/lty) — 洛天依 Live2D 模型文件（洛天依殿下的包子铺）
 
 ### 🗣️ 语音合成与对话 AI (9)

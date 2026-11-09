@@ -721,6 +721,23 @@
       ]
     },
     {
+      "id": 364659132,
+      "full_name": "luo-tian-yi/lty_ver",
+      "aliases": [],
+      "category": "live2d",
+      "desc": "洛天依殿下包子铺ver2.0",
+      "stars": 1,
+      "language": "JavaScript",
+      "pushed_at": "2021-05-05T17:43:46Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-09",
+      "source": "issue:1",
+      "evidence": [
+        "issue:1 approved by IPF-Sinon"
+      ]
+    },
+    {
       "id": 1406821155,
       "full_name": "Maitokine/luotianyipet",
       "aliases": [],
