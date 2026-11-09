@@ -2,33 +2,6 @@
   "version": 1,
   "entries": [
     {
-      "id": 395428512,
-      "full_name": "yi-tytyty-tianyi-luotianyi-tianyi712/.Vsinger",
-      "desc": "Vsinger",
-      "stars": 0,
-      "language": null,
-      "pushed_at": "2021-09-20T02:06:43Z",
-      "archived": false,
-      "fork": false,
-      "score": 85,
-      "signals": [
-        "description:strong",
-        "name:strong"
-      ],
-      "category_suggestion": "data-tools",
-      "sources": [
-        "catalog"
-      ],
-      "evidence": [
-        "github-search",
-        "description:strong",
-        "name:strong"
-      ],
-      "first_seen": "2026-11-08",
-      "last_seen": "2026-11-08",
-      "issue": null
-    },
-    {
       "id": 725060357,
       "full_name": "luotianyimiku/luotianyimiku.github.io",
       "language": "HTML",
