@@ -113,39 +113,6 @@
       "issue": null
     },
     {
-      "id": 912703642,
-      "full_name": "Luotianyi-0712/Luotianyi-0712",
-      "language": null,
-      "pushed_at": "2026-11-08T16:33:48Z",
-      "archived": false,
-      "fork": false,
-      "score": 55,
-      "signals": [
-        "name:strong"
-      ],
-      "category_suggestion": "data-tools",
-      "sources": [
-        "catalog",
-        "radar"
-      ],
-      "evidence": [
-        "github-search",
-        "name:strong",
-        "readme:none",
-        "issue:1:Hi",
-        "pull-request:1:Hi"
-      ],
-      "first_seen": "2026-11-08",
-      "last_seen": "2026-11-08",
-      "issue": {
-        "number": 16,
-        "url": "https://github.com/luotianyi-community/awesome-luotianyi/issues/16",
-        "created_at": "2026-11-08"
-      },
-      "desc": "my",
-      "stars": 0
-    },
-    {
       "id": 1288210315,
       "full_name": "luotianyi712-lab/luotianyi",
       "language": "Python",

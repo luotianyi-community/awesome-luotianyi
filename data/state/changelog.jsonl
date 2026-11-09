@@ -180,3 +180,4 @@
 {"at":"2026-11-09T22:50:35Z","action":"reject","repo":"YuxiangWang0525/luotianyi-anti-fan-publish-one","reason":"仅 70 字节 README 的“黑粉披露”临时站，无任何实质项目内容（重发：上次并发推送冲突未落库）","issue":3,"actor":"IPF-Sinon"}
 {"at":"2026-11-09T22:50:59Z","action":"reject","repo":"yi-tytyty-tianyi-luotianyi-tianyi712/.Vsinger","reason":"仓库仅有 LICENSE 一个文件，README 404，无代码、数据或素材（重发：上次并发推送冲突未落库）","issue":5,"actor":"IPF-Sinon"}
 {"at":"2026-11-09T22:51:17Z","action":"reject","repo":"luotianyimiku/luotianyimiku.github.io","reason":"站点为空壳 index.html，backup 内容为中学数据库，与洛天依无关（重发：上次并发推送冲突未落库）","issue":6,"actor":"IPF-Sinon"}
+{"at":"2026-11-09T22:51:41Z","action":"exclude","repo":"Luotianyi-0712/Luotianyi-0712","reason":"GitHub 个人资料仓库，仓库名为用户名而非主题（重发：上次并发推送冲突未落库）","issue":16,"actor":"IPF-Sinon"}
