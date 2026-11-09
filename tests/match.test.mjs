@@ -110,6 +110,27 @@ test('a strong term in the repo name is evidence even without a README', () => {
   assert.equal(result.verdict === 'queue' || result.verdict === 'issue', true, 'must stay reviewable, not excluded');
 });
 
+test('vsinger alone never opens an issue, only a queue slot', () => {
+  // 浠Mizuki and Japan's ななし律歌 both call themselves "Vsinger" with no Luo Tianyi link.
+  const result = evaluateRepo(
+    repo({ full_name: 'Miyuki1215/Miyuki1215.githhub.io', name: 'Miyuki1215.githhub.io', description: 'All about Mizuki --who is a Vsinger', topics: [] }),
+    DEFAULT_RULES,
+    { readme: 'All about Mizuki --who is a Vsinger', readmeChecked: true }
+  );
+  assert.equal(result.coreHits, 0);
+  assert.equal(result.verdict, 'queue');
+});
+
+test('an unambiguous term restores issue level', () => {
+  const result = evaluateRepo(
+    repo({ full_name: 'luo-tian-yi/lty_ver', name: 'lty_ver', description: '洛天依殿下包子铺ver2.0', topics: [] }),
+    DEFAULT_RULES,
+    { readme: '洛天依殿下包子铺ver2.0 live 2d文件', readmeChecked: true }
+  );
+  assert.ok(result.coreHits > 0);
+  assert.equal(result.verdict, 'issue');
+});
+
 test('owner-only match is never auto-listed as a candidate', () => {
   const result = evaluateRepo(
     repo({ full_name: 'lty-vsinger/escape', name: 'escape', description: '', topics: [] }),

@@ -12,6 +12,9 @@ export function escapeRegExp(text) {
 export const DEFAULT_RULES = {
   version: 1,
   terms: {
+    // "core" terms unambiguously identify Luo Tianyi. "vsinger" alone does not: it is also
+    // a generic word for any virtual singer and a Japanese talent label (浠Mizuki, ななし律歌).
+    core: ['洛天依', '樂天依', '天依', 'luotianyi', 'luo tian yi', 'luo tianyi', 'tianyicraft'],
     strong: ['洛天依', '樂天依', '天依', 'luotianyi', 'luo tian yi', 'luo tianyi', 'tianyicraft', 'vsinger', 'lty'],
     weak: ['vocaloid', '虚拟歌手', '虚拟歌姬', '中文v家', '乐正绫', '言和', '声库', 'voicebank', 'utau', 'tianyi'],
     negative: ['vtuber', 'company', 'api evangelist', 'chat2api', 'one api']
@@ -218,6 +221,9 @@ export function evaluateRepo(repo, rules, extra) {
     signals.push('negative');
   }
 
+  const coreTerms = cfg.terms.core || [];
+  const coreHits = countHits(nameText + ' ' + descriptionText + ' ' + topicsText + ' ' + readmeText, coreTerms);
+
   const contentHits = descStrong + topicStrong + readmeStrong;
   const hasContentSignal = contentHits + descWeak + readmeWeak + cjkOnly(descriptionText, cfg.terms.strong).length > 0;
 
@@ -239,7 +245,8 @@ export function evaluateRepo(repo, rules, extra) {
     hasContentSignal,
     contentHits,
     negativeHits,
-    verdict: classify(repo, { score, nameCollision, contentHits, negativeHits, inspected, nameHit }),
+    coreHits,
+    verdict: classify(repo, { score, nameCollision, contentHits, negativeHits, inspected, nameHit, coreHits }),
     detail: { nameStrong, ownerStrong, descStrong, descWeak, topicStrong, topicWeak, readmeStrong, readmeWeak }
   };
 }
@@ -253,7 +260,9 @@ function classify(repo, state) {
   const evidenced = state.contentHits > 0 || state.nameHit > 0;
   // Opening an issue costs a maintainer's attention, so it needs real textual evidence
   // (description / topics / README). A promising name alone only earns a queue slot.
-  if (state.score >= 55 && state.contentHits > 0) return 'issue';
+  // It also needs an unambiguous term: "vsinger" alone describes any virtual singer and
+  // would surface unrelated VTubers, so it can only lift a repo into the queue.
+  if (state.score >= 55 && state.contentHits > 0 && state.coreHits > 0) return 'issue';
   if (state.score >= 30 && evidenced) return 'queue';
   return 'low';
 }
