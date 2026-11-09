@@ -183,3 +183,4 @@
 {"at":"2026-11-09T22:51:41Z","action":"exclude","repo":"Luotianyi-0712/Luotianyi-0712","reason":"GitHub 个人资料仓库，仓库名为用户名而非主题（重发：上次并发推送冲突未落库）","issue":16,"actor":"IPF-Sinon"}
 {"at":"2026-11-09T22:52:04Z","action":"reject","repo":"Miyuki1215/Miyuki1215.githhub.io","reason":"台湾 VTuber 浠Mizuki 的个人主页，Vsinger 此处为虚拟歌手泛称（重发：上次并发推送冲突未落库）","issue":18,"actor":"IPF-Sinon"}
 {"at":"2026-11-09T22:53:31Z","action":"approve","repo":"luo-tian-yi/lty_ver","category":"live2d","issue":1,"actor":"IPF-Sinon"}
+{"at":"2026-11-09T22:53:51Z","action":"approve","repo":"Yiying-P/VOCAL-Browser","category":"theme-skin","issue":9,"actor":"IPF-Sinon"}

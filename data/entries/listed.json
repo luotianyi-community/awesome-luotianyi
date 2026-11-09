@@ -1223,6 +1223,23 @@
       "desc": "这是一个用于存放洛天依相关图片的图床仓库，方便统一管理和引用素材。"
     },
     {
+      "id": 1420279806,
+      "full_name": "Yiying-P/VOCAL-Browser",
+      "aliases": [],
+      "category": "theme-skin",
+      "desc": "VOCAL-Browser",
+      "stars": 0,
+      "language": "HTML",
+      "pushed_at": "2026-10-15T07:53:01Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-09",
+      "source": "issue:9",
+      "evidence": [
+        "issue:9 approved by IPF-Sinon"
+      ]
+    },
+    {
       "id": 834191305,
       "full_name": "yumuq/Luo-Tianyi",
       "aliases": [],

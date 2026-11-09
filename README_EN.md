@@ -13,21 +13,21 @@
 </div>
 
 <!-- BEGIN:STATS -->
-**72 repositories · 9 categories · data updated 2026-11-08**
+**73 repositories · 9 categories · data updated 2026-11-08**
 
 | Category | Repos |
 | --- | --- |
 | 🐱 Desktop Pets & Mascots | 8 |
 | 🎭 Live2D Models & Widgets | 7 |
 | 🗣️ TTS & Conversational AI | 9 |
-| 🎨 Themes, Skins & Wallpapers | 9 |
+| 🎨 Themes, Skins & Wallpapers | 10 |
 | 🧰 Data, Wiki & Tooling | 12 |
 | 🎮 Games, Mods & Hardware Art | 13 |
 | 🎵 Audio, Sheets & Creative Assets | 3 |
 | 🌐 Community Sites & Services | 8 |
 | 📚 Docs & Tutorials | 3 |
 
-**Primary languages**：other (23) · Python (16) · JavaScript (11) · HTML (7) · TypeScript (4) · Java (3)
+**Primary languages**：other (23) · Python (16) · JavaScript (11) · HTML (8) · TypeScript (4) · Java (3)
 <!-- END:STATS -->
 
 ## Contents
@@ -111,7 +111,7 @@ Bonuses: a README, a LICENSE, a commit within the last 12 months, stars ≥ 3.
 - [YiGuMoYan/lty_agent](https://github.com/YiGuMoYan/lty_agent) `★1 · Python`
 - [xiaoluo-712/luotianyi-chat](https://github.com/xiaoluo-712/luotianyi-chat) `HTML` — 洛天依虚拟歌手聊天室（HTML 前端）
 
-### 🎨 Themes, Skins & Wallpapers (9)
+### 🎨 Themes, Skins & Wallpapers (10)
 
 - [LazyCreeper/LuoTianyi](https://github.com/LazyCreeper/LuoTianyi) `★32 · CSS` — 该主题基于宝塔Linux面板 8.0.4 制作。
 - [1a57danc3/chrome-luotianyi-theme](https://github.com/1a57danc3/chrome-luotianyi-theme) `★13` — Chrome 擴展商店的舊版本不再更新, 我也想上傳到官方平臺， 可惜註冊費用太貴算了。。。
@@ -120,6 +120,7 @@ Bonuses: a README, a LICENSE, a commit within the last 12 months, stars ≥ 3.
 - [hiluoxiaohe/luo-tianyi-sddm-login](https://github.com/hiluoxiaohe/luo-tianyi-sddm-login) `QML` — Luo Tianyi theme for SDDM (Qt6)
 - [HuTao71566/dsh-skin-tianyi-azure](https://github.com/HuTao71566/dsh-skin-tianyi-azure) `JavaScript` — DeepSeek Harness洛天依皮肤
 - [J-SLY/LuoTianyi](https://github.com/J-SLY/LuoTianyi) — 洛天依概念表盘（Wear OS）
+- [Yiying-P/VOCAL-Browser](https://github.com/Yiying-P/VOCAL-Browser) `HTML` — VOCAL-Browser
 - [YuxiangWang0525/luotianyi-PCL2-Theme-Pack](https://github.com/YuxiangWang0525/luotianyi-PCL2-Theme-Pack) — 洛天依主题的 PCL2 启动器特别版主题包
 - [Zenflash233/luotianyi-10th-grub-theme](https://github.com/Zenflash233/luotianyi-10th-grub-theme) — 洛天依 10 周年纪念 GRUB 主题: 光与影的对白
 

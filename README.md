@@ -13,21 +13,21 @@
 </div>
 
 <!-- BEGIN:STATS -->
-**72 个仓库 · 9 个分类 · 数据更新于 2026-11-08**
+**73 个仓库 · 9 个分类 · 数据更新于 2026-11-08**
 
 | 分类 | 仓库数 |
 | --- | --- |
 | 🐱 桌面宠物与看板娘 | 8 |
 | 🎭 Live2D 模型与网页插件 | 7 |
 | 🗣️ 语音合成与对话 AI | 9 |
-| 🎨 主题·美化·壁纸 | 9 |
+| 🎨 主题·美化·壁纸 | 10 |
 | 🧰 数据·知识库·工具链 | 12 |
 | 🎮 游戏·模组·硬件二创 | 13 |
 | 🎵 音频·乐谱·创作素材 | 3 |
 | 🌐 社区站点与周边服务 | 8 |
 | 📚 教程与文档 | 3 |
 
-**主要语言**：other (23) · Python (16) · JavaScript (11) · HTML (7) · TypeScript (4) · Java (3)
+**主要语言**：other (23) · Python (16) · JavaScript (11) · HTML (8) · TypeScript (4) · Java (3)
 <!-- END:STATS -->
 
 ## 目录
@@ -111,7 +111,7 @@
 - [YiGuMoYan/lty_agent](https://github.com/YiGuMoYan/lty_agent) `★1 · Python`
 - [xiaoluo-712/luotianyi-chat](https://github.com/xiaoluo-712/luotianyi-chat) `HTML` — 洛天依虚拟歌手聊天室（HTML 前端）
 
-### 🎨 主题·美化·壁纸 (9)
+### 🎨 主题·美化·壁纸 (10)
 
 - [LazyCreeper/LuoTianyi](https://github.com/LazyCreeper/LuoTianyi) `★32 · CSS` — 该主题基于宝塔Linux面板 8.0.4 制作。
 - [1a57danc3/chrome-luotianyi-theme](https://github.com/1a57danc3/chrome-luotianyi-theme) `★13` — Chrome 擴展商店的舊版本不再更新, 我也想上傳到官方平臺， 可惜註冊費用太貴算了。。。
@@ -120,6 +120,7 @@
 - [hiluoxiaohe/luo-tianyi-sddm-login](https://github.com/hiluoxiaohe/luo-tianyi-sddm-login) `QML` — Luo Tianyi theme for SDDM (Qt6)
 - [HuTao71566/dsh-skin-tianyi-azure](https://github.com/HuTao71566/dsh-skin-tianyi-azure) `JavaScript` — DeepSeek Harness洛天依皮肤
 - [J-SLY/LuoTianyi](https://github.com/J-SLY/LuoTianyi) — 洛天依概念表盘（Wear OS）
+- [Yiying-P/VOCAL-Browser](https://github.com/Yiying-P/VOCAL-Browser) `HTML` — VOCAL-Browser
 - [YuxiangWang0525/luotianyi-PCL2-Theme-Pack](https://github.com/YuxiangWang0525/luotianyi-PCL2-Theme-Pack) — 洛天依主题的 PCL2 启动器特别版主题包
 - [Zenflash233/luotianyi-10th-grub-theme](https://github.com/Zenflash233/luotianyi-10th-grub-theme) — 洛天依 10 周年纪念 GRUB 主题: 光与影的对白
 

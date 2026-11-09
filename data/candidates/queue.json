@@ -31,31 +31,6 @@
       "stars": 1
     },
     {
-      "id": 1420279806,
-      "full_name": "Yiying-P/VOCAL-Browser",
-      "language": "HTML",
-      "pushed_at": "2026-10-15T07:53:01Z",
-      "archived": false,
-      "fork": false,
-      "score": 56,
-      "signals": [
-        "readme:strong"
-      ],
-      "category_suggestion": "data-tools",
-      "sources": [
-        "catalog"
-      ],
-      "evidence": [
-        "github-search",
-        "readme:strong"
-      ],
-      "first_seen": "2026-11-08",
-      "last_seen": "2026-11-08",
-      "issue": null,
-      "desc": "VOCAL-Browser",
-      "stars": 0
-    },
-    {
       "id": 234353248,
       "full_name": "hanshirong/vsinger1.0",
       "desc": "a vsinger project use angular",
