@@ -20,8 +20,9 @@ permissions:
   contents: write
   issues: write
 
+# Shared with every other workflow that pushes to main, so commits serialise.
 concurrency:
-  group: radar
+  group: repo-write
   cancel-in-progress: false
 
 jobs:
@@ -126,4 +127,20 @@ jobs:
           fi
           STAMP="$(date -u +%Y-%m-%d)"
           git commit -m "chore(radar): update state ${STAMP} [skip ci]"
-          git push
+          # Another workflow may have committed between checkout and push; rebase and retry
+          # rather than failing the whole decision. Data files are regenerated, so on a
+          # conflict we keep this run's version and re-apply it on top.
+          for attempt in 1 2 3 4 5; do
+            if git push; then exit 0; fi
+            echo "push rejected, retrying (attempt ${attempt})"
+            git fetch origin main
+            git rebase --abort 2>/dev/null || true
+            git -c rebase.autoStash=true pull --rebase --no-edit origin main || {
+              git checkout --theirs -- data 2>/dev/null || true
+              git add -A -- data
+              GIT_EDITOR=true git rebase --continue || git rebase --abort || true
+            }
+            sleep $((attempt * 5))
+          done
+          echo 'push failed after retries'
+          exit 1
