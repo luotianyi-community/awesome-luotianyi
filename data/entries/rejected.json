@@ -146,6 +146,14 @@
       "issue": null
     },
     {
+      "id": 725060357,
+      "full_name": "luotianyimiku/luotianyimiku.github.io",
+      "reason": "站点为空壳 index.html，backup 内容为中学数据库，与洛天依无关（重发：上次并发推送冲突未落库）",
+      "by": "IPF-Sinon",
+      "at": "2026-11-09",
+      "issue": null
+    },
+    {
       "id": 585931879,
       "full_name": "lytCNAORevision2018/Python_Learning_Examples_Based_on_Vsingers",
       "reason": "仅以 Vsinger 作为编程练习背景，非洛天依主题项目",
