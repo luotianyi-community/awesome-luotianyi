@@ -144,33 +144,6 @@
       "stars": 1
     },
     {
-      "id": 1169915899,
-      "full_name": "himyjan/yt-vsinger-singer-disover",
-      "desc": "yt song disover",
-      "stars": 6,
-      "language": "TypeScript",
-      "pushed_at": "2026-11-08T09:57:36Z",
-      "archived": false,
-      "fork": false,
-      "score": 70,
-      "signals": [
-        "name:strong",
-        "readme:strong"
-      ],
-      "category_suggestion": "data-tools",
-      "sources": [
-        "catalog"
-      ],
-      "evidence": [
-        "github-search",
-        "name:strong",
-        "readme:strong"
-      ],
-      "first_seen": "2026-11-08",
-      "last_seen": "2026-11-08",
-      "issue": null
-    },
-    {
       "id": 1420279806,
       "full_name": "Yiying-P/VOCAL-Browser",
       "language": "HTML",

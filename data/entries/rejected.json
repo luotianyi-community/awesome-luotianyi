@@ -58,6 +58,14 @@
       "issue": null
     },
     {
+      "id": 1169915899,
+      "full_name": "himyjan/yt-vsinger-singer-disover",
+      "reason": "通用 VTuber 追踪平台，vsinger 仅作为检索关键词出现一次，非洛天依项目",
+      "by": "IPF-Sinon",
+      "at": "2026-11-09",
+      "issue": null
+    },
+    {
       "id": 691397867,
       "full_name": "hyrious/palette",
       "reason": "通用颜色工具集，仅 README 提及洛天依配色",
