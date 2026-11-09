@@ -142,37 +142,6 @@
       "stars": 0
     },
     {
-      "id": 588789400,
-      "full_name": "Miyuki1215/Miyuki1215.githhub.io",
-      "desc": "All about Mizuki --who is a Vsinger",
-      "stars": 0,
-      "language": "HTML",
-      "pushed_at": "2023-01-14T02:42:00Z",
-      "archived": false,
-      "fork": false,
-      "score": 55,
-      "signals": [
-        "description:strong",
-        "readme:strong"
-      ],
-      "category_suggestion": "data-tools",
-      "sources": [
-        "catalog"
-      ],
-      "evidence": [
-        "github-search",
-        "description:strong",
-        "readme:strong"
-      ],
-      "first_seen": "2026-11-08",
-      "last_seen": "2026-11-08",
-      "issue": {
-        "number": 18,
-        "url": "https://github.com/luotianyi-community/awesome-luotianyi/issues/18",
-        "created_at": "2026-11-08"
-      }
-    },
-    {
       "id": 1245710321,
       "full_name": "AR-Vidal/Vsinger-Studio",
       "desc": "",
