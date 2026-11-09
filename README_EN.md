@@ -96,7 +96,7 @@ Bonuses: a README, a LICENSE, a commit within the last 12 months, stars ≥ 3.
 - [luotianyi-dev/luotianyi-wordpress-librelive2d](https://github.com/luotianyi-dev/luotianyi-wordpress-librelive2d) `★4 · PHP` — 开源的 Wordpress Live2D 插件
 - [Aoi-Karlin/Luo_Tianyi_v6Accel](https://github.com/Aoi-Karlin/Luo_Tianyi_v6Accel) `★2` — 本仓库存储来自Azured的第六版洛天依人设。请自行取用。
 - [fyf-buaa/luotianyi-feicuishi](https://github.com/fyf-buaa/luotianyi-feicuishi) `★2` — 洛天依「翡翠石」Live2D 模型
-- [luo-tian-yi/lty_ver](https://github.com/luo-tian-yi/lty_ver) `★1 · JavaScript` — 洛天依殿下包子铺ver2.0
+- [luo-tian-yi/lty_ver](https://github.com/luo-tian-yi/lty_ver) `★1 · JavaScript` — 洛天依殿下包子铺 ver2.0 · Live2D 模型文件
 - [luo-tian-yi/lty](https://github.com/luo-tian-yi/lty) — 洛天依 Live2D 模型文件（洛天依殿下的包子铺）
 
 ### 🗣️ TTS & Conversational AI (10)
@@ -108,8 +108,8 @@ Bonuses: a README, a LICENSE, a commit within the last 12 months, stars ≥ 3.
 - [Kevin14827/LuoTianyi-TTS](https://github.com/Kevin14827/LuoTianyi-TTS) `★2 · Python` — 基于 GPT-SoVITS v2Pro 微调的洛天依语音合成模型，权重见 Releases
 - [Abc133123/LTYAI-Agent](https://github.com/Abc133123/LTYAI-Agent) `★1 · Python` — 洛天依AI基于现代AI技术制作的脚本 让你第一时间知道怎么实现LTYAI-ASI目标
 - [SamXiaoyiyuan/luotianyi-chatbot](https://github.com/SamXiaoyiyuan/luotianyi-chatbot) `★1 · Python` — 以 洛天依 身份陪你聊天的对话机器人： 原生 HTML / CSS / JavaScript 前端（用 axios 对接后端）+ FastAPI 后端（用 uv 管理依赖）+ DeepSeek 大模型 。
-- [YiGuMoYan/lty_agent](https://github.com/YiGuMoYan/lty_agent) `★1 · Python`
-- [luotianyi712-lab/luotianyi](https://github.com/luotianyi712-lab/luotianyi) `Python`
+- [YiGuMoYan/lty_agent](https://github.com/YiGuMoYan/lty_agent) `★1 · Python` — 洛天依 LTY-Omni-Agent：专为洛天依 IP 打造的 Agentic RAG 对话系统，知识图谱 + Qdrant 向量库 + DeepSearch 多跳推理，支持情感陪伴／知识检索双模式、流式 TTS 与 Live2D 动作驱动
+- [luotianyi712-lab/luotianyi](https://github.com/luotianyi712-lab/luotianyi) `Python` — Flask + 通义千问构建的洛天依人格对话应用，内置分层人设提示词（语言风格／性格行为），带本地记忆存储
 - [xiaoluo-712/luotianyi-chat](https://github.com/xiaoluo-712/luotianyi-chat) `HTML` — 洛天依虚拟歌手聊天室（HTML 前端）
 
 ### 🎨 Themes, Skins & Wallpapers (10)
@@ -121,7 +121,7 @@ Bonuses: a README, a LICENSE, a commit within the last 12 months, stars ≥ 3.
 - [hiluoxiaohe/luo-tianyi-sddm-login](https://github.com/hiluoxiaohe/luo-tianyi-sddm-login) `QML` — Luo Tianyi theme for SDDM (Qt6)
 - [HuTao71566/dsh-skin-tianyi-azure](https://github.com/HuTao71566/dsh-skin-tianyi-azure) `JavaScript` — DeepSeek Harness洛天依皮肤
 - [J-SLY/LuoTianyi](https://github.com/J-SLY/LuoTianyi) — 洛天依概念表盘（Wear OS）
-- [Yiying-P/VOCAL-Browser](https://github.com/Yiying-P/VOCAL-Browser) `HTML` — VOCAL-Browser
+- [Yiying-P/VOCAL-Browser](https://github.com/Yiying-P/VOCAL-Browser) `HTML` — 洛天依主题的轻量级 Electron 浏览器：天依蓝 #66ccff 主题 UI，多标签／书签／下载管理，新标签页为洛天依壁纸，提供 Windows MSI 安装包
 - [YuxiangWang0525/luotianyi-PCL2-Theme-Pack](https://github.com/YuxiangWang0525/luotianyi-PCL2-Theme-Pack) — 洛天依主题的 PCL2 启动器特别版主题包
 - [Zenflash233/luotianyi-10th-grub-theme](https://github.com/Zenflash233/luotianyi-10th-grub-theme) — 洛天依 10 周年纪念 GRUB 主题: 光与影的对白
 
