@@ -671,7 +671,7 @@
       "full_name": "duoduoeeee/hbv",
       "aliases": [],
       "category": "community-site",
-      "desc": "Says happy birthday automatically to Luo Tianyi and Yan He, two of the most popular Chinese Vocaloid singers",
+      "desc": "洛天依与言和生日自动祝福脚本：在指定日期自动向网页插入生日元素，引一行 JS 即可使用",
       "stars": 1,
       "language": "JavaScript",
       "pushed_at": "2017-11-28T18:39:20Z",

@@ -168,7 +168,7 @@
 - [tianyi-fanclub/tianyi-birthday-countdown](https://github.com/tianyi-fanclub/tianyi-birthday-countdown) `★4 · CSS` — 这是洛天依饭制 生日会倒计时🎂 网站。
 - [Drigrow/120712](https://github.com/Drigrow/120712) `★2 · HTML` — A website for Luo Tianyi
 - [yunmianY/luotianyi_blog](https://github.com/yunmianY/luotianyi_blog) `★2 · Vue` — 关于洛天依的fastapi，vue3,mysql的博客
-- [duoduoeeee/hbv](https://github.com/duoduoeeee/hbv) `★1 · JavaScript` — Says happy birthday automatically to Luo Tianyi and Yan He, two of the most popular Chinese Vocaloid singers
+- [duoduoeeee/hbv](https://github.com/duoduoeeee/hbv) `★1 · JavaScript` — 洛天依与言和生日自动祝福脚本：在指定日期自动向网页插入生日元素，引一行 JS 即可使用
 - [qqwqqk/Vocaloid.github.io](https://github.com/qqwqqk/Vocaloid.github.io) `★1 · TypeScript` — vsinger music player
 - [2362371984/luotianyi-website](https://github.com/2362371984/luotianyi-website) `HTML` — 洛天依主题网站页面改动方案与修改版页面（含 index.html 与修改脚本）
 - [fzr110911G/luotianyi](https://github.com/fzr110911G/luotianyi) `HTML` — 洛天依介绍页（HTML 静态站）

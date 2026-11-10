@@ -46,6 +46,11 @@ async function main() {
   const root = path.resolve(args.root || process.cwd());
   const registry = loadRegistry(root);
   const dryRun = !!args['dry-run'];
+  // Replay mode: the decision was already announced (issue closed, label added, comment
+  // posted) but the push lost a race against another writer. Re-running the data step on
+  // top of the new origin/main must not repeat those side effects.
+  const replay = !!args.replay || process.env.TRIAGE_REPLAY === '1';
+  const announce = !dryRun && !replay;
   const repoPath = args.repo || process.env.GITHUB_REPOSITORY || 'luotianyi-community/awesome-luotianyi';
   const token = args.token || process.env.GITHUB_TOKEN;
   if (!token) throw new Error('GITHUB_TOKEN required');
@@ -96,7 +101,7 @@ async function main() {
 
   if (known && (known.status === 'listed' || known.status === 'rejected') && !args.force) {
     const note = '该仓库已在名单中（状态 ' + bt(known.status) + '），本次命令被忽略。';
-    if (!dryRun) await client.createComment(repoPath, number, note);
+    if (announce) await client.createComment(repoPath, number, note);
     console.log(JSON.stringify({ skipped: true, reason: 'already in registry', status: known.status }));
     return;
   }
@@ -105,7 +110,7 @@ async function main() {
     const category = decision.argument || 'data-tools';
     if (!taxonomyIds.has(category)) {
       const note = '未知分类 ' + bt(category) + '。可用分类：' + Array.from(taxonomyIds).join(' / ');
-      if (!dryRun) await client.createComment(repoPath, number, note);
+      if (announce) await client.createComment(repoPath, number, note);
       console.log(JSON.stringify({ skipped: true, reason: 'unknown category', category }));
       return;
     }
@@ -113,10 +118,12 @@ async function main() {
     upsertListed(registry, repo, category, { source: 'issue:' + number, evidence: ['issue:' + number + ' approved by ' + decision.login] });
     if (!dryRun) {
       saveRegistry(registry, { dryRun });
+      logChange(registry, { action: 'approve', repo: repo.full_name, category, issue: number, actor: decision.login }, { dryRun });
+    }
+    if (announce) {
       await client.updateIssue(repoPath, number, { state: 'closed', state_reason: 'completed' });
       await client.addLabels(repoPath, number, ['approved']);
       await client.createComment(repoPath, number, '已收录到分类 ' + bt(category) + '，由 @' + decision.login + ' 批准。README 将在下次渲染时更新。');
-      logChange(registry, { action: 'approve', repo: repo.full_name, category, issue: number, actor: decision.login }, { dryRun });
     }
     summary.category = category;
   } else if (decision.action === 'reject') {
@@ -125,10 +132,12 @@ async function main() {
     upsertRejected(registry, record, reason, decision.login);
     if (!dryRun) {
       saveRegistry(registry, { dryRun });
+      logChange(registry, { action: 'reject', repo: record.full_name, reason, issue: number, actor: decision.login }, { dryRun });
+    }
+    if (announce) {
       await client.updateIssue(repoPath, number, { state: 'closed', state_reason: 'not_planned' });
       await client.addLabels(repoPath, number, ['rejected']);
       await client.createComment(repoPath, number, '已永久否决：' + reason + '（由 @' + decision.login + '）。该仓库不会被自动化再次提出。');
-      logChange(registry, { action: 'reject', repo: record.full_name, reason, issue: number, actor: decision.login }, { dryRun });
     }
     summary.reason = reason;
   } else if (decision.action === 'exclude') {
@@ -137,10 +146,12 @@ async function main() {
     upsertExcluded(registry, record, reason);
     if (!dryRun) {
       saveRegistry(registry, { dryRun });
+      logChange(registry, { action: 'exclude', repo: record.full_name, reason, issue: number, actor: decision.login }, { dryRun });
+    }
+    if (announce) {
       await client.updateIssue(repoPath, number, { state: 'closed', state_reason: 'not_planned' });
       await client.addLabels(repoPath, number, ['excluded']);
       await client.createComment(repoPath, number, '已排除：' + reason + '（由 @' + decision.login + '）。');
-      logChange(registry, { action: 'exclude', repo: record.full_name, reason, issue: number, actor: decision.login }, { dryRun });
     }
     summary.reason = reason;
   }

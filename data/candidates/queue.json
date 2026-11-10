@@ -2,35 +2,6 @@
   "version": 1,
   "entries": [
     {
-      "id": 112372290,
-      "full_name": "duoduoeeee/hbv",
-      "language": "JavaScript",
-      "pushed_at": "2017-11-28T18:39:20Z",
-      "archived": false,
-      "fork": false,
-      "score": 77,
-      "signals": [
-        "description:strong",
-        "description:weak",
-        "readme:strong"
-      ],
-      "category_suggestion": "data-tools",
-      "sources": [
-        "catalog"
-      ],
-      "evidence": [
-        "github-search",
-        "description:strong",
-        "description:weak",
-        "readme:strong"
-      ],
-      "first_seen": "2026-11-08",
-      "last_seen": "2026-11-08",
-      "issue": null,
-      "desc": "Says happy birthday automatically to Luo Tianyi and Yan He, two of the most popular Chinese Vocaloid singers",
-      "stars": 1
-    },
-    {
       "id": 1245710321,
       "full_name": "AR-Vidal/Vsinger-Studio",
       "desc": "",

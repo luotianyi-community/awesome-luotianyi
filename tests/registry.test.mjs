@@ -92,6 +92,20 @@ test('dry run does not touch the filesystem', () => {
   assert.equal(fs.existsSync(path.join(dir, 'data/entries/listed.json')), false);
 });
 
+test('approving a queued repo removes it from the queue', () => {
+  // Regression: a later workflow run merged an older queue snapshot and resurrected the
+  // row, so the same repo was both listed and pending review. The queue must never hold
+  // an id that is already in a terminal list.
+  const dir = fixture();
+  const registry = loadRegistry(dir);
+  registry.queue.entries.push({ id: 7, full_name: 'q/candidate', score: 60, evidence: [], sources: ['catalog'] });
+  upsertListed(registry, repo(7, 'q/candidate'), 'desktop-pet', {});
+  saveRegistry(registry, {});
+  const saved = JSON.parse(fs.readFileSync(path.join(dir, 'data/candidates/queue.json'), 'utf8'));
+  assert.deepEqual(saved.entries, []);
+  assert.equal(saved.entries.some((entry) => entry.full_name === 'q/candidate'), false);
+});
+
 test('queue deduplicates by id and merges evidence', () => {
   const dir = fixture();
   const registry = loadRegistry(dir);

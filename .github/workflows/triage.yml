@@ -71,20 +71,32 @@ jobs:
             echo "暂存区为空，跳过提交"
             exit 0
           fi
-          git commit -m "chore(triage): apply decision for #${ISSUE_NUMBER} [skip ci]"
-          # Another workflow may have committed between checkout and push; rebase and retry
-          # rather than failing the whole decision. Data files are regenerated, so on a
-          # conflict we keep this run's version and re-apply it on top.
           for attempt in 1 2 3 4 5; do
+            git commit -q -m "chore(triage): apply decision for #${ISSUE_NUMBER} [skip ci]" || true
             if git push; then exit 0; fi
-            echo "push rejected, retrying (attempt ${attempt})"
+
+            # Another writer reached main first. Merging the two JSON files by hand would
+            # resurrect stale rows: an approve that dropped a queue entry can be undone by
+            # an older snapshot winning a conflict. So throw this attempt away, take the
+            # new origin/main as the baseline, and re-apply the very same decision on top
+            # of it. The decision is a pure function of (issue, comment, registry), so
+            # replaying it is both safe and idempotent.
+            echo "push rejected, reapplying the decision on top of origin/main (attempt ${attempt})"
             git fetch origin main
-            git rebase --abort 2>/dev/null || true
-            git -c rebase.autoStash=true pull --rebase --no-edit origin main || {
-              git checkout --theirs -- data 2>/dev/null || true
-              git add -A -- data
-              GIT_EDITOR=true git rebase --continue || git rebase --abort || true
+            git reset --hard origin/main
+            TRIAGE_REPLAY=1 ISSUE_NUMBER="${ISSUE_NUMBER}" node scripts/triage-issue.mjs || {
+              echo "重放失败，保留上次提交"
+              exit 1
             }
+            node scripts/render-readme.mjs
+            node scripts/validate.mjs
+            git add -A -- data
+            if [ -f README.md ]; then git add -- README.md; fi
+            if [ -f README_EN.md ]; then git add -- README_EN.md; fi
+            if git diff --cached --quiet; then
+              echo "重放后无改动，其他运行已包含本次裁决"
+              exit 0
+            fi
             sleep $((attempt * 5))
           done
           echo 'push failed after retries'
