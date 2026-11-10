@@ -193,3 +193,6 @@
 {"at":"2026-11-10T00:42:33Z","action":"exclude","repo":"D-6CF-X/vmap","id":1452018320,"reason":"empty repository","actor":"automation"}
 {"at":"2026-11-10T00:42:34Z","action":"catalog-scan","scanned":4,"queued":0,"excluded":1,"updated":0,"water":"2026-11-10"}
 {"at":"2026-11-10T00:56:30Z","action":"catalog-scan","scanned":0,"queued":0,"excluded":0,"updated":0,"water":"2026-11-10"}
+{"at":"2026-11-10T02:10:48Z","action":"exclude","repo":"drakecatherine657/dra","id":1452078378,"reason":"empty","actor":"automation"}
+{"at":"2026-11-10T02:10:51Z","action":"exclude","repo":"lijoseph676/lij","id":1452060042,"reason":"empty","actor":"automation"}
+{"at":"2026-11-10T02:10:53Z","action":"radar-scan","scanned":36,"queued":0,"excluded":2,"skipped":34,"watermark":"2026-11-10"}
