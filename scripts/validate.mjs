@@ -54,11 +54,22 @@ function main() {
   }
 
   const queueIds = new Set();
+  // A repo in a terminal state must never reappear in the queue. Checking only listed
+  // let an excluded repo be enqueued again, so it sat in two states at once and could
+  // be approved despite having been deliberately kept out.
+  const terminalNames = new Map();
+  for (const status of ['listed', 'excluded', 'rejected']) {
+    for (const entry of listFor(registry, status)) {
+      if (entry.full_name) terminalNames.set(String(entry.full_name).toLowerCase(), status);
+    }
+  }
   for (const entry of registry.queue.entries) {
     const key = String(entry.id);
     if (queueIds.has(key)) errors.push('duplicate queue id ' + key);
     queueIds.add(key);
     if (listedIds.has(key)) errors.push('queue entry already listed: ' + entry.full_name);
+    const settled = terminalNames.get(String(entry.full_name || '').toLowerCase());
+    if (settled && !listedIds.has(key)) errors.push('queue entry already ' + settled + ': ' + entry.full_name);
   }
 
   for (const lang of ['zh', 'en']) {
