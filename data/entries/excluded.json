@@ -44,6 +44,12 @@
       "at": "2026-11-08"
     },
     {
+      "id": 234353248,
+      "full_name": "hanshirong/vsinger1.0",
+      "reason": "仅为 V家通用音乐站脚手架，源码未见洛天依相关字样，与收录主题不符",
+      "at": "2026-11-10"
+    },
+    {
       "id": 1430917125,
       "full_name": "himyjan/yt-vsinger-singer-disover-analytics",
       "reason": "empty repository",
