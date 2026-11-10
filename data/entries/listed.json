@@ -20,6 +20,23 @@
       ]
     },
     {
+      "id": 484832595,
+      "full_name": "cyjin-yl/tianyitap",
+      "aliases": [],
+      "category": "game-mod",
+      "desc": "TianyiTap：Mikutap 的多音源改版，支持多歌姬音源",
+      "stars": 32,
+      "language": "JavaScript",
+      "pushed_at": "2022-09-04T13:46:53Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-10",
+      "source": "queue-review",
+      "evidence": [
+        "curated from candidate queue"
+      ]
+    },
+    {
       "id": 521366333,
       "full_name": "LazyCreeper/LuoTianyi",
       "aliases": [],
@@ -71,6 +88,23 @@
       "evidence": [
         "github-search",
         "score:151"
+      ]
+    },
+    {
+      "id": 442627209,
+      "full_name": "luotianyi-dev/vocaloid-bilibili-stickers",
+      "aliases": [],
+      "category": "audio-assets",
+      "desc": "哔哩哔哩 V 家表情包合集，提供 Telegram Sticker 与 CDN 分发",
+      "stars": 18,
+      "language": "Python",
+      "pushed_at": "2024-08-17T04:37:36Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-10",
+      "source": "queue-review",
+      "evidence": [
+        "curated from candidate queue"
       ]
     },
     {
@@ -164,6 +198,23 @@
       ]
     },
     {
+      "id": 1243240481,
+      "full_name": "wingtings/OuterWildsMOD-The-Singer-of-the-End-of-the-world",
+      "aliases": [],
+      "category": "game-mod",
+      "desc": "《Outer Wilds》世末歌者同人剧情 MOD，洛天依作为可对话 NPC 登场，另含乐正绫",
+      "stars": 9,
+      "language": "C#",
+      "pushed_at": "2026-06-06T16:31:22Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-10",
+      "source": "queue-review",
+      "evidence": [
+        "curated from candidate queue"
+      ]
+    },
+    {
       "id": 445354119,
       "full_name": "luotianyi-dev/luotianyi-http-stickers",
       "aliases": [],
@@ -253,6 +304,23 @@
       ]
     },
     {
+      "id": 1319980291,
+      "full_name": "LonakoBc/luo-yi-ba",
+      "aliases": [],
+      "category": "game-mod",
+      "desc": "洛一把：洛天依等 14 位歌姬的猜歌网页游戏，540 首曲库，含多人联机与曲目喜好表",
+      "stars": 6,
+      "language": "JavaScript",
+      "pushed_at": "2026-10-22T09:32:29Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-10",
+      "source": "queue-review",
+      "evidence": [
+        "curated from candidate queue"
+      ]
+    },
+    {
       "id": 164273080,
       "full_name": "Jobsecond/pigeon-pv-list",
       "aliases": [],
@@ -269,6 +337,23 @@
         "score:69"
       ],
       "desc": "洛天依、言和《鸽子》PV 集合索引"
+    },
+    {
+      "id": 281150380,
+      "full_name": "MeetWq/vocal-album-list",
+      "aliases": [],
+      "category": "data-tools",
+      "desc": "中V & SV 相关专辑列表，数据主要来自 VocaDB",
+      "stars": 5,
+      "language": null,
+      "pushed_at": "2023-03-07T04:13:28Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-10",
+      "source": "queue-review",
+      "evidence": [
+        "curated from candidate queue"
+      ]
     },
     {
       "id": 1273456632,
@@ -304,6 +389,23 @@
       "evidence": [
         "github-search",
         "score:161"
+      ]
+    },
+    {
+      "id": 1102682870,
+      "full_name": "LinusTrevian/New-Singer-Grub",
+      "aliases": [],
+      "category": "theme-skin",
+      "desc": "少女乐队 GRUB 主题合集，含天依、初音等主题",
+      "stars": 4,
+      "language": null,
+      "pushed_at": "2025-12-07T15:35:21Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-10",
+      "source": "queue-review",
+      "evidence": [
+        "curated from candidate queue"
       ]
     },
     {
@@ -415,6 +517,23 @@
       ]
     },
     {
+      "id": 736369146,
+      "full_name": "ClF3/tianyi-grub-theme",
+      "aliases": [],
+      "category": "theme-skin",
+      "desc": "洛天依 GRUB 主题，附背景图预览",
+      "stars": 3,
+      "language": null,
+      "pushed_at": "2024-01-03T07:48:35Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-10",
+      "source": "queue-review",
+      "evidence": [
+        "curated from candidate queue"
+      ]
+    },
+    {
       "id": 1249276956,
       "full_name": "hedanbaomi/tianyi-inspired-companion",
       "aliases": [],
@@ -448,6 +567,23 @@
       "evidence": [
         "github-search",
         "score:61"
+      ]
+    },
+    {
+      "id": 107293531,
+      "full_name": "Luke-lujunxian/Vocaloid-files",
+      "aliases": [],
+      "category": "data-tools",
+      "desc": "个人 Vocaloid 工程存档（XML），以洛天依 Tianyi_CHN 为主，兼含乐正绫、心华等",
+      "stars": 3,
+      "language": null,
+      "pushed_at": "2018-09-27T06:02:00Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-10",
+      "source": "queue-review",
+      "evidence": [
+        "curated from candidate queue"
       ]
     },
     {
@@ -520,6 +656,23 @@
       "evidence": [
         "github-search",
         "score:94"
+      ]
+    },
+    {
+      "id": 1127217350,
+      "full_name": "Eiheir/Luo_Tianyi_Image",
+      "aliases": [],
+      "category": "audio-assets",
+      "desc": "洛佬の美图：洛天依图片素材仓库",
+      "stars": 2,
+      "language": "JavaScript",
+      "pushed_at": "2026-11-03T11:08:36Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-10",
+      "source": "queue-review",
+      "evidence": [
+        "curated from candidate queue"
       ]
     },
     {
@@ -684,6 +837,23 @@
       ]
     },
     {
+      "id": 723569083,
+      "full_name": "ffccyy555/-",
+      "aliases": [],
+      "category": "docs",
+      "desc": "《洛天依：跨越维度的音乐之旅》：洛天依形象与声音的介绍文章",
+      "stars": 1,
+      "language": null,
+      "pushed_at": "2023-11-26T09:00:53Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-10",
+      "source": "queue-review",
+      "evidence": [
+        "curated from candidate queue"
+      ]
+    },
+    {
       "id": 911285894,
       "full_name": "Hermite215/ACE-Vsinger-software-",
       "aliases": [],
@@ -718,6 +888,23 @@
         "score:147"
       ],
       "desc": "洛天依、乐正绫、言和的 VOCALOID5 官方声库资源整理"
+    },
+    {
+      "id": 41724144,
+      "full_name": "klovelovely/6cf-f00",
+      "aliases": [],
+      "category": "community-site",
+      "desc": "洛天依 × 乐正绫 主题单页",
+      "stars": 1,
+      "language": "HTML",
+      "pushed_at": "2015-09-01T07:44:31Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-10",
+      "source": "queue-review",
+      "evidence": [
+        "curated from candidate queue"
+      ]
     },
     {
       "id": 877318669,
@@ -770,6 +957,23 @@
       "evidence": [
         "github-search",
         "score:125"
+      ]
+    },
+    {
+      "id": 1353770565,
+      "full_name": "ourcx/luotianyi-ai-passport",
+      "aliases": [],
+      "category": "tts-ai",
+      "desc": "Tianyi Player：FoloToy AI Passport 上的洛天依主题独立音乐播放器",
+      "stars": 1,
+      "language": "C",
+      "pushed_at": "2026-09-02T03:03:09Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-10",
+      "source": "queue-review",
+      "evidence": [
+        "curated from candidate queue"
       ]
     },
     {
@@ -1060,6 +1264,40 @@
       ]
     },
     {
+      "id": 1246481459,
+      "full_name": "HuxiaoRoar/Poilive2dNLTY1lingshi",
+      "aliases": [],
+      "category": "live2d",
+      "desc": "新·洛天依 Live2D：WordPress 插件，支持新旧模型自由切换与后台自定义样式",
+      "stars": 0,
+      "language": "JavaScript",
+      "pushed_at": "2026-07-12T10:53:59Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-10",
+      "source": "queue-review",
+      "evidence": [
+        "curated from candidate queue"
+      ]
+    },
+    {
+      "id": 1078292805,
+      "full_name": "indoly/celestial-grub",
+      "aliases": [],
+      "category": "theme-skin",
+      "desc": "洛天依 GRUB 启动菜单主题",
+      "stars": 0,
+      "language": null,
+      "pushed_at": "2025-10-17T15:42:26Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-10",
+      "source": "queue-review",
+      "evidence": [
+        "curated from candidate queue"
+      ]
+    },
+    {
       "id": 1351054666,
       "full_name": "J-SLY/LuoTianyi",
       "aliases": [],
@@ -1078,6 +1316,40 @@
       ]
     },
     {
+      "id": 1431076475,
+      "full_name": "jmgay114514/LuoTianyi",
+      "aliases": [],
+      "category": "community-site",
+      "desc": "Vsinger 六位角色介绍站，含洛天依、言和、乐正绫、乐正龙牙、徵羽摩柯与墨清弦分页",
+      "stars": 0,
+      "language": "HTML",
+      "pushed_at": "2026-10-24T12:21:21Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-10",
+      "source": "queue-review",
+      "evidence": [
+        "curated from candidate queue"
+      ]
+    },
+    {
+      "id": 1136747471,
+      "full_name": "Karunari-luoling/LuoTianYi_GrubTheme",
+      "aliases": [],
+      "category": "theme-skin",
+      "desc": "洛天依 GRUB 启动菜单主题（含效果预览图）",
+      "stars": 0,
+      "language": null,
+      "pushed_at": "2026-01-18T09:34:01Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-10",
+      "source": "queue-review",
+      "evidence": [
+        "curated from candidate queue"
+      ]
+    },
+    {
       "id": 184075388,
       "full_name": "koibi2/Vocaloid-singer-name-in-VSQX",
       "aliases": [],
@@ -1093,6 +1365,40 @@
       "evidence": [
         "github-search",
         "score:64"
+      ]
+    },
+    {
+      "id": 1427104678,
+      "full_name": "Kotokowa/luotianyiPost",
+      "aliases": [],
+      "category": "community-site",
+      "desc": "来自瓦纳海姆 · LUOTY：天依蓝 #66ccff 主题个人站，含天依立绘素材",
+      "stars": 0,
+      "language": "JavaScript",
+      "pushed_at": "2026-11-10T08:00:56Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-10",
+      "source": "queue-review",
+      "evidence": [
+        "curated from candidate queue"
+      ]
+    },
+    {
+      "id": 261752391,
+      "full_name": "LIGHT-just/luotianyi.github.io",
+      "aliases": [],
+      "category": "community-site",
+      "desc": "洛天依百科：单页资料站",
+      "stars": 0,
+      "language": "HTML",
+      "pushed_at": "2021-05-07T14:17:55Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-10",
+      "source": "queue-review",
+      "evidence": [
+        "curated from candidate queue"
       ]
     },
     {
@@ -1146,6 +1452,40 @@
       "source": "issue:17",
       "evidence": [
         "issue:17 approved by IPF-Sinon"
+      ]
+    },
+    {
+      "id": 468213689,
+      "full_name": "memorydream/CyanStars",
+      "aliases": [],
+      "category": "game-mod",
+      "desc": "CyanStars：Vsinger 相关音乐游戏企划（Unity）",
+      "stars": 0,
+      "language": "C#",
+      "pushed_at": "2024-10-26T07:27:51Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-10",
+      "source": "queue-review",
+      "evidence": [
+        "curated from candidate queue"
+      ]
+    },
+    {
+      "id": 1432117491,
+      "full_name": "Not-the-same/luotianyi",
+      "aliases": [],
+      "category": "community-site",
+      "desc": "洛天依 · 天依蓝档案：Next.js 搭建的天依主题站点",
+      "stars": 0,
+      "language": "HTML",
+      "pushed_at": "2026-10-24T12:41:42Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-10",
+      "source": "queue-review",
+      "evidence": [
+        "curated from candidate queue"
       ]
     },
     {
@@ -1343,6 +1683,40 @@
       "evidence": [
         "github-search",
         "score:125"
+      ]
+    },
+    {
+      "id": 1138714601,
+      "full_name": "zxt4230980/LuoTianyiVOCALOID",
+      "aliases": [],
+      "category": "data-tools",
+      "desc": "洛天依 Synthesizer V 工程文件（.svip3），含《关山酒》《雪落叹余生》等",
+      "stars": 0,
+      "language": null,
+      "pushed_at": "2026-01-21T03:01:51Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-10",
+      "source": "queue-review",
+      "evidence": [
+        "curated from candidate queue"
+      ]
+    },
+    {
+      "id": 1447238448,
+      "full_name": "ZYZXYYDS/LuoTianYi",
+      "aliases": [],
+      "category": "community-site",
+      "desc": "洛天依主题前端练习页",
+      "stars": 0,
+      "language": "HTML",
+      "pushed_at": "2026-11-09T16:01:14Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-10",
+      "source": "queue-review",
+      "evidence": [
+        "curated from candidate queue"
       ]
     }
   ]

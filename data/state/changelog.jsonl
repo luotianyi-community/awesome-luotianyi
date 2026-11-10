@@ -190,11 +190,4 @@
 {"at":"2026-11-09T22:56:31Z","action":"catalog-scan","scanned":0,"queued":0,"excluded":0,"updated":0,"water":"2026-11-09"}
 {"at":"2026-11-10T00:37:15Z","action":"exclude","repo":"hanshirong/vsinger1.0","reason":"仅为 V家通用音乐站脚手架，源码未见洛天依相关字样，与收录主题不符","issue":10,"actor":"IPF-Sinon"}
 {"at":"2026-11-10T00:38:18Z","action":"describe","updated":1,"actor":"maintenance"}
-{"at":"2026-11-10T00:42:33Z","action":"exclude","repo":"D-6CF-X/vmap","id":1452018320,"reason":"empty repository","actor":"automation"}
-{"at":"2026-11-10T00:42:34Z","action":"catalog-scan","scanned":4,"queued":0,"excluded":1,"updated":0,"water":"2026-11-10"}
-{"at":"2026-11-10T00:56:30Z","action":"catalog-scan","scanned":0,"queued":0,"excluded":0,"updated":0,"water":"2026-11-10"}
-{"at":"2026-11-10T02:10:48Z","action":"exclude","repo":"drakecatherine657/dra","id":1452078378,"reason":"empty","actor":"automation"}
-{"at":"2026-11-10T02:10:51Z","action":"exclude","repo":"lijoseph676/lij","id":1452060042,"reason":"empty","actor":"automation"}
-{"at":"2026-11-10T02:10:53Z","action":"radar-scan","scanned":36,"queued":0,"excluded":2,"skipped":34,"watermark":"2026-11-10"}
-{"at":"2026-11-10T09:55:15Z","action":"exclude","repo":"nunezrebecca7783/nun","id":1452427040,"reason":"empty","actor":"automation"}
-{"at":"2026-11-10T09:55:25Z","action":"radar-scan","scanned":40,"queued":0,"excluded":1,"skipped":39,"watermark":"2026-11-10"}
+{"at":"2026-11-10T10:15:41Z","action":"queue-curate","added":22,"excluded":46,"actor":"maintainer"}

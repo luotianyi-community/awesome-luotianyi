@@ -2,6 +2,12 @@
   "version": 1,
   "entries": [
     {
+      "id": 1443034686,
+      "full_name": "2755579/2755579",
+      "reason": "curated out: not strongly related to Luo Tianyi",
+      "at": "2026-11-10"
+    },
+    {
       "id": 270896436,
       "full_name": "641i130/ddb-extraction",
       "reason": "archived",
@@ -12,6 +18,18 @@
       "full_name": "adc1236/luotianyia.github.io",
       "reason": "empty repository",
       "at": "2026-11-08"
+    },
+    {
+      "id": 1350545349,
+      "full_name": "Aoi-Karlin/astrbot_plugin_mediawikitools",
+      "reason": "curated out: not strongly related to Luo Tianyi",
+      "at": "2026-11-10"
+    },
+    {
+      "id": 1245710321,
+      "full_name": "AR-Vidal/Vsinger-Studio",
+      "reason": "curated out: not strongly related to Luo Tianyi",
+      "at": "2026-11-10"
     },
     {
       "id": 328569206,
@@ -26,15 +44,33 @@
       "at": "2026-11-08"
     },
     {
+      "id": 573344133,
+      "full_name": "baobao1270/mid2beep",
+      "reason": "curated out: not strongly related to Luo Tianyi",
+      "at": "2026-11-10"
+    },
+    {
+      "id": 1328364792,
+      "full_name": "berny-rdev/Nerd-by-Events",
+      "reason": "curated out: not strongly related to Luo Tianyi",
+      "at": "2026-11-10"
+    },
+    {
+      "id": 1368242221,
+      "full_name": "ChenQiuguo/ChenQiuguo.GitHub.io",
+      "reason": "curated out: not strongly related to Luo Tianyi",
+      "at": "2026-11-10"
+    },
+    {
       "id": 76251021,
       "full_name": "chunlaili/timetraveller",
       "reason": "empty",
       "at": "2026-11-08"
     },
     {
-      "id": 1452018320,
-      "full_name": "D-6CF-X/vmap",
-      "reason": "empty repository",
+      "id": 1248838471,
+      "full_name": "Croon00/vsinger_info",
+      "reason": "curated out: not strongly related to Luo Tianyi",
       "at": "2026-11-10"
     },
     {
@@ -44,9 +80,15 @@
       "at": "2026-11-09"
     },
     {
-      "id": 1452078378,
-      "full_name": "drakecatherine657/dra",
-      "reason": "empty",
+      "id": 964566919,
+      "full_name": "Dora-Honor/Dora-Honor",
+      "reason": "curated out: not strongly related to Luo Tianyi",
+      "at": "2026-11-10"
+    },
+    {
+      "id": 110330702,
+      "full_name": "fireindark707/ChineseV_GUFENG",
+      "reason": "curated out: not strongly related to Luo Tianyi",
       "at": "2026-11-10"
     },
     {
@@ -56,9 +98,27 @@
       "at": "2026-11-08"
     },
     {
+      "id": 382050170,
+      "full_name": "Giannis-Rou/Vocaloid",
+      "reason": "curated out: not strongly related to Luo Tianyi",
+      "at": "2026-11-10"
+    },
+    {
+      "id": 894955674,
+      "full_name": "Gr3yPh/Gr3yPh",
+      "reason": "curated out: not strongly related to Luo Tianyi",
+      "at": "2026-11-10"
+    },
+    {
       "id": 234353248,
       "full_name": "hanshirong/vsinger1.0",
       "reason": "仅为 V家通用音乐站脚手架，源码未见洛天依相关字样，与收录主题不符",
+      "at": "2026-11-10"
+    },
+    {
+      "id": 66566853,
+      "full_name": "HevLfreis/Chat2x",
+      "reason": "curated out: not strongly related to Luo Tianyi",
       "at": "2026-11-10"
     },
     {
@@ -66,6 +126,12 @@
       "full_name": "himyjan/yt-vsinger-singer-disover-analytics",
       "reason": "empty repository",
       "at": "2026-11-08"
+    },
+    {
+      "id": 1063719001,
+      "full_name": "Hisou-Tenshi/Hisou-Tenshi",
+      "reason": "curated out: not strongly related to Luo Tianyi",
+      "at": "2026-11-10"
     },
     {
       "id": 74162787,
@@ -80,16 +146,52 @@
       "at": "2026-11-08"
     },
     {
+      "id": 873635685,
+      "full_name": "icedata-top/hantang-daily",
+      "reason": "curated out: not strongly related to Luo Tianyi",
+      "at": "2026-11-10"
+    },
+    {
+      "id": 1265907104,
+      "full_name": "Jeffreyz8102/vsinger-live-track",
+      "reason": "curated out: not strongly related to Luo Tianyi",
+      "at": "2026-11-10"
+    },
+    {
+      "id": 1022493753,
+      "full_name": "jnj52016/yuezhengling-chat",
+      "reason": "curated out: not strongly related to Luo Tianyi",
+      "at": "2026-11-10"
+    },
+    {
+      "id": 1203100853,
+      "full_name": "Kinshutei/vtuber_vsinger_VinculumFamiliae",
+      "reason": "curated out: not strongly related to Luo Tianyi",
+      "at": "2026-11-10"
+    },
+    {
       "id": 609395743,
       "full_name": "kkryuw/Luotianyi-Yuezhengling-Yanhe-VOCALOID5",
       "reason": "empty repository",
       "at": "2026-11-08"
     },
     {
+      "id": 467027691,
+      "full_name": "Kousaka-Kirino/luotianyi521jpg.github.io",
+      "reason": "curated out: not strongly related to Luo Tianyi",
+      "at": "2026-11-10"
+    },
+    {
       "id": 65316939,
       "full_name": "Kxnrl/Store",
       "reason": "archived",
       "at": "2026-11-08"
+    },
+    {
+      "id": 1050209448,
+      "full_name": "lauyikfung/lauyikfung",
+      "reason": "curated out: not strongly related to Luo Tianyi",
+      "at": "2026-11-10"
     },
     {
       "id": 357777833,
@@ -104,9 +206,9 @@
       "at": "2026-11-08"
     },
     {
-      "id": 1452060042,
-      "full_name": "lijoseph676/lij",
-      "reason": "empty",
+      "id": 1371710577,
+      "full_name": "llql1211/BiliMarketMonitor",
+      "reason": "curated out: not strongly related to Luo Tianyi",
       "at": "2026-11-10"
     },
     {
@@ -150,6 +252,12 @@
       "full_name": "luo-tian-yi/Happy-Mother-s-Day",
       "reason": "name-collision",
       "at": "2026-11-08"
+    },
+    {
+      "id": 430127788,
+      "full_name": "luo-tian-yi/wish",
+      "reason": "curated out: not strongly related to Luo Tianyi",
+      "at": "2026-11-10"
     },
     {
       "id": 291514808,
@@ -224,6 +332,12 @@
       "at": "2026-11-08"
     },
     {
+      "id": 337998328,
+      "full_name": "Luotianyi0712/Luotianyi0712.github.io",
+      "reason": "curated out: not strongly related to Luo Tianyi",
+      "at": "2026-11-10"
+    },
+    {
       "id": 522693958,
       "full_name": "luotianyi1314520/luotianyi1314520",
       "reason": "empty repository",
@@ -254,10 +368,58 @@
       "at": "2026-11-08"
     },
     {
+      "id": 1291196881,
+      "full_name": "march-7th-mini/ColorfulTone-theme-for-TriliumNext-new-layout",
+      "reason": "curated out: not strongly related to Luo Tianyi",
+      "at": "2026-11-10"
+    },
+    {
+      "id": 572463645,
+      "full_name": "marshmary/neru",
+      "reason": "curated out: not strongly related to Luo Tianyi",
+      "at": "2026-11-10"
+    },
+    {
+      "id": 1338429048,
+      "full_name": "MF-Dust/Nori.Desktop",
+      "reason": "curated out: not strongly related to Luo Tianyi",
+      "at": "2026-11-10"
+    },
+    {
+      "id": 1003970794,
+      "full_name": "Minigamer42/pr-sorter-vsinger-covers",
+      "reason": "curated out: not strongly related to Luo Tianyi",
+      "at": "2026-11-10"
+    },
+    {
+      "id": 1003964092,
+      "full_name": "Minigamer42/pr-sorter-vsinger-originals",
+      "reason": "curated out: not strongly related to Luo Tianyi",
+      "at": "2026-11-10"
+    },
+    {
+      "id": 1250287891,
+      "full_name": "Moke-Zhiyu/Moke-Zhiyu",
+      "reason": "curated out: not strongly related to Luo Tianyi",
+      "at": "2026-11-10"
+    },
+    {
       "id": 1405690235,
       "full_name": "nanashi-unofficial/nanashi-fansite",
       "reason": "explicitly unrelated (negative signal)",
       "at": "2026-11-08"
+    },
+    {
+      "id": 35365158,
+      "full_name": "NetNerd/MB_VocaDbLyrics",
+      "reason": "curated out: not strongly related to Luo Tianyi",
+      "at": "2026-11-10"
+    },
+    {
+      "id": 871710774,
+      "full_name": "NingmengLemon/NingmengLemon",
+      "reason": "curated out: not strongly related to Luo Tianyi",
+      "at": "2026-11-10"
     },
     {
       "id": 165367391,
@@ -266,9 +428,21 @@
       "at": "2026-11-08"
     },
     {
-      "id": 1452427040,
-      "full_name": "nunezrebecca7783/nun",
-      "reason": "empty",
+      "id": 1044450379,
+      "full_name": "Pearl-Luo/Pearl-Luo",
+      "reason": "curated out: not strongly related to Luo Tianyi",
+      "at": "2026-11-10"
+    },
+    {
+      "id": 1086200878,
+      "full_name": "RhythmWings/More_Collectibles_Figurines",
+      "reason": "curated out: not strongly related to Luo Tianyi",
+      "at": "2026-11-10"
+    },
+    {
+      "id": 975270150,
+      "full_name": "RyogiMutsuki/luotianyi",
+      "reason": "curated out: not strongly related to Luo Tianyi",
       "at": "2026-11-10"
     },
     {
@@ -278,16 +452,40 @@
       "at": "2026-11-08"
     },
     {
+      "id": 543859248,
+      "full_name": "sandyzikun/oneblue",
+      "reason": "curated out: not strongly related to Luo Tianyi",
+      "at": "2026-11-10"
+    },
+    {
+      "id": 89922256,
+      "full_name": "sastation/bilibili",
+      "reason": "curated out: not strongly related to Luo Tianyi",
+      "at": "2026-11-10"
+    },
+    {
       "id": 293834611,
       "full_name": "seunghyunhan/daily-arxiv-noti",
       "reason": "empty",
       "at": "2026-11-08"
     },
     {
+      "id": 584432620,
+      "full_name": "shinoaliceKabocha/flutter.vsinger.graph",
+      "reason": "curated out: not strongly related to Luo Tianyi",
+      "at": "2026-11-10"
+    },
+    {
       "id": 10296022,
       "full_name": "Sleepwalking/Rocaloid-old",
       "reason": "archived",
       "at": "2026-11-08"
+    },
+    {
+      "id": 1143295841,
+      "full_name": "snowrabbit-top/vsinger",
+      "reason": "curated out: not strongly related to Luo Tianyi",
+      "at": "2026-11-10"
     },
     {
       "id": 1046169420,
@@ -302,10 +500,22 @@
       "at": "2026-11-08"
     },
     {
+      "id": 912285157,
+      "full_name": "Sunskimmer822/vsinger",
+      "reason": "curated out: not strongly related to Luo Tianyi",
+      "at": "2026-11-10"
+    },
+    {
       "id": 1440811983,
       "full_name": "Tianyi-Communtiy-Team/CVIMap-docs",
       "reason": "empty repository",
       "at": "2026-11-08"
+    },
+    {
+      "id": 216773481,
+      "full_name": "timqian/chinese-independent-blogs",
+      "reason": "curated out: not strongly related to Luo Tianyi",
+      "at": "2026-11-10"
     },
     {
       "id": 66262472,
@@ -318,6 +528,12 @@
       "full_name": "u2017/zx",
       "reason": "empty",
       "at": "2026-11-08"
+    },
+    {
+      "id": 1116581544,
+      "full_name": "uigleki/collection",
+      "reason": "curated out: not strongly related to Luo Tianyi",
+      "at": "2026-11-10"
     },
     {
       "id": 392276003,
@@ -344,6 +560,12 @@
       "at": "2026-11-08"
     },
     {
+      "id": 1112411830,
+      "full_name": "warwickpark/Is_Vocaloid",
+      "reason": "curated out: not strongly related to Luo Tianyi",
+      "at": "2026-11-10"
+    },
+    {
       "id": 1451727294,
       "full_name": "wilsoncheryl06/wil",
       "reason": "empty",
@@ -356,16 +578,46 @@
       "at": "2026-11-08"
     },
     {
+      "id": 1201379119,
+      "full_name": "WinMCHG31400/VSingerProject",
+      "reason": "curated out: not strongly related to Luo Tianyi",
+      "at": "2026-11-10"
+    },
+    {
+      "id": 609479718,
+      "full_name": "winner896/josn-",
+      "reason": "curated out: not strongly related to Luo Tianyi",
+      "at": "2026-11-10"
+    },
+    {
       "id": 215734446,
       "full_name": "wo-jio/-",
       "reason": "empty repository",
       "at": "2026-11-08"
     },
     {
+      "id": 202685184,
+      "full_name": "xiaxinghe4096/LuoTianYiW.github.io",
+      "reason": "curated out: not strongly related to Luo Tianyi",
+      "at": "2026-11-10"
+    },
+    {
       "id": 1284680513,
       "full_name": "xingyiling/luotianyi",
       "reason": "empty repository",
       "at": "2026-11-08"
+    },
+    {
+      "id": 978648437,
+      "full_name": "YanChenBai/vsinger-songlint",
+      "reason": "curated out: not strongly related to Luo Tianyi",
+      "at": "2026-11-10"
+    },
+    {
+      "id": 151607256,
+      "full_name": "yichya/yichya",
+      "reason": "curated out: not strongly related to Luo Tianyi",
+      "at": "2026-11-10"
     },
     {
       "id": 1032017573,
