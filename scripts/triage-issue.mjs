@@ -140,7 +140,14 @@ async function main() {
       console.log(JSON.stringify({ skipped: true, reason: 'unknown category', category }));
       return;
     }
-    if (!repo) throw new Error('cannot resolve repository ' + fullName);
+    if (!repo) {
+      // A typo in a board command must not take the whole run down: report it on the
+      // issue and stop cleanly, so the board stays usable.
+      const note = '无法解析仓库 ' + bt(fullName) + '：GitHub API 查不到它。请检查拼写，或确认仓库仍然公开存在。';
+      if (announce) await client.createComment(repoPath, number, note);
+      console.log(JSON.stringify({ skipped: true, reason: 'unresolvable repository', fullName }));
+      return;
+    }
     upsertListed(registry, repo, category, { source: 'issue:' + number, evidence: ['issue:' + number + ' approved by ' + decision.login] });
     if (!dryRun) {
       saveRegistry(registry, { dryRun });
