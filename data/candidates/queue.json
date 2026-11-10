@@ -1,4 +1,38 @@
 {
   "version": 1,
-  "entries": []
+  "entries": [
+    {
+      "id": 1280367926,
+      "full_name": "Agnarr1800/yanhe-luotianyi-1314",
+      "desc": "",
+      "stars": 0,
+      "language": "JavaScript",
+      "pushed_at": "2026-06-27T02:00:23Z",
+      "archived": false,
+      "fork": false,
+      "score": 76,
+      "signals": [
+        "core",
+        "name:strong",
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "core",
+        "name:strong",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-10",
+      "last_seen": "2026-11-10",
+      "issue": {
+        "number": 19,
+        "url": "https://github.com/luotianyi-community/awesome-luotianyi/issues/19",
+        "created_at": "2026-11-10"
+      }
+    }
+  ]
 }

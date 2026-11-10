@@ -103,7 +103,7 @@ Bonuses: a README, a LICENSE, a commit within the last 12 months, stars ≥ 3.
 ### 🗣️ TTS & Conversational AI (11)
 
 - [SheepLiu712/Agent-LuoTianyi](https://github.com/SheepLiu712/Agent-LuoTianyi) `★101 · Python` — 虚拟歌手洛天依（Luo Tianyi）智能对话Agent。
-- [xdedmmc2/GPT-SoVITS-Luo-Tianyi](https://github.com/xdedmmc2/GPT-SoVITS-Luo-Tianyi) `★24` — 让天依亲口说爱你！——基于GPT-SoVITS的一款模拟洛天依声线的语音生成模型
+- [xdedmmc2/GPT-SoVITS-Luo-Tianyi](https://github.com/xdedmmc2/GPT-SoVITS-Luo-Tianyi) `★25` — 让天依亲口说爱你！——基于GPT-SoVITS的一款模拟洛天依声线的语音生成模型
 - [qifanmaker/LuoTianyi-Agent](https://github.com/qifanmaker/LuoTianyi-Agent) `★8 · Python` — LuoTianyi-Agent with LLM, GPT-SoVITS, Live2D
 - [MUKEKANN/Luo-Agent](https://github.com/MUKEKANN/Luo-Agent) `★4 · TypeScript` — 洛天依风格的本地桌面 AI Agent 实验项目
 - [Kevin14827/LuoTianyi-TTS](https://github.com/Kevin14827/LuoTianyi-TTS) `★2 · Python` — 基于 GPT-SoVITS v2Pro 微调的洛天依语音合成模型，权重见 Releases
@@ -133,7 +133,7 @@ Bonuses: a README, a LICENSE, a commit within the last 12 months, stars ≥ 3.
 
 ### 🧰 Data, Wiki & Tooling (15)
 
-- [luotianyi-dev/luotianyi-random-lyric](https://github.com/luotianyi-dev/luotianyi-random-lyric) `★10 · Python` — 此项目提供了一个 洛天依 的经典曲目歌词选段的数据库，并以此实现了一个获得随机歌词的程序。
+- [luotianyi-dev/luotianyi-random-lyric](https://github.com/luotianyi-dev/luotianyi-random-lyric) `★11 · Python` — 此项目提供了一个 洛天依 的经典曲目歌词选段的数据库，并以此实现了一个获得随机歌词的程序。
 - [luotianyi-dev/luotianyi-http-stickers](https://github.com/luotianyi-dev/luotianyi-http-stickers) `★8 · Python` — 洛天依 HTTP 状态码表情包生成
 - [JingyuNankin/StatisticsOfChineseVirtualSingers](https://github.com/JingyuNankin/StatisticsOfChineseVirtualSingers) `★6` — Statistics of Chinese Virtual Singers，中文虚拟歌手调查。主要用于发布中文虚拟歌手领域有关数据。
 - [Jobsecond/pigeon-pv-list](https://github.com/Jobsecond/pigeon-pv-list) `★5` — 洛天依、言和《鸽子》PV 集合索引
@@ -179,7 +179,7 @@ Bonuses: a README, a LICENSE, a commit within the last 12 months, stars ≥ 3.
 
 ### 🌐 Community Sites & Services (15)
 
-- [w8888-hh/luotianyi-running-app](https://github.com/w8888-hh/luotianyi-running-app) `★8 · HTML` — 洛天依陪跑应用 - 节拍器 + 心率监测 + 音乐播放 + 语音引导的跑步健身 Web 应用
+- [w8888-hh/luotianyi-running-app](https://github.com/w8888-hh/luotianyi-running-app) `★10 · HTML` — 洛天依陪跑应用 - 节拍器 + 心率监测 + 音乐播放 + 语音引导的跑步健身 Web 应用
 - [tianyi-fanclub/tianyi-birthday-countdown](https://github.com/tianyi-fanclub/tianyi-birthday-countdown) `★4 · CSS` — 这是洛天依饭制 生日会倒计时🎂 网站。
 - [Drigrow/120712](https://github.com/Drigrow/120712) `★2 · HTML` — A website for Luo Tianyi
 - [yunmianY/luotianyi_blog](https://github.com/yunmianY/luotianyi_blog) `★2 · Vue` — 关于洛天依的fastapi，vue3,mysql的博客

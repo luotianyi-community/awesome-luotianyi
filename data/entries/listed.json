@@ -9,7 +9,7 @@
       "desc": "虚拟歌手洛天依（Luo Tianyi）智能对话Agent。",
       "stars": 101,
       "language": "Python",
-      "pushed_at": "2026-11-07T15:50:01Z",
+      "pushed_at": "2026-11-10T06:57:24Z",
       "archived": false,
       "fork": false,
       "added_at": "2026-11-08",
@@ -78,7 +78,7 @@
       "aliases": [],
       "category": "tts-ai",
       "desc": "让天依亲口说爱你！——基于GPT-SoVITS的一款模拟洛天依声线的语音生成模型",
-      "stars": 24,
+      "stars": 25,
       "language": null,
       "pushed_at": "2026-02-08T02:00:27Z",
       "archived": false,
@@ -169,7 +169,7 @@
       "desc": "洛天依南北组主题沉金艺术纪念PCB票卡，嘉立创开源硬件，无电气功能纯收藏卡",
       "stars": 11,
       "language": null,
-      "pushed_at": "2026-11-08T10:30:13Z",
+      "pushed_at": "2026-11-09T11:44:13Z",
       "archived": false,
       "fork": false,
       "added_at": "2026-11-08",
@@ -185,7 +185,7 @@
       "aliases": [],
       "category": "data-tools",
       "desc": "此项目提供了一个 洛天依 的经典曲目歌词选段的数据库，并以此实现了一个获得随机歌词的程序。",
-      "stars": 10,
+      "stars": 11,
       "language": "Python",
       "pushed_at": "2025-03-03T17:09:46Z",
       "archived": false,
@@ -195,6 +195,23 @@
       "evidence": [
         "github-search",
         "score:116"
+      ]
+    },
+    {
+      "id": 1370075727,
+      "full_name": "w8888-hh/luotianyi-running-app",
+      "aliases": [],
+      "category": "community-site",
+      "desc": "洛天依陪跑应用 - 节拍器 + 心率监测 + 音乐播放 + 语音引导的跑步健身 Web 应用",
+      "stars": 10,
+      "language": "HTML",
+      "pushed_at": "2026-11-05T12:25:00Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "issue:2",
+      "evidence": [
+        "issue:2 approved by IPF-Sinon"
       ]
     },
     {
@@ -248,23 +265,6 @@
       "evidence": [
         "github-search",
         "score:131"
-      ]
-    },
-    {
-      "id": 1370075727,
-      "full_name": "w8888-hh/luotianyi-running-app",
-      "aliases": [],
-      "category": "community-site",
-      "desc": "洛天依陪跑应用 - 节拍器 + 心率监测 + 音乐播放 + 语音引导的跑步健身 Web 应用",
-      "stars": 8,
-      "language": "HTML",
-      "pushed_at": "2026-11-05T12:25:00Z",
-      "archived": false,
-      "fork": false,
-      "added_at": "2026-11-08",
-      "source": "issue:2",
-      "evidence": [
-        "issue:2 approved by IPF-Sinon"
       ]
     },
     {
@@ -648,7 +648,7 @@
       "desc": "A website for Luo Tianyi",
       "stars": 2,
       "language": "HTML",
-      "pushed_at": "2026-03-15T16:19:43Z",
+      "pushed_at": "2026-11-08T16:39:26Z",
       "archived": false,
       "fork": false,
       "added_at": "2026-11-08",
