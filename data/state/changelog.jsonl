@@ -200,3 +200,4 @@
 {"at":"2026-11-10T14:53:53Z","action":"catalog-scan","scanned":0,"queued":0,"excluded":0,"updated":0,"water":"2026-11-10"}
 {"at":"2026-11-10T14:54:54Z","action":"catalog-scan","scanned":0,"queued":0,"excluded":0,"updated":0,"water":"2026-11-10"}
 {"at":"2026-11-10T14:58:49Z","action":"catalog-scan","scanned":0,"queued":0,"excluded":0,"updated":0,"water":"2026-11-10"}
+{"at":"2026-11-10T14:59:20Z","action":"exclude","repo":"jojo58fr/FRVMusic","reason":"面向法国 VSinger 社区，与洛天依无关","issue":20,"actor":"IPF-Sinon"}
