@@ -1534,9 +1534,9 @@
       "id": 216773481,
       "full_name": "timqian/chinese-independent-blogs",
       "desc": "中文独立博客列表",
-      "stars": 24415,
+      "stars": 24417,
       "language": "JavaScript",
-      "pushed_at": "2026-11-09T00:29:42Z",
+      "pushed_at": "2026-11-10T00:25:56Z",
       "archived": false,
       "fork": false,
       "score": 31,
@@ -1552,7 +1552,7 @@
         "readme:strong"
       ],
       "first_seen": "2026-11-09",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-10",
       "issue": null
     },
     {
