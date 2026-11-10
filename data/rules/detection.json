@@ -23,7 +23,7 @@
   },
   "thresholds": {
     "queue": 30,
-    "issue": 55
+    "issue": 45
   },
   "caps": {
     "candidate_per_run": 400,

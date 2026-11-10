@@ -81,6 +81,33 @@ test('third-party api profile is excluded by denylist', () => {
   assert.ok(result.score < DEFAULT_RULES.thresholds.queue);
 });
 
+test('a moderately related repo is surfaced as an issue, not parked', () => {
+  // The maintainer's rule: anything with real relevance becomes an issue instead of
+  // sitting in a queue. This case scores under the old 55 line but clears 45.
+  const result = evaluateRepo(
+    repo({ full_name: 'Kotokowa/luotianyiPost', name: 'luotianyiPost', description: 'Luotianyi themed site', topics: [] }),
+    DEFAULT_RULES,
+    { readme: '洛天依 themed personal site', readmeChecked: true }
+  );
+  assert.ok(result.score >= DEFAULT_RULES.thresholds.issue);
+  assert.equal(result.verdict, 'issue');
+});
+
+test('the core signal is recorded so downstream steps can gate on it', () => {
+  const strong = evaluateRepo(
+    repo({ full_name: 'a/b', name: 'b', description: '洛天依 tool', topics: [] }),
+    DEFAULT_RULES,
+    { readme: '洛天依', readmeChecked: true }
+  );
+  assert.equal(strong.signals.includes('core'), true);
+  const vague = evaluateRepo(
+    repo({ full_name: 'c/d', name: 'd', description: 'a vsinger project', topics: [] }),
+    DEFAULT_RULES,
+    { readme: 'a vsinger project', readmeChecked: true }
+  );
+  assert.equal(vague.signals.includes('core'), false);
+});
+
 test('url-only mention stays below issue threshold', () => {
   const result = evaluateRepo(
     repo({ full_name: 'SoraKasvgano/YaheiPHP7ProbeByLuminous', name: 'YaheiPHP7ProbeByLuminous', description: 'backup for yaheiphp7 probe by Luminous https://luotianyi.vc/1830.html', topics: [] }),

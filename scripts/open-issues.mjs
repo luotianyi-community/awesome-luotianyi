@@ -77,6 +77,9 @@ async function main() {
   const candidates = registry.queue.entries.filter((entry) => {
     if (entry.issue && entry.issue.number) return false;
     if (String(entry.score) < rules.thresholds.issue) return false;
+    // A bare "vsinger" match is too generic to page a maintainer; leave it queued for a
+    // human. This mirrors the core-term gate in classify() (lib/match.mjs).
+    if (!(entry.signals || []).includes('core')) return false;
     if (existingTitles.has(('[candidate] ' + entry.full_name).toLowerCase())) return false;
     return true;
   }).slice().sort((a, b) => (b.score || 0) - (a.score || 0));

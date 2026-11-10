@@ -34,7 +34,7 @@ export const DEFAULT_RULES = {
     no_readme_signal: -12,
     negative: -10
   },
-  thresholds: { queue: 30, issue: 55 },
+  thresholds: { queue: 30, issue: 45 },
   caps: { candidate_per_run: 400, readme_fetches: 70, issues_per_run: 20, issues_per_owner: 4, metadata_refresh: 220 },
   search_queries: [
     'luotianyi in:name,description,readme',
@@ -237,6 +237,9 @@ export function evaluateRepo(repo, rules, extra) {
   const inspected = !!ctx.readmeChecked;
   const nameCollision = nameHit === 0 && ownerHit > 0 && !hasContentSignal && inspected;
   if (nameCollision) signals.push('name-collision');
+  // Recorded so downstream steps (open-issues) can apply the same core-term gate without
+  // re-reading the README.
+  if (coreHits > 0) signals.push('core');
 
   return {
     score: Math.round(score),
@@ -258,11 +261,12 @@ function classify(repo, state) {
   // A strong term in the repository NAME counts as evidence even when the repo has no
   // README at all: e.g. LuoTianYi_GrubTheme ships only fonts and a screenshot.
   const evidenced = state.contentHits > 0 || state.nameHit > 0;
-  // Opening an issue costs a maintainer's attention, so it needs real textual evidence
-  // (description / topics / README). A promising name alone only earns a queue slot.
-  // It also needs an unambiguous term: "vsinger" alone describes any virtual singer and
-  // would surface unrelated VTubers, so it can only lift a repo into the queue.
-  if (state.score >= 55 && state.contentHits > 0 && state.coreHits > 0) return 'issue';
+  // Anything clearing the bar is surfaced as an issue instead of being parked in a queue
+  // nobody reads. Two gates remain, because an issue costs a maintainer's attention:
+  // there must be textual evidence (description / topics / README), and at least one
+  // unambiguous term must appear. A bare "vsinger" describes any virtual singer and
+  // already produced false positives (Miizuki, nanashi), so it stays in the queue.
+  if (state.score >= 45 && state.contentHits > 0 && state.coreHits > 0) return 'issue';
   if (state.score >= 30 && evidenced) return 'queue';
   return 'low';
 }
