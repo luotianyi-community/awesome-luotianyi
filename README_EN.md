@@ -13,7 +13,7 @@
 </div>
 
 <!-- BEGIN:STATS -->
-**74 repositories · 9 categories · data updated 2026-11-08**
+**75 repositories · 9 categories · data updated 2026-11-08**
 
 | Category | Repos |
 | --- | --- |
@@ -24,10 +24,10 @@
 | 🧰 Data, Wiki & Tooling | 12 |
 | 🎮 Games, Mods & Hardware Art | 13 |
 | 🎵 Audio, Sheets & Creative Assets | 3 |
-| 🌐 Community Sites & Services | 8 |
+| 🌐 Community Sites & Services | 9 |
 | 📚 Docs & Tutorials | 3 |
 
-**Primary languages**：other (23) · Python (17) · JavaScript (11) · HTML (8) · TypeScript (4) · Java (3)
+**Primary languages**：other (23) · Python (17) · JavaScript (12) · HTML (8) · TypeScript (4) · Java (3)
 <!-- END:STATS -->
 
 ## Contents
@@ -162,12 +162,13 @@ Bonuses: a README, a LICENSE, a commit within the last 12 months, stars ≥ 3.
 - [kkryuw/Luotianyi-Yuezhengling-Yanhe-vocaloid5-orignal-source](https://github.com/kkryuw/Luotianyi-Yuezhengling-Yanhe-vocaloid5-orignal-source) `★1` — 洛天依、乐正绫、言和的 VOCALOID5 官方声库资源整理
 - [leisquid/vsinger-voicebank-packages-design](https://github.com/leisquid/vsinger-voicebank-packages-design) `★1` — Vsinger voicebank packages design
 
-### 🌐 Community Sites & Services (8)
+### 🌐 Community Sites & Services (9)
 
 - [w8888-hh/luotianyi-running-app](https://github.com/w8888-hh/luotianyi-running-app) `★8 · HTML` — 洛天依陪跑应用 - 节拍器 + 心率监测 + 音乐播放 + 语音引导的跑步健身 Web 应用
 - [tianyi-fanclub/tianyi-birthday-countdown](https://github.com/tianyi-fanclub/tianyi-birthday-countdown) `★4 · CSS` — 这是洛天依饭制 生日会倒计时🎂 网站。
 - [Drigrow/120712](https://github.com/Drigrow/120712) `★2 · HTML` — A website for Luo Tianyi
 - [yunmianY/luotianyi_blog](https://github.com/yunmianY/luotianyi_blog) `★2 · Vue` — 关于洛天依的fastapi，vue3,mysql的博客
+- [duoduoeeee/hbv](https://github.com/duoduoeeee/hbv) `★1 · JavaScript` — Says happy birthday automatically to Luo Tianyi and Yan He, two of the most popular Chinese Vocaloid singers
 - [qqwqqk/Vocaloid.github.io](https://github.com/qqwqqk/Vocaloid.github.io) `★1 · TypeScript` — vsinger music player
 - [2362371984/luotianyi-website](https://github.com/2362371984/luotianyi-website) `HTML` — 洛天依主题网站页面改动方案与修改版页面（含 index.html 与修改脚本）
 - [fzr110911G/luotianyi](https://github.com/fzr110911G/luotianyi) `HTML` — 洛天依介绍页（HTML 静态站）

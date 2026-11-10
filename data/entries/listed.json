@@ -667,6 +667,23 @@
       ]
     },
     {
+      "id": 112372290,
+      "full_name": "duoduoeeee/hbv",
+      "aliases": [],
+      "category": "community-site",
+      "desc": "Says happy birthday automatically to Luo Tianyi and Yan He, two of the most popular Chinese Vocaloid singers",
+      "stars": 1,
+      "language": "JavaScript",
+      "pushed_at": "2017-11-28T18:39:20Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-10",
+      "source": "issue:7",
+      "evidence": [
+        "issue:7 approved by IPF-Sinon"
+      ]
+    },
+    {
       "id": 911285894,
       "full_name": "Hermite215/ACE-Vsinger-software-",
       "aliases": [],
