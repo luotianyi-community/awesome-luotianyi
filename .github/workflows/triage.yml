@@ -19,7 +19,9 @@ jobs:
   triage:
     name: apply decision command
     runs-on: ubuntu-latest
-    if: "contains(github.event.issue.title, '[candidate]')"
+    # Both candidate issues and the queue board accept decisions. The board has no repo in
+    # its title, so its commands carry one explicitly: "/approve owner/repo category".
+    if: "contains(github.event.issue.title, '[candidate]') || contains(github.event.issue.title, '[queue]')"
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -56,6 +58,15 @@ jobs:
       - name: Validate
         if: steps.changes.outputs.changed == 'true'
         run: node scripts/validate.mjs
+
+      # 裁决后刷新看板：已处理的候选必须立刻从名单里消失
+      - name: Refresh queue board
+        if: steps.changes.outputs.changed == 'true'
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: node scripts/queue-board.mjs
 
       - name: Commit decision
         if: steps.changes.outputs.changed == 'true'

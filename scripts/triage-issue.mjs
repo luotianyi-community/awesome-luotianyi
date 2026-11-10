@@ -6,13 +6,26 @@ import { parseArgs } from './lib/util.mjs';
 const COMMAND = /^\s*\/(approve|reject|exclude)\b\s*(.*)$/i;
 const FULL_NAME_TITLE = /^\s*\[candidate\]\s+(\S+\/\S+)\s*$/i;
 
+const TARGET = /^(?:https?:\/\/github\.com\/)?([A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+)\/?$/;
+
 export function parseCommand(text) {
   const match = String(text || '').match(COMMAND);
   if (!match) return null;
   const action = match[1].toLowerCase();
   const rest = (match[2] || '').trim();
   const first = rest.split(/\s+/)[0] || '';
-  return { action, argument: first, reason: rest };
+  const target = TARGET.test(first) ? first.replace(/^https?:\/\/github\.com\//, '').replace(/\/$/, '') : null;
+  // On the queue board there is no "candidate" title to read the repo from, so the command
+  // carries it: "/approve owner/repo category-id". On a normal candidate issue the target
+  // is redundant and ignored, which keeps every existing command working unchanged.
+  // With an explicit target the real argument is the token after it.
+  const after = target ? rest.slice(first.length).trim() : rest;
+  return {
+    action,
+    argument: target ? (after.split(/\s+/)[0] || '') : first,
+    target,
+    reason: after
+  };
 }
 
 export function parseTitle(title) {
@@ -62,11 +75,8 @@ async function main() {
   const issueRes = await client.request('/repos/' + repoPath + '/issues/' + number);
   const issue = issueRes.data;
   if (!issue) throw new Error('issue #' + number + ' not found');
-  const fullName = parseTitle(issue.title);
-  if (!fullName) {
-    console.log(JSON.stringify({ skipped: true, reason: 'title is not a candidate title', title: issue.title }));
-    return;
-  }
+  const titleTarget = parseTitle(issue.title);
+  const boardTarget = /^\s*\[queue\]/.test(String(issue.title || ''));
 
   const comments = await client.issueComments(repoPath, number);
   const decisions = [];
@@ -94,6 +104,22 @@ async function main() {
   }
 
   const decision = accepted[accepted.length - 1];
+  // Board issues carry no repo in the title, so the command must name one.
+  const fullName = titleTarget || decision.target;
+  if (!fullName) {
+    if (boardTarget) {
+      const note = '请在命令中标明仓库，例如 ' + bt('/approve owner/repo ' + (decision.argument || 'desktop-pet'));
+      if (announce) await client.createComment(repoPath, number, note);
+      console.log(JSON.stringify({ skipped: true, reason: 'board command without a repo target' }));
+      return;
+    }
+    console.log(JSON.stringify({ skipped: true, reason: 'title is not a candidate title', title: issue.title }));
+    return;
+  }
+  if (!/\//.test(fullName)) {
+    console.log(JSON.stringify({ skipped: true, reason: 'resolved target is not owner/repo', fullName }));
+    return;
+  }
   const repo = await resolveRepo(client, fullName);
   const known = lookup(registry, repo || { full_name: fullName });
   const taxonomyIds = new Set(registry.taxonomy.categories.map((item) => item.id));

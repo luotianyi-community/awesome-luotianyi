@@ -88,6 +88,14 @@ jobs:
           echo "::error::open-issues 失败，退出码 ${code}"
           exit "${code}"
 
+      # 候选建完 Issue 后刷新看板，让剩下没达标的候选也可见
+      - name: Refresh queue board
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: node scripts/queue-board.mjs
+
       - name: Report radar outcome
         if: always()
         run: |

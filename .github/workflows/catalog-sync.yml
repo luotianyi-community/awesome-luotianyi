@@ -92,6 +92,14 @@ jobs:
           echo "::error::scan-catalog 真实失败（exit ${{ steps.scan.outputs.exit_code }}），本轮中止，不提交任何改动"
           exit 1
 
+      # 队列看板：把未自动建 Issue 的候选汇总到一个 Issue，便于集中查看
+      - name: Refresh queue board
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: node scripts/queue-board.mjs
+
       - name: Render README
         run: node scripts/render-readme.mjs
 

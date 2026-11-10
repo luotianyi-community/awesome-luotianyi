@@ -85,7 +85,7 @@ stateDiagram-v2
 
 ### 3.1 权限判定
 
-裁决命令只在**该候选仓库对应的 Issue 中**、由**对本仓库（awesome-luotianyi）拥有 `write` 或 `admin` 权限的用户**发表时才会被执行。
+裁决命令只在**该候选仓库对应的 Issue 中**（或**队列看板 Issue 中**）、由**对本仓库（awesome-luotianyi）拥有 `write` 或 `admin` 权限的用户**发表时才会被执行。
 
 注意这里有两个容易混淆的“仓库”：
 
@@ -201,6 +201,20 @@ node scripts/add-entry.mjs exclude <owner/repo> --reason "..."
 只有一处例外保留队列：仅命中 `vsinger` 这类泛称、且没有出现 `core` 词（`洛天依` / `luotianyi` 等）的仓库。`vsinger` 既是中文虚拟歌手企划的品牌名，也是任何虚拟歌手的通称，还被他国艺人当作标签使用（曾误报浠Mizuki、ななし律歌），由它单独触发的仓库只进队列、等人工过目，不打扰维护者。
 
 换句话讲：**有明确相关性的都建 Issue 让人裁决，仅有歧义泛称的才留在队列。**
+
+#### 队列看板 Issue
+
+留在队列里的候选如果只存在于 `data/candidates/queue.json`，等于没人看得见。所以自动化维护一个**看板 Issue**（标题 `[queue] 候选观察名单`，带 `queue-board` 标签），内容是当前队列的表格：仓库、分数、命中信号、描述、建议分类。每次扫描和每次裁决后自动刷新；队列为空时显示「目前没有待审的候选」。
+
+看板没有候选标题，所以命令必须自带仓库名：
+
+```text
+/approve owner/repo desktop-pet
+/reject owner/repo 与洛天依无关
+/exclude owner/repo 仅同名，无实质内容
+```
+
+普通候选 Issue 里的命令保持原样（`/approve desktop-pet`），仓库名从标题读取——两种写法共存，互不影响。
 
 ### 5.3 每轮上限与限流
 
