@@ -13,7 +13,7 @@
 </div>
 
 <!-- BEGIN:STATS -->
-**100 repositories · 9 categories · built 2026-11-12 · newest repository activity 2026-11-12**
+**101 repositories · 9 categories · built 2026-11-12 · newest repository activity 2026-11-12**
 
 | Category | Repos |
 | --- | --- |
@@ -24,10 +24,10 @@
 | 🧰 Data, Wiki & Tooling | 15 |
 | 🎮 Games, Mods & Hardware Art | 18 |
 | 🎵 Audio, Sheets & Creative Assets | 5 |
-| 🌐 Community Sites & Services | 17 |
+| 🌐 Community Sites & Services | 18 |
 | 📚 Docs & Tutorials | 4 |
 
-**Primary languages**：other (31) · JavaScript (18) · Python (18) · HTML (13) · Java (4) · TypeScript (4)
+**Primary languages**：other (31) · JavaScript (18) · Python (18) · HTML (13) · TypeScript (5) · Java (4)
 <!-- END:STATS -->
 
 ## Contents
@@ -178,7 +178,7 @@ Bonuses: a README, a LICENSE, a commit within the last 12 months, stars ≥ 3.
 - [kkryuw/Luotianyi-Yuezhengling-Yanhe-vocaloid5-orignal-source](https://github.com/kkryuw/Luotianyi-Yuezhengling-Yanhe-vocaloid5-orignal-source) `★1` — 洛天依、乐正绫、言和的 VOCALOID5 官方声库资源整理
 - [leisquid/vsinger-voicebank-packages-design](https://github.com/leisquid/vsinger-voicebank-packages-design) `★1` — Vsinger voicebank packages design
 
-### 🌐 Community Sites & Services (17)
+### 🌐 Community Sites & Services (18)
 
 - [w8888-hh/luotianyi-running-app](https://github.com/w8888-hh/luotianyi-running-app) `★10 · HTML` — 洛天依陪跑应用 - 节拍器 + 心率监测 + 音乐播放 + 语音引导的跑步健身 Web 应用
 - [tianyi-fanclub/tianyi-birthday-countdown](https://github.com/tianyi-fanclub/tianyi-birthday-countdown) `★4 · CSS` — 这是洛天依饭制 生日会倒计时🎂 网站。
@@ -190,6 +190,7 @@ Bonuses: a README, a LICENSE, a commit within the last 12 months, stars ≥ 3.
 - [klovelovely/6cf-f00](https://github.com/klovelovely/6cf-f00) `★1 · HTML` — 洛天依 × 乐正绫 主题单页
 - [qqwqqk/Vocaloid.github.io](https://github.com/qqwqqk/Vocaloid.github.io) `★1 · TypeScript` — vsinger music player
 - [2362371984/luotianyi-website](https://github.com/2362371984/luotianyi-website) `HTML` — 洛天依主题网站页面改动方案与修改版页面（含 index.html 与修改脚本）
+- [fanquanpp/mingyige](https://github.com/fanquanpp/mingyige) `TypeScript` — 鸣依阁 —— 洛天依个人站·在线访问：https://mingyige.pages.dev/
 - [fzr110911G/luotianyi](https://github.com/fzr110911G/luotianyi) `HTML` — 洛天依介绍页（HTML 静态站）
 - [jmgay114514/LuoTianyi](https://github.com/jmgay114514/LuoTianyi) `HTML` — Vsinger 六位角色介绍站，含洛天依、言和、乐正绫、乐正龙牙、徵羽摩柯与墨清弦分页
 - [Kotokowa/luotianyiPost](https://github.com/Kotokowa/luotianyiPost) `JavaScript` — 来自瓦纳海姆 · LUOTY：天依蓝 #66ccff 主题个人站，含天依立绘素材

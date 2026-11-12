@@ -18,6 +18,14 @@
       "issue": null
     },
     {
+      "id": 1280432850,
+      "full_name": "2513502304/bilibili-collection",
+      "reason": "全站 B 站收藏集索引工具，洛天依只是自动生成表格里的一行，与项目主题无关",
+      "by": "IPF-Sinon",
+      "at": "2026-11-12",
+      "issue": null
+    },
+    {
       "id": 1317457432,
       "full_name": "api-evangelist/luotianyi",
       "reason": "第三方 API 目录自动生成页面，非洛天依项目",
@@ -218,6 +226,14 @@
       "issue": null
     },
     {
+      "id": 1364574748,
+      "full_name": "xinxiangshiicheng/xinxiangshiicheng",
+      "reason": "纯个人 profile 仓库，洛天依仅是横幅插画与兴趣标签",
+      "by": "IPF-Sinon",
+      "at": "2026-11-12",
+      "issue": null
+    },
+    {
       "id": 228039296,
       "full_name": "xvyourang/luotianyiily",
       "reason": "仅注册「洛天依.我爱你」域名占位，无实际项目内容",
@@ -239,6 +255,14 @@
       "reason": "仅 70 字节 README 的“黑粉披露”临时站，无任何实质项目内容（重发：上次并发推送冲突未落库）",
       "by": "IPF-Sinon",
       "at": "2026-11-09",
+      "issue": null
+    },
+    {
+      "id": 1453682270,
+      "full_name": "yyshevwhsg627829-lab/gpt-sovits-mobile",
+      "reason": "通用 TTS 工具，洛天依只是 README 里的示例音色之一，不是项目主题",
+      "by": "IPF-Sinon",
+      "at": "2026-11-12",
       "issue": null
     },
     {

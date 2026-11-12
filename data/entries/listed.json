@@ -1261,6 +1261,23 @@
       ]
     },
     {
+      "id": 1449331079,
+      "full_name": "fanquanpp/mingyige",
+      "aliases": [],
+      "category": "community-site",
+      "desc": "鸣依阁 —— 洛天依个人站·在线访问：https://mingyige.pages.dev/",
+      "stars": 0,
+      "language": "TypeScript",
+      "pushed_at": "2026-11-09T05:16:20Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-12",
+      "source": "issue:24",
+      "evidence": [
+        "issue:24 approved by IPF-Sinon"
+      ]
+    },
+    {
       "id": 1235919640,
       "full_name": "Fujishima-Rurino/vsinger-song-finder",
       "aliases": [],
