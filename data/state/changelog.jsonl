@@ -217,3 +217,4 @@
 {"at":"2026-11-12T06:43:06Z","action":"catalog-scan","scanned":11,"queued":0,"excluded":0,"updated":0,"water":"2026-11-12"}
 {"at":"2026-11-12T10:48:56Z","action":"approve","repo":"jinyiwei2012/Luo-Sandbox","category":"game-mod","issue":22,"actor":"IPF-Sinon"}
 {"at":"2026-11-12T10:57:31Z","action":"reject","repo":"SummerTianYi/anime-agent-mvp","reason":"通用 3D 桌宠 Agent 框架，洛天依仅是内置示例人格，非项目定位","issue":27,"actor":"IPF-Sinon"}
+{"at":"2026-11-12T10:57:58Z","action":"approve","repo":"D-6CF-X/vmap","category":"community-site","issue":23,"actor":"IPF-Sinon"}

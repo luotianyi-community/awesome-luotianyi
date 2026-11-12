@@ -13,7 +13,7 @@
 </div>
 
 <!-- BEGIN:STATS -->
-**99 个仓库 · 9 个分类 · 构建于 2026-11-12 · 最新仓库活动 2026-11-12**
+**100 个仓库 · 9 个分类 · 构建于 2026-11-12 · 最新仓库活动 2026-11-12**
 
 | 分类 | 仓库数 |
 | --- | --- |
@@ -24,7 +24,7 @@
 | 🧰 数据·知识库·工具链 | 15 |
 | 🎮 游戏·模组·硬件二创 | 18 |
 | 🎵 音频·乐谱·创作素材 | 5 |
-| 🌐 社区站点与周边服务 | 16 |
+| 🌐 社区站点与周边服务 | 17 |
 | 📚 教程与文档 | 4 |
 
 **主要语言**：other (31) · JavaScript (18) · Python (18) · HTML (13) · Java (4) · TypeScript (4)
@@ -178,13 +178,14 @@
 - [kkryuw/Luotianyi-Yuezhengling-Yanhe-vocaloid5-orignal-source](https://github.com/kkryuw/Luotianyi-Yuezhengling-Yanhe-vocaloid5-orignal-source) `★1` — 洛天依、乐正绫、言和的 VOCALOID5 官方声库资源整理
 - [leisquid/vsinger-voicebank-packages-design](https://github.com/leisquid/vsinger-voicebank-packages-design) `★1` — Vsinger voicebank packages design
 
-### 🌐 社区站点与周边服务 (16)
+### 🌐 社区站点与周边服务 (17)
 
 - [w8888-hh/luotianyi-running-app](https://github.com/w8888-hh/luotianyi-running-app) `★10 · HTML` — 洛天依陪跑应用 - 节拍器 + 心率监测 + 音乐播放 + 语音引导的跑步健身 Web 应用
 - [tianyi-fanclub/tianyi-birthday-countdown](https://github.com/tianyi-fanclub/tianyi-birthday-countdown) `★4 · CSS` — 这是洛天依饭制 生日会倒计时🎂 网站。
 - [Drigrow/120712](https://github.com/Drigrow/120712) `★2 · HTML` — A website for Luo Tianyi
 - [yunmianY/luotianyi_blog](https://github.com/yunmianY/luotianyi_blog) `★2 · Vue` — 关于洛天依的fastapi，vue3,mysql的博客
 - [Agnarr1800/yanhe-luotianyi-1314](https://github.com/Agnarr1800/yanhe-luotianyi-1314) `★1 · JavaScript` — 言和 13 周年 × 洛天依 14 周年生日纪念网页（1314·一生一世）：角色档案、时光轴、经典合唱曲目、生日倒计时、祝福墙与数据管理后台，纯静态零依赖
+- [D-6CF-X/vmap](https://github.com/D-6CF-X/vmap) `★1 · Kotlin` — V-Map 虚拟歌姬演出城市打卡地图（洛天依·依你随行 / 初音未来·因音而遇），Kotlin + Compose 自绘中国地图
 - [duoduoeeee/hbv](https://github.com/duoduoeeee/hbv) `★1 · JavaScript` — 洛天依与言和生日自动祝福脚本：在指定日期自动向网页插入生日元素，引一行 JS 即可使用
 - [klovelovely/6cf-f00](https://github.com/klovelovely/6cf-f00) `★1 · HTML` — 洛天依 × 乐正绫 主题单页
 - [qqwqqk/Vocaloid.github.io](https://github.com/qqwqqk/Vocaloid.github.io) `★1 · TypeScript` — vsinger music player

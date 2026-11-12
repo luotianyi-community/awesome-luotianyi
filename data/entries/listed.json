@@ -837,6 +837,23 @@
       ]
     },
     {
+      "id": 1452018320,
+      "full_name": "D-6CF-X/vmap",
+      "aliases": [],
+      "category": "community-site",
+      "desc": "V-Map 虚拟歌姬演出城市打卡地图（洛天依·依你随行 / 初音未来·因音而遇），Kotlin + Compose 自绘中国地图",
+      "stars": 1,
+      "language": "Kotlin",
+      "pushed_at": "2026-11-12T09:41:31Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-12",
+      "source": "issue:23",
+      "evidence": [
+        "issue:23 approved by IPF-Sinon"
+      ]
+    },
+    {
       "id": 112372290,
       "full_name": "duoduoeeee/hbv",
       "aliases": [],

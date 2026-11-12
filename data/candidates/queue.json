@@ -2,41 +2,6 @@
   "version": 1,
   "entries": [
     {
-      "id": 1452018320,
-      "full_name": "D-6CF-X/vmap",
-      "desc": "V-Map 虚拟歌姬演出城市打卡地图（洛天依·依你随行 / 初音未来·因音而遇），Kotlin + Compose 自绘中国地图",
-      "stars": 1,
-      "language": "Kotlin",
-      "pushed_at": "2026-11-12T06:38:31Z",
-      "archived": false,
-      "fork": false,
-      "score": 63,
-      "signals": [
-        "core",
-        "description:strong",
-        "description:weak",
-        "readme:strong"
-      ],
-      "category_suggestion": "data-tools",
-      "sources": [
-        "catalog"
-      ],
-      "evidence": [
-        "github-search",
-        "core",
-        "description:strong",
-        "description:weak",
-        "readme:strong"
-      ],
-      "first_seen": "2026-11-12",
-      "last_seen": "2026-11-12",
-      "issue": {
-        "number": 23,
-        "url": "https://github.com/luotianyi-community/awesome-luotianyi/issues/23",
-        "created_at": "2026-11-12"
-      }
-    },
-    {
       "id": 1449331079,
       "full_name": "fanquanpp/mingyige",
       "desc": "鸣依阁 —— 洛天依个人站·在线访问：https://mingyige.pages.dev/",
