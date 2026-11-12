@@ -2,6 +2,33 @@
   "version": 1,
   "entries": [
     {
+      "id": 1335183530,
+      "full_name": "losebird/dsh-plugin-market",
+      "desc": "DeepSeek Harness plugins market｜DSH 插件市场",
+      "stars": 29,
+      "language": "JavaScript",
+      "pushed_at": "2026-11-12T14:35:50Z",
+      "archived": false,
+      "fork": false,
+      "score": 56,
+      "signals": [
+        "core",
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "core",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "issue": null
+    },
+    {
       "id": 838626846,
       "full_name": "include-xb/LuoPulse_Adornment",
       "desc": "中文虚拟歌手同人音乐游戏 A fan-made rhythm game about Chinese virtual singers",
