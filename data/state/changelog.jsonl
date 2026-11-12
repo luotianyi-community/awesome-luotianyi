@@ -222,3 +222,5 @@
 {"at":"2026-11-12T10:59:12Z","action":"reject","repo":"yyshevwhsg627829-lab/gpt-sovits-mobile","reason":"通用 TTS 工具，洛天依只是 README 里的示例音色之一，不是项目主题","issue":25,"actor":"IPF-Sinon"}
 {"at":"2026-11-12T10:59:15Z","action":"reject","repo":"2513502304/bilibili-collection","reason":"全站 B 站收藏集索引工具，洛天依只是自动生成表格里的一行，与项目主题无关","issue":26,"actor":"IPF-Sinon"}
 {"at":"2026-11-12T10:59:33Z","action":"reject","repo":"xinxiangshiicheng/xinxiangshiicheng","reason":"纯个人 profile 仓库，洛天依仅是横幅插画与兴趣标签","issue":21,"actor":"IPF-Sinon"}
+{"at":"2026-11-12T10:59:56Z","action":"exclude","repo":"Sparkzure/PCL-Slash","id":1455136680,"reason":"empty repository","actor":"automation"}
+{"at":"2026-11-12T10:59:58Z","action":"catalog-scan","scanned":13,"queued":0,"excluded":1,"updated":0,"water":"2026-11-12"}
