@@ -2,7 +2,7 @@ import path from 'node:path';
 import { createClient } from './lib/github.mjs';
 import { loadRules, evaluateRepo } from './lib/match.mjs';
 import { loadRegistry, lookup, saveRegistry, saveState, logChange, statusOf } from './lib/registry.mjs';
-import { parseArgs, nowIso } from './lib/util.mjs';
+import { parseArgs, nowIso, rewindDay } from './lib/util.mjs';
 import { enqueue, mergeEvidence, autoExclude, repoRecord } from './lib/pipeline.mjs';
 
 async function collectSignals(client, registry, rules, args, verbose) {
@@ -13,7 +13,7 @@ async function collectSignals(client, registry, rules, args, verbose) {
 
   for (const term of rules.radar_queries.commits || []) {
     for (let page = 1; page <= maxPages; page += 1) {
-      const query = term + ' committer-date:>' + since;
+      const query = term + ' committer-date:>' + rewindDay(since);
       let result;
       try {
         result = await client.searchCommits(query, page);
@@ -36,7 +36,7 @@ async function collectSignals(client, registry, rules, args, verbose) {
   for (const term of rules.radar_queries.issues || []) {
     for (const kind of ['is:issue', 'is:pull-request']) {
       for (let page = 1; page <= maxPages; page += 1) {
-        const query = term + ' ' + kind + ' created:>' + since;
+        const query = term + ' ' + kind + ' created:>' + rewindDay(since);
         let result;
         try {
           result = await client.searchIssues(query, page);

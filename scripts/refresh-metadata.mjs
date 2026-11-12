@@ -55,7 +55,10 @@ async function main() {
     if (client) {
       const repo = await client.repo(entry.full_name);
       if (!repo) {
-        tombstones.push(entry.full_name);
+        // Stored as an object: lookup() matches tombstones by id and reads .full_name off
+        // them. Pushing a bare string made every tombstone unmatchable, so a dead repo
+        // could be re-proposed on the next scan.
+        tombstones.push({ id: entry.id, full_name: entry.full_name, at: todayIso(), reason: 'not found during refresh' });
         continue;
       }
       if (repo.full_name !== entry.full_name) {

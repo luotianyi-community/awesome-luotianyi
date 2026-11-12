@@ -38,6 +38,21 @@ export function todayIso() {
   return nowIso().slice(0, 10);
 }
 
+// GitHub's `pushed:>DATE` and `committer-date:>DATE` compare against the date string,
+// not the full timestamp: `pushed:>2026-11-10` excludes everything committed ON
+// 2026-11-10. The watermark is written as the day the scan ran, so using it verbatim
+// silently skipped that whole day -- Luo-Sandbox, pushed 2026-11-10T19:08, was never
+// seen by the scan that ran on 2026-11-10. Rewinding one day is cheap (a handful of
+// extra results) and makes the window inclusive.
+export function rewindDay(date) {
+  const stamp = String(date || '').slice(0, 10);
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(stamp)) return stamp;
+  const d = new Date(stamp + 'T00:00:00Z');
+  if (Number.isNaN(d.getTime())) return stamp;
+  d.setUTCDate(d.getUTCDate() - 1);
+  return d.toISOString().slice(0, 10);
+}
+
 export function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }

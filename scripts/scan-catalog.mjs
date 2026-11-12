@@ -1,7 +1,7 @@
 import { createClient } from './lib/github.mjs';
 import { loadRules, evaluateRepo } from './lib/match.mjs';
 import { loadRegistry, lookup, saveRegistry, saveState, logChange, statusOf } from './lib/registry.mjs';
-import { parseArgs, nowIso } from './lib/util.mjs';
+import { parseArgs, nowIso, rewindDay } from './lib/util.mjs';
 import { enqueue, mergeEvidence, autoExclude } from './lib/pipeline.mjs';
 import path from 'node:path';
 
@@ -28,7 +28,7 @@ async function main() {
   for (const rawQuery of queries) {
     let query = rawQuery;
     if (!/\bin:/.test(query) && !/^topic:/.test(query)) query = query + ' in:name,description,readme';
-    if (!/pushed:/.test(query) && since && since !== '1970-01-01') query = query + ' pushed:>' + since;
+    if (!/pushed:/.test(query) && since && since !== '1970-01-01') query = query + ' pushed:>' + rewindDay(since);
     if (verbose) console.log('[query]', query);
     for (let page = 1; page <= pages; page += 1) {
       let result;
