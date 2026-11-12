@@ -169,7 +169,7 @@
       "desc": "洛天依南北组主题沉金艺术纪念PCB票卡，嘉立创开源硬件，无电气功能纯收藏卡",
       "stars": 11,
       "language": null,
-      "pushed_at": "2026-11-09T11:44:13Z",
+      "pushed_at": "2026-11-12T03:43:05Z",
       "archived": false,
       "fork": false,
       "added_at": "2026-11-08",
@@ -232,6 +232,24 @@
       ]
     },
     {
+      "id": 1447110730,
+      "full_name": "lty-hongsejinwei/dsh-luotianyi-skin",
+      "aliases": [],
+      "category": "theme-skin",
+      "desc": "洛天依主题皮肤 for DeepSeek Harness (DSH) — /洛天依和雅音宫羽 #66CCFF",
+      "stars": 8,
+      "language": "JavaScript",
+      "pushed_at": "2026-11-11T11:36:47Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:135"
+      ]
+    },
+    {
       "id": 445354119,
       "full_name": "luotianyi-dev/luotianyi-http-stickers",
       "aliases": [],
@@ -265,24 +283,6 @@
       "evidence": [
         "github-search",
         "score:131"
-      ]
-    },
-    {
-      "id": 1447110730,
-      "full_name": "lty-hongsejinwei/dsh-luotianyi-skin",
-      "aliases": [],
-      "category": "theme-skin",
-      "desc": "洛天依主题皮肤 for DeepSeek Harness (DSH) — /洛天依和雅音宫羽 #66CCFF",
-      "stars": 7,
-      "language": "JavaScript",
-      "pushed_at": "2026-11-05T14:42:26Z",
-      "archived": false,
-      "fork": false,
-      "added_at": "2026-11-08",
-      "source": "curation",
-      "evidence": [
-        "github-search",
-        "score:135"
       ]
     },
     {
@@ -1727,7 +1727,7 @@
       "desc": "洛天依主题前端练习页",
       "stars": 0,
       "language": "HTML",
-      "pushed_at": "2026-11-09T16:01:14Z",
+      "pushed_at": "2026-11-11T05:49:06Z",
       "archived": false,
       "fork": false,
       "added_at": "2026-11-10",

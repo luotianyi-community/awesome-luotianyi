@@ -2,12 +2,43 @@
   "version": 1,
   "entries": [
     {
+      "id": 1452018320,
+      "full_name": "D-6CF-X/vmap",
+      "desc": "V-Map 虚拟歌姬演出城市打卡地图（洛天依·依你随行 / 初音未来·因音而遇），Kotlin + Compose 自绘中国地图",
+      "stars": 1,
+      "language": "Kotlin",
+      "pushed_at": "2026-11-11T15:59:28Z",
+      "archived": false,
+      "fork": false,
+      "score": 63,
+      "signals": [
+        "core",
+        "description:strong",
+        "description:weak",
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "core",
+        "description:strong",
+        "description:weak",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "issue": null
+    },
+    {
       "id": 1364574748,
       "full_name": "xinxiangshiicheng/xinxiangshiicheng",
       "desc": "Hi, I'm xinxiangshicheng",
       "stars": 0,
       "language": null,
-      "pushed_at": "2026-11-11T00:42:14Z",
+      "pushed_at": "2026-11-12T01:55:52Z",
       "archived": false,
       "fork": false,
       "score": 56,
@@ -25,12 +56,155 @@
         "readme:strong"
       ],
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "issue": {
         "number": 21,
         "url": "https://github.com/luotianyi-community/awesome-luotianyi/issues/21",
         "created_at": "2026-11-11"
       }
+    },
+    {
+      "id": 1453682270,
+      "full_name": "yyshevwhsg627829-lab/gpt-sovits-mobile",
+      "desc": "Run GPT-SoVITS voice cloning TTS fully offline on your Android phone (PRoot sandbox, ONNX CPU inference). No PC, no GPU, no cloud. 中文语音克隆合成，手机本地离线跑通。",
+      "stars": 0,
+      "language": "Shell",
+      "pushed_at": "2026-11-11T08:15:43Z",
+      "archived": false,
+      "fork": false,
+      "score": 51,
+      "signals": [
+        "core",
+        "readme:strong",
+        "topics:strong",
+        "topics:weak"
+      ],
+      "category_suggestion": "tts-ai",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "core",
+        "readme:strong",
+        "topics:strong",
+        "topics:weak"
+      ],
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "issue": null
+    },
+    {
+      "id": 1280432850,
+      "full_name": "2513502304/bilibili-collection",
+      "desc": "一个 streamlit 交互式前端页面，用于下载每日更新的 bilibili 收藏集",
+      "stars": 1,
+      "language": "Python",
+      "pushed_at": "2026-11-12T00:01:18Z",
+      "archived": false,
+      "fork": false,
+      "score": 50,
+      "signals": [
+        "core",
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "core",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "issue": null
+    },
+    {
+      "id": 838626846,
+      "full_name": "include-xb/LuoPulse_Adornment",
+      "desc": "中文虚拟歌手同人音乐游戏 A fan-made rhythm game about Chinese virtual singers",
+      "stars": 13,
+      "language": "GDScript",
+      "pushed_at": "2026-11-11T15:29:37Z",
+      "archived": false,
+      "fork": false,
+      "score": 44,
+      "signals": [
+        "core",
+        "description:weak",
+        "readme:strong",
+        "topics:weak"
+      ],
+      "category_suggestion": "game-mod",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "core",
+        "description:weak",
+        "readme:strong",
+        "topics:weak"
+      ],
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "issue": null
+    },
+    {
+      "id": 1327342678,
+      "full_name": "CarefreeSongs712/mohobot",
+      "desc": "Mohobot — Multi-Bot AI Framework",
+      "stars": 4,
+      "language": "Python",
+      "pushed_at": "2026-11-11T16:04:39Z",
+      "archived": false,
+      "fork": false,
+      "score": 31,
+      "signals": [
+        "core",
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "core",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "issue": null
+    },
+    {
+      "id": 1347445684,
+      "full_name": "littlebook888/kaoyan-site",
+      "desc": "小本子考研个人网站 · 个人备考自用（每日任务 / 学习计时 / 作息安排 / 通话边界记录）。个人使用，非公开内容，页面需口令访问。",
+      "stars": 1,
+      "language": "JavaScript",
+      "pushed_at": "2026-11-11T17:42:31Z",
+      "archived": false,
+      "fork": false,
+      "score": 31,
+      "signals": [
+        "core",
+        "readme:strong"
+      ],
+      "category_suggestion": "community-site",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "core",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "issue": null
     }
   ]
 }

@@ -13,7 +13,7 @@
 </div>
 
 <!-- BEGIN:STATS -->
-**98 个仓库 · 9 个分类 · 数据更新于 2026-11-10**
+**98 个仓库 · 9 个分类 · 数据更新于 2026-11-12**
 
 | 分类 | 仓库数 |
 | --- | --- |
@@ -118,7 +118,7 @@
 
 - [LazyCreeper/LuoTianyi](https://github.com/LazyCreeper/LuoTianyi) `★32 · CSS` — 该主题基于宝塔Linux面板 8.0.4 制作。
 - [1a57danc3/chrome-luotianyi-theme](https://github.com/1a57danc3/chrome-luotianyi-theme) `★13` — Chrome 擴展商店的舊版本不再更新, 我也想上傳到官方平臺， 可惜註冊費用太貴算了。。。
-- [lty-hongsejinwei/dsh-luotianyi-skin](https://github.com/lty-hongsejinwei/dsh-luotianyi-skin) `★7 · JavaScript` — 洛天依主题皮肤 for DeepSeek Harness (DSH) — /洛天依和雅音宫羽 #66CCFF
+- [lty-hongsejinwei/dsh-luotianyi-skin](https://github.com/lty-hongsejinwei/dsh-luotianyi-skin) `★8 · JavaScript` — 洛天依主题皮肤 for DeepSeek Harness (DSH) — /洛天依和雅音宫羽 #66CCFF
 - [LinusTrevian/New-Singer-Grub](https://github.com/LinusTrevian/New-Singer-Grub) `★4` — 少女乐队 GRUB 主题合集，含天依、初音等主题
 - [ClF3/tianyi-grub-theme](https://github.com/ClF3/tianyi-grub-theme) `★3` — 洛天依 GRUB 主题，附背景图预览
 - [ssYanhuo/LuoTianyi-Watchface](https://github.com/ssYanhuo/LuoTianyi-Watchface) `★1 · Java` — 洛天依概念表盘，适用于Wear OS by Google。A Wear OS watchface based on Vsinger official Luo Tianyi concept watch.
