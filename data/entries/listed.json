@@ -113,7 +113,7 @@
       "aliases": [],
       "category": "live2d",
       "desc": "💙🩵LuoTianyi洛天依 v3 interactive mascot / Live2d widget for blog / 看板娘🩵💙",
-      "stars": 16,
+      "stars": 18,
       "language": "JavaScript",
       "pushed_at": "2026-05-22T04:03:16Z",
       "archived": false,
@@ -321,6 +321,24 @@
       ]
     },
     {
+      "id": 1273456632,
+      "full_name": "ChinaYosh007/LuoTianYi-pet",
+      "aliases": [],
+      "category": "desktop-pet",
+      "stars": 5,
+      "language": null,
+      "pushed_at": "2026-06-18T14:53:29Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:81"
+      ],
+      "desc": "New-Item -ItemType Directory -Force \"$env:USERPROFILE\\.codex\\pets\" | Out-Null"
+    },
+    {
       "id": 164273080,
       "full_name": "Jobsecond/pigeon-pv-list",
       "aliases": [],
@@ -354,24 +372,6 @@
       "evidence": [
         "curated from candidate queue"
       ]
-    },
-    {
-      "id": 1273456632,
-      "full_name": "ChinaYosh007/LuoTianYi-pet",
-      "aliases": [],
-      "category": "desktop-pet",
-      "stars": 4,
-      "language": null,
-      "pushed_at": "2026-06-18T14:53:29Z",
-      "archived": false,
-      "fork": false,
-      "added_at": "2026-11-08",
-      "source": "curation",
-      "evidence": [
-        "github-search",
-        "score:81"
-      ],
-      "desc": "New-Item -ItemType Directory -Force \"$env:USERPROFILE\\.codex\\pets\" | Out-Null"
     },
     {
       "id": 1261787530,
@@ -820,6 +820,23 @@
       ]
     },
     {
+      "id": 1280367926,
+      "full_name": "Agnarr1800/yanhe-luotianyi-1314",
+      "aliases": [],
+      "category": "community-site",
+      "desc": "言和 13 周年 × 洛天依 14 周年生日纪念网页（1314·一生一世）：角色档案、时光轴、经典合唱曲目、生日倒计时、祝福墙与数据管理后台，纯静态零依赖",
+      "stars": 1,
+      "language": "JavaScript",
+      "pushed_at": "2026-06-27T02:00:23Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-10",
+      "source": "issue:19",
+      "evidence": [
+        "issue:19 approved by IPF-Sinon"
+      ]
+    },
+    {
       "id": 112372290,
       "full_name": "duoduoeeee/hbv",
       "aliases": [],
@@ -995,6 +1012,42 @@
       ]
     },
     {
+      "id": 1284852273,
+      "full_name": "Sakaki773/Vsinger_reversi",
+      "aliases": [],
+      "category": "game-mod",
+      "stars": 1,
+      "language": "Python",
+      "pushed_at": "2026-07-04T09:28:02Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:139"
+      ],
+      "desc": "洛天依与言和主题的翻转棋小游戏"
+    },
+    {
+      "id": 1287308602,
+      "full_name": "Sakaki773/VsingerShudu",
+      "aliases": [],
+      "category": "game-mod",
+      "desc": "洛天依主题 9x9 数独游戏，包含 PC Tkinter 原型和原生 Android APK 版本。主题色以洛天依应援色 66CCFF 为主，界面使用淡化/虚化背景图，尽量保证主题感和可读性平衡。",
+      "stars": 1,
+      "language": "Java",
+      "pushed_at": "2026-07-04T02:55:01Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:64"
+      ]
+    },
+    {
       "id": 1441882853,
       "full_name": "SamXiaoyiyuan/luotianyi-chatbot",
       "aliases": [],
@@ -1048,6 +1101,24 @@
       ]
     },
     {
+      "id": 1447031336,
+      "full_name": "zb23333ww/astrbot_plugin_vsinger_gacha",
+      "aliases": [],
+      "category": "game-mod",
+      "desc": "B站收藏集抽卡 · AstrBot 移植版（Pillow 渲染，积分与 Azure 打卡互通）",
+      "stars": 1,
+      "language": "Python",
+      "pushed_at": "2026-11-07T14:36:05Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "curation",
+      "evidence": [
+        "github-search",
+        "score:70"
+      ]
+    },
+    {
       "id": 1446351349,
       "full_name": "zb23333ww/koishi-plugin-vsinger-gacha",
       "aliases": [],
@@ -1081,23 +1152,6 @@
       "evidence": [
         "github-search",
         "score:70"
-      ]
-    },
-    {
-      "id": 1280367926,
-      "full_name": "Agnarr1800/yanhe-luotianyi-1314",
-      "aliases": [],
-      "category": "community-site",
-      "desc": "言和 13 周年 × 洛天依 14 周年生日纪念网页（1314·一生一世）：角色档案、时光轴、经典合唱曲目、生日倒计时、祝福墙与数据管理后台，纯静态零依赖",
-      "stars": 0,
-      "language": "JavaScript",
-      "pushed_at": "2026-06-27T02:00:23Z",
-      "archived": false,
-      "fork": false,
-      "added_at": "2026-11-10",
-      "source": "issue:19",
-      "evidence": [
-        "issue:19 approved by IPF-Sinon"
       ]
     },
     {
@@ -1506,42 +1560,6 @@
       ]
     },
     {
-      "id": 1284852273,
-      "full_name": "Sakaki773/Vsinger_reversi",
-      "aliases": [],
-      "category": "game-mod",
-      "stars": 0,
-      "language": "Python",
-      "pushed_at": "2026-07-04T09:28:02Z",
-      "archived": false,
-      "fork": false,
-      "added_at": "2026-11-08",
-      "source": "curation",
-      "evidence": [
-        "github-search",
-        "score:139"
-      ],
-      "desc": "洛天依与言和主题的翻转棋小游戏"
-    },
-    {
-      "id": 1287308602,
-      "full_name": "Sakaki773/VsingerShudu",
-      "aliases": [],
-      "category": "game-mod",
-      "desc": "洛天依主题 9x9 数独游戏，包含 PC Tkinter 原型和原生 Android APK 版本。主题色以洛天依应援色 66CCFF 为主，界面使用淡化/虚化背景图，尽量保证主题感和可读性平衡。",
-      "stars": 0,
-      "language": "Java",
-      "pushed_at": "2026-07-04T02:55:01Z",
-      "archived": false,
-      "fork": false,
-      "added_at": "2026-11-08",
-      "source": "curation",
-      "evidence": [
-        "github-search",
-        "score:64"
-      ]
-    },
-    {
       "id": 1236431677,
       "full_name": "sunny-luoyun/bilibili_vc",
       "aliases": [],
@@ -1665,24 +1683,6 @@
         "score:125"
       ],
       "desc": "洛天依主题的 PCL2 启动器特别版主题包"
-    },
-    {
-      "id": 1447031336,
-      "full_name": "zb23333ww/astrbot_plugin_vsinger_gacha",
-      "aliases": [],
-      "category": "game-mod",
-      "desc": "B站收藏集抽卡 · AstrBot 移植版（Pillow 渲染，积分与 Azure 打卡互通）",
-      "stars": 0,
-      "language": "Python",
-      "pushed_at": "2026-11-07T14:36:05Z",
-      "archived": false,
-      "fork": false,
-      "added_at": "2026-11-08",
-      "source": "curation",
-      "evidence": [
-        "github-search",
-        "score:70"
-      ]
     },
     {
       "id": 976439027,

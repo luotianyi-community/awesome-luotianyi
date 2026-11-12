@@ -1,0 +1,126 @@
+name: metadata-refresh
+
+# Everything else in this repo reacts to *new* repositories. Nothing kept the entries we
+# already list honest: stars drift, repos get archived, renamed or deleted, and a README
+# gets edited under a description we copied months ago. scan-catalog only refreshes what a
+# search happens to return, so a listed repo that stopped being pushed is never revisited.
+#
+# This runs monthly and walks the whole listed set within the API budget.
+on:
+  schedule:
+    # 04:37 on the 1st — off the hour so it does not queue behind catalog-sync.
+    - cron: "37 4 1 * *"
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "本次最多刷新多少条（留空为全部）"
+        required: false
+        default: ""
+        type: string
+      dry_run:
+        description: "演练模式：只打印不写盘"
+        required: false
+        default: false
+        type: boolean
+      all:
+        description: "all=true 时重写所有描述（默认只补空描述）"
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+# Shared with every other workflow that pushes to main, so commits serialise.
+concurrency:
+  group: repo-write
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    name: refresh listed metadata
+    runs-on: ubuntu-latest
+    if: github.actor != 'github-actions[bot]'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      # Exit 2 means rate limited: the run stops but is not a failure, and the next
+      # monthly pass picks up where this one stopped.
+      - name: Refresh metadata
+        id: refresh
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LIMIT: ${{ github.event.inputs.limit || '' }}
+          DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
+          ALL: ${{ github.event.inputs.all || 'false' }}
+        run: |
+          set +e
+          args=()
+          if [ -n "${LIMIT}" ]; then args+=("--limit" "${LIMIT}"); fi
+          if [ "${DRY_RUN}" = "true" ]; then args+=("--dry-run"); fi
+          if [ "${ALL}" = "true" ]; then args+=("--all"); fi
+          node scripts/refresh-metadata.mjs "${args[@]}"
+          code=$?
+          echo "exit_code=${code}" >> "$GITHUB_OUTPUT"
+          if [ "${code}" -eq 0 ] || [ "${code}" -eq 2 ]; then
+            if [ "${code}" -eq 2 ]; then
+              echo "::warning::refresh-metadata 因限流退出(2)：本轮不视为失败，下轮续跑"
+            fi
+            exit 0
+          fi
+          echo "::error::refresh-metadata 失败，退出码 ${code}"
+          exit "${code}"
+
+      - name: Fail on genuine refresh error
+        if: steps.refresh.outcome == 'failure'
+        run: |
+          echo "::error::refresh-metadata 真实失败（exit ${{ steps.refresh.outputs.exit_code }}），本轮中止"
+          exit 1
+
+      - name: Render README
+        run: node scripts/render-readme.mjs
+
+      - name: Unit tests
+        run: |
+          node --test "tests/*.test.mjs"
+
+      - name: Validate
+        run: node scripts/validate.mjs
+
+      - name: Commit refreshed metadata
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A -- data
+          if [ -f README.md ]; then git add -- README.md; fi
+          if [ -f README_EN.md ]; then git add -- README_EN.md; fi
+          if git diff --cached --quiet; then
+            echo "没有变化，跳过提交"
+            exit 0
+          fi
+          for attempt in 1 2 3 4 5; do
+            git commit -q -m "chore(metadata): refresh listed entries [skip ci]" || true
+            if git push; then exit 0; fi
+            echo "push rejected, rebasing on origin/main (attempt ${attempt})"
+            git fetch origin main
+            git reset --hard origin/main
+            node scripts/refresh-metadata.mjs || true
+            node scripts/render-readme.mjs
+            node scripts/validate.mjs
+            git add -A -- data
+            if [ -f README.md ]; then git add -- README.md; fi
+            if [ -f README_EN.md ]; then git add -- README_EN.md; fi
+            if git diff --cached --quiet; then exit 0; fi
+            sleep $((attempt * 5))
+          done
+          echo 'push failed after retries'
+          exit 1

@@ -61,7 +61,7 @@ test('stats block reports totals and per-category counts', () => {
   const stats = renderStats([entry(), entry({ id: 2, category: 'live2d' })], taxonomy, 'zh');
   assert.match(stats, /2 个仓库/);
   assert.match(stats, /\| 🐱 桌面宠物 \| 1 \|/);
-  assert.match(stats, /数据更新于 2026-01-05/);
+  assert.match(stats, /最新仓库活动 2026-01-05/);
 });
 
 test('renderReadme only replaces marker blocks and is deterministic', () => {
@@ -84,4 +84,20 @@ test('category order follows the order field', () => {
 test('rendered entry lines use single backticks for metadata', () => {
   const out = renderEntries([entry()], taxonomy, 'zh');
   assert.ok(out.includes(BT + '★10 · TypeScript' + BT));
+});
+
+test('the build date is today, not the newest repository push', () => {
+  // These were the same field before, so the header claimed the catalog was updated on a
+  // day when nothing had been scanned -- it just happened to be some repo's last push.
+  const old = entry({ pushed_at: '2020-01-01T00:00:00Z' });
+  const out = renderStats([old], taxonomy, 'zh');
+  const today = new Date().toISOString().slice(0, 10);
+  assert.match(out, new RegExp('构建于 ' + today));
+  assert.match(out, /最新仓库活动 2020-01-01/);
+});
+
+test('the english header separates build date from activity', () => {
+  const out = renderStats([entry({ pushed_at: '2020-01-01T00:00:00Z' })], taxonomy, 'en');
+  assert.match(out, /built \d{4}-\d{2}-\d{2}/);
+  assert.match(out, /newest repository activity 2020-01-01/);
 });

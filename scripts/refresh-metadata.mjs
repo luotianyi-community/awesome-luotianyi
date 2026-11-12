@@ -4,6 +4,28 @@ import { loadRegistry, saveRegistry, logChange } from './lib/registry.mjs';
 import { parseArgs, nowIso, todayIso } from './lib/util.mjs';
 import { stripUrls } from './lib/match.mjs';
 
+export function hasDesc(entry) {
+  return typeof entry.desc === 'string' && entry.desc.trim().length > 0;
+}
+
+const BOILERPLATE = [
+  /maintain and preview the content for your website/i,
+  /You can use the editor on GitHub/i,
+  /This repository is a template/i,
+  /^Initial commit\.?$/i,
+  /^Add files via upload\.?$/i,
+  /^no description/i
+];
+
+export function isBoilerplate(sentence) {
+  const text = String(sentence || '').trim();
+  if (!text) return true;
+  if (BOILERPLATE.some((re) => re.test(text))) return true;
+  // A bare shell command or a stray path is not a description of a project.
+  if (/^[\w-]+(\s+-[\w-]+)+\s/.test(text) && text.length < 80) return true;
+  return false;
+}
+
 export function firstSentence(readme) {
   if (!readme) return '';
   const lines = readme.split('\n');
@@ -44,6 +66,7 @@ async function main() {
   const dryRun = !!args['dry-run'];
   const limit = Number(args.limit || registry.listed.entries.length);
   const fillOnly = !args.all;
+  const opts = { all: !!args.all };
   const token = args.token || process.env.GITHUB_TOKEN;
   if (!token && !dryRun) throw new Error('GITHUB_TOKEN required');
   const client = token ? createClient({ token, repo: args.repo || 'luotianyi-community/awesome-luotianyi' }) : null;
@@ -69,14 +92,26 @@ async function main() {
       entry.language = repo.language || entry.language || null;
       entry.pushed_at = repo.pushed_at || entry.pushed_at || null;
       entry.archived = !!repo.archived;
-      if (repo.description) entry.desc = String(repo.description).slice(0, 190);
+      // A curated Chinese description is worth more than the raw upstream one: GitHub
+      // descriptions are often one English word, empty, or a shell command. Overwriting
+      // them wholesale replaced 29 hand-written entries on the first real run, including
+      // ones that explained why a repo matters. Only fill when we have nothing, unless
+      // --all explicitly asks for a rewrite.
+      if (opts.all && repo.description) entry.desc = String(repo.description).slice(0, 190);
+      else if (!entry.desc && repo.description) entry.desc = String(repo.description).slice(0, 190);
       touched += 1;
     }
-    if (fillOnly && entry.desc && entry.desc.length >= 12) continue;
-    if (client && (entry.desc || '').length < 12) {
+    // Only a genuinely absent description is filled. Length was used as the proxy here,
+    // and a curated Chinese summary like "洛天依百科：单页资料站" is 11 characters -- so a
+    // perfectly good description counted as missing and got replaced by whatever sentence
+    // the README happened to start with.
+    if (!opts.all && hasDesc(entry)) continue;
+    if (client && !hasDesc(entry)) {
       const text = await client.readme(entry.full_name);
       const sentence = firstSentence(text);
-      if (sentence) {
+      // READMEs often open with boilerplate from a template; taking that as the
+      // description is worse than leaving it empty.
+      if (sentence && !isBoilerplate(sentence)) {
         entry.desc = sentence;
         read += 1;
       }

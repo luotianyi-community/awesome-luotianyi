@@ -13,7 +13,7 @@
 </div>
 
 <!-- BEGIN:STATS -->
-**98 repositories · 9 categories · data updated 2026-11-12**
+**98 repositories · 9 categories · built 2026-11-12 · newest repository activity 2026-11-12**
 
 | Category | Repos |
 | --- | --- |
@@ -80,7 +80,7 @@ Bonuses: a README, a LICENSE, a commit within the last 12 months, stars ≥ 3.
 <!-- BEGIN:ENTRIES -->
 ### 🐱 Desktop Pets & Mascots (8)
 
-- [ChinaYosh007/LuoTianYi-pet](https://github.com/ChinaYosh007/LuoTianYi-pet) `★4` — New-Item -ItemType Directory -Force "$env:USERPROFILE\.codex\pets" / Out-Null
+- [ChinaYosh007/LuoTianYi-pet](https://github.com/ChinaYosh007/LuoTianYi-pet) `★5` — New-Item -ItemType Directory -Force "$env:USERPROFILE\.codex\pets" / Out-Null
 - [YYRMMAYO/xuxin-desktop-pet](https://github.com/YYRMMAYO/xuxin-desktop-pet) `★4 · Kotlin` — 安卓悬浮窗桌宠：初音未来/洛天依/乐正绫程序化角色建模、骨骼动画、语音互动与陪伴系统（Kotlin/Canvas）
 - [hedanbaomi/tianyi-inspired-companion](https://github.com/hedanbaomi/tianyi-inspired-companion) `★3` — 洛天依陪伴 Skill - 日常聊天、学习陪跑、音乐讨论与轻度安慰
 - [llly712/tianyi-desktop-pet](https://github.com/llly712/tianyi-desktop-pet) `★3 · Python` — 洛天依桌面AI助手 - PMX/Live2D渲染 + TTS + 本地Agent + AstrBot接入
@@ -92,7 +92,7 @@ Bonuses: a README, a LICENSE, a commit within the last 12 months, stars ≥ 3.
 ### 🎭 Live2D Models & Widgets (8)
 
 - [unsignedzhang/luotianyi-live2d](https://github.com/unsignedzhang/luotianyi-live2d) `★26 · JavaScript` — 为你的博客或网站添加一个洛天依live2D看板娘
-- [x66ccff/lty-lv2d-v3](https://github.com/x66ccff/lty-lv2d-v3) `★16 · JavaScript` — 💙🩵LuoTianyi洛天依 v3 interactive mascot / Live2d widget for blog / 看板娘🩵💙
+- [x66ccff/lty-lv2d-v3](https://github.com/x66ccff/lty-lv2d-v3) `★18 · JavaScript` — 💙🩵LuoTianyi洛天依 v3 interactive mascot / Live2d widget for blog / 看板娘🩵💙
 - [luotianyi-dev/luotianyi-wordpress-librelive2d](https://github.com/luotianyi-dev/luotianyi-wordpress-librelive2d) `★4 · PHP` — 开源的 Wordpress Live2D 插件
 - [Aoi-Karlin/Luo_Tianyi_v6Accel](https://github.com/Aoi-Karlin/Luo_Tianyi_v6Accel) `★2` — 本仓库存储来自Azured的第六版洛天依人设。请自行取用。
 - [fyf-buaa/luotianyi-feicuishi](https://github.com/fyf-buaa/luotianyi-feicuishi) `★2` — 洛天依「翡翠石」Live2D 模型
@@ -158,16 +158,16 @@ Bonuses: a README, a LICENSE, a commit within the last 12 months, stars ≥ 3.
 - [LonakoBc/luo-yi-ba](https://github.com/LonakoBc/luo-yi-ba) `★6 · JavaScript` — 洛一把：洛天依等 14 位歌姬的猜歌网页游戏，540 首曲库，含多人联机与曲目喜好表
 - [Cartethyia-0612/Tianyicraft-Soundpack](https://github.com/Cartethyia-0612/Tianyicraft-Soundpack) `★3` — 存储Tianyicraft音乐附加包的仓库
 - [llly712/pocket-tianyi](https://github.com/llly712/pocket-tianyi) `★2 · Python` — Pocket-sized Luo Tianyi vocal synthesizer based on ESP32-S3
+- [Sakaki773/Vsinger_reversi](https://github.com/Sakaki773/Vsinger_reversi) `★1 · Python` — 洛天依与言和主题的翻转棋小游戏
+- [Sakaki773/VsingerShudu](https://github.com/Sakaki773/VsingerShudu) `★1 · Java` — 洛天依主题 9x9 数独游戏，包含 PC Tkinter 原型和原生 Android APK 版本。主题色以洛天依应援色 66CCFF 为主，界面使用淡化/虚化背景图，尽量保证主题感和可读性平衡。
+- [zb23333ww/astrbot_plugin_vsinger_gacha](https://github.com/zb23333ww/astrbot_plugin_vsinger_gacha) `★1 · Python` — B站收藏集抽卡 · AstrBot 移植版（Pillow 渲染，积分与 Azure 打卡互通）
 - [zb23333ww/koishi-plugin-vsinger-gacha](https://github.com/zb23333ww/koishi-plugin-vsinger-gacha) `★1 · JavaScript` — 基于js的一套VSinger b站收藏集模拟抽卡插件
 - [dajunHuang/Luotianyi_Firework_Fabric_Mod](https://github.com/dajunHuang/Luotianyi_Firework_Fabric_Mod) `Java` — Add some fireworks for Luo's 11th birthday.
 - [FunnyMudTureGoPee/CK3_Vsinger_mod](https://github.com/FunnyMudTureGoPee/CK3_Vsinger_mod) — CK3（十字军之王3）Vsinger 肖像 mod
 - [haufionect/tianyi-playground](https://github.com/haufionect/tianyi-playground) `JavaScript` — 洛天依主题的小游戏乐园：接马卡龙 / 节奏敲击 / 天依琴。纯前端，零依赖，音乐全部 Web Audio 现场合成。
 - [memorydream/CyanStars](https://github.com/memorydream/CyanStars) `C#` — CyanStars：Vsinger 相关音乐游戏企划（Unity）
-- [Sakaki773/Vsinger_reversi](https://github.com/Sakaki773/Vsinger_reversi) `Python` — 洛天依与言和主题的翻转棋小游戏
-- [Sakaki773/VsingerShudu](https://github.com/Sakaki773/VsingerShudu) `Java` — 洛天依主题 9x9 数独游戏，包含 PC Tkinter 原型和原生 Android APK 版本。主题色以洛天依应援色 66CCFF 为主，界面使用淡化/虚化背景图，尽量保证主题感和可读性平衡。
 - [Vel044/vsinger-fanclub-card](https://github.com/Vel044/vsinger-fanclub-card) `Python` — Vsinger fanclub 粉丝俱乐部卡，洛天依、言和、乐正绫、乐正龙牙、墨清弦、徴羽摩柯
 - [yumuq/Luo-Tianyi](https://github.com/yumuq/Luo-Tianyi) — 洛天依 Minecraft 材质包，当前包含天空材质
-- [zb23333ww/astrbot_plugin_vsinger_gacha](https://github.com/zb23333ww/astrbot_plugin_vsinger_gacha) `Python` — B站收藏集抽卡 · AstrBot 移植版（Pillow 渲染，积分与 Azure 打卡互通）
 
 ### 🎵 Audio, Sheets & Creative Assets (5)
 
@@ -183,11 +183,11 @@ Bonuses: a README, a LICENSE, a commit within the last 12 months, stars ≥ 3.
 - [tianyi-fanclub/tianyi-birthday-countdown](https://github.com/tianyi-fanclub/tianyi-birthday-countdown) `★4 · CSS` — 这是洛天依饭制 生日会倒计时🎂 网站。
 - [Drigrow/120712](https://github.com/Drigrow/120712) `★2 · HTML` — A website for Luo Tianyi
 - [yunmianY/luotianyi_blog](https://github.com/yunmianY/luotianyi_blog) `★2 · Vue` — 关于洛天依的fastapi，vue3,mysql的博客
+- [Agnarr1800/yanhe-luotianyi-1314](https://github.com/Agnarr1800/yanhe-luotianyi-1314) `★1 · JavaScript` — 言和 13 周年 × 洛天依 14 周年生日纪念网页（1314·一生一世）：角色档案、时光轴、经典合唱曲目、生日倒计时、祝福墙与数据管理后台，纯静态零依赖
 - [duoduoeeee/hbv](https://github.com/duoduoeeee/hbv) `★1 · JavaScript` — 洛天依与言和生日自动祝福脚本：在指定日期自动向网页插入生日元素，引一行 JS 即可使用
 - [klovelovely/6cf-f00](https://github.com/klovelovely/6cf-f00) `★1 · HTML` — 洛天依 × 乐正绫 主题单页
 - [qqwqqk/Vocaloid.github.io](https://github.com/qqwqqk/Vocaloid.github.io) `★1 · TypeScript` — vsinger music player
 - [2362371984/luotianyi-website](https://github.com/2362371984/luotianyi-website) `HTML` — 洛天依主题网站页面改动方案与修改版页面（含 index.html 与修改脚本）
-- [Agnarr1800/yanhe-luotianyi-1314](https://github.com/Agnarr1800/yanhe-luotianyi-1314) `JavaScript` — 言和 13 周年 × 洛天依 14 周年生日纪念网页（1314·一生一世）：角色档案、时光轴、经典合唱曲目、生日倒计时、祝福墙与数据管理后台，纯静态零依赖
 - [fzr110911G/luotianyi](https://github.com/fzr110911G/luotianyi) `HTML` — 洛天依介绍页（HTML 静态站）
 - [jmgay114514/LuoTianyi](https://github.com/jmgay114514/LuoTianyi) `HTML` — Vsinger 六位角色介绍站，含洛天依、言和、乐正绫、乐正龙牙、徵羽摩柯与墨清弦分页
 - [Kotokowa/luotianyiPost](https://github.com/Kotokowa/luotianyiPost) `JavaScript` — 来自瓦纳海姆 · LUOTY：天依蓝 #66ccff 主题个人站，含天依立绘素材

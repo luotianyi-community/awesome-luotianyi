@@ -77,21 +77,26 @@ export function renderStats(entries, taxonomy, lang) {
   const topLanguages = Array.from(languages.entries())
     .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
     .slice(0, 6);
+  // This used to report the newest pushed_at across entries, which reads as "the data was
+  // updated then" but actually means "some repository pushed then" -- two unrelated facts
+  // that agree only by accident. Report the catalog build date instead, and keep the
+  // activity figure as its own labelled number.
+  const day = new Date().toISOString().slice(0, 10);
   let newest = '';
   for (const entry of entries) {
     const stamp = String(entry.pushed_at || '');
     if (stamp && stamp > newest) newest = stamp;
   }
-  const day = newest ? newest.slice(0, 10) : '-';
+  const active = newest ? newest.slice(0, 10) : '-';
   const activeCategories = categories.filter((category) => byCategory.get(category.id)).length;
   const lines = [];
   if (lang === 'en') {
-    lines.push('**' + total + ' repositories · ' + activeCategories + ' categories · data updated ' + day + '**');
+    lines.push('**' + total + ' repositories · ' + activeCategories + ' categories · built ' + day + ' · newest repository activity ' + active + '**');
     lines.push('');
     lines.push('| Category | Repos |');
     lines.push('| --- | --- |');
   } else {
-    lines.push('**' + total + ' 个仓库 · ' + activeCategories + ' 个分类 · 数据更新于 ' + day + '**');
+    lines.push('**' + total + ' 个仓库 · ' + activeCategories + ' 个分类 · 构建于 ' + day + ' · 最新仓库活动 ' + active + '**');
     lines.push('');
     lines.push('| 分类 | 仓库数 |');
     lines.push('| --- | --- |');
