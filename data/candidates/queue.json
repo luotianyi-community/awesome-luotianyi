@@ -2,6 +2,39 @@
   "version": 1,
   "entries": [
     {
+      "id": 1428237765,
+      "full_name": "jinyiwei2012/Luo-Sandbox",
+      "desc": "让洛天依在 Minecraft 中生活：Agent-LuoTianyi 深度绑定的 Forge 1.20.1 服务端居民与世界集成蓝本（MIT，尚未实现）",
+      "stars": 0,
+      "language": "Java",
+      "pushed_at": "2026-11-10T19:08:48Z",
+      "archived": false,
+      "fork": false,
+      "score": 110,
+      "signals": [
+        "core",
+        "description:strong",
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "core",
+        "description:strong",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "issue": {
+        "number": 22,
+        "url": "https://github.com/luotianyi-community/awesome-luotianyi/issues/22",
+        "created_at": "2026-11-12"
+      }
+    },
+    {
       "id": 1452018320,
       "full_name": "D-6CF-X/vmap",
       "desc": "V-Map 虚拟歌姬演出城市打卡地图（洛天依·依你随行 / 初音未来·因音而遇），Kotlin + Compose 自绘中国地图",
@@ -30,7 +63,44 @@
       ],
       "first_seen": "2026-11-12",
       "last_seen": "2026-11-12",
-      "issue": null
+      "issue": {
+        "number": 23,
+        "url": "https://github.com/luotianyi-community/awesome-luotianyi/issues/23",
+        "created_at": "2026-11-12"
+      }
+    },
+    {
+      "id": 1449331079,
+      "full_name": "fanquanpp/mingyige",
+      "desc": "鸣依阁 —— 洛天依个人站·在线访问：https://mingyige.pages.dev/",
+      "stars": 0,
+      "language": "TypeScript",
+      "pushed_at": "2026-11-09T05:16:20Z",
+      "archived": false,
+      "fork": false,
+      "score": 61,
+      "signals": [
+        "core",
+        "description:strong",
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "core",
+        "description:strong",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "issue": {
+        "number": 24,
+        "url": "https://github.com/luotianyi-community/awesome-luotianyi/issues/24",
+        "created_at": "2026-11-12"
+      }
     },
     {
       "id": 1364574748,
@@ -92,7 +162,11 @@
       ],
       "first_seen": "2026-11-12",
       "last_seen": "2026-11-12",
-      "issue": null
+      "issue": {
+        "number": 25,
+        "url": "https://github.com/luotianyi-community/awesome-luotianyi/issues/25",
+        "created_at": "2026-11-12"
+      }
     },
     {
       "id": 1280432850,
@@ -119,7 +193,42 @@
       ],
       "first_seen": "2026-11-12",
       "last_seen": "2026-11-12",
-      "issue": null
+      "issue": {
+        "number": 26,
+        "url": "https://github.com/luotianyi-community/awesome-luotianyi/issues/26",
+        "created_at": "2026-11-12"
+      }
+    },
+    {
+      "id": 1344925460,
+      "full_name": "SummerTianYi/anime-agent-mvp",
+      "desc": "Local-first anime desktop agent MVP",
+      "stars": 0,
+      "language": "Python",
+      "pushed_at": "2026-11-10T14:30:02Z",
+      "archived": false,
+      "fork": false,
+      "score": 50,
+      "signals": [
+        "core",
+        "readme:strong"
+      ],
+      "category_suggestion": "tts-ai",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "core",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "issue": {
+        "number": 27,
+        "url": "https://github.com/luotianyi-community/awesome-luotianyi/issues/27",
+        "created_at": "2026-11-12"
+      }
     },
     {
       "id": 838626846,
@@ -147,6 +256,62 @@
         "description:weak",
         "readme:strong",
         "topics:weak"
+      ],
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "issue": null
+    },
+    {
+      "id": 1445333047,
+      "full_name": "jinyiwei2012/VocaloidTTS",
+      "desc": "Windows 桌面中文语调教工具：文本与拼音生成 VOCALOID VSQX，支持 X Studio 3、OpenUTAU 等工程导出。MIT 开源。",
+      "stars": 1,
+      "language": "Python",
+      "pushed_at": "2026-11-10T11:49:51Z",
+      "archived": false,
+      "fork": false,
+      "score": 39,
+      "signals": [
+        "core",
+        "description:weak",
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "core",
+        "description:weak",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "issue": null
+    },
+    {
+      "id": 1440853603,
+      "full_name": "Akunda123/ACETool",
+      "desc": "ACE Studio 的控制面板：单文件 exe + 本地 Web UI（60 个工具）",
+      "stars": 0,
+      "language": "Go",
+      "pushed_at": "2026-11-09T13:30:27Z",
+      "archived": false,
+      "fork": false,
+      "score": 31,
+      "signals": [
+        "core",
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "core",
+        "readme:strong"
       ],
       "first_seen": "2026-11-12",
       "last_seen": "2026-11-12",
@@ -194,6 +359,33 @@
         "readme:strong"
       ],
       "category_suggestion": "community-site",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "core",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "issue": null
+    },
+    {
+      "id": 1391220837,
+      "full_name": "SelinLee/ai-moe-atlas",
+      "desc": "AI character atlas and asset toolkit · 中文 / English / 日本語 · Collect existing artwork, preserve provenance, normalize assets",
+      "stars": 8,
+      "language": "JavaScript",
+      "pushed_at": "2026-11-09T05:08:52Z",
+      "archived": false,
+      "fork": false,
+      "score": 31,
+      "signals": [
+        "core",
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
       "sources": [
         "catalog"
       ],

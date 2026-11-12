@@ -102,7 +102,7 @@ Bonuses: a README, a LICENSE, a commit within the last 12 months, stars ≥ 3.
 
 ### 🗣️ TTS & Conversational AI (11)
 
-- [SheepLiu712/Agent-LuoTianyi](https://github.com/SheepLiu712/Agent-LuoTianyi) `★101 · Python` — 虚拟歌手洛天依（Luo Tianyi）智能对话Agent。
+- [SheepLiu712/Agent-LuoTianyi](https://github.com/SheepLiu712/Agent-LuoTianyi) `★102 · Python` — 虚拟歌手洛天依（Luo Tianyi）智能对话Agent。
 - [xdedmmc2/GPT-SoVITS-Luo-Tianyi](https://github.com/xdedmmc2/GPT-SoVITS-Luo-Tianyi) `★25` — 让天依亲口说爱你！——基于GPT-SoVITS的一款模拟洛天依声线的语音生成模型
 - [qifanmaker/LuoTianyi-Agent](https://github.com/qifanmaker/LuoTianyi-Agent) `★8 · Python` — LuoTianyi-Agent with LLM, GPT-SoVITS, Live2D
 - [MUKEKANN/Luo-Agent](https://github.com/MUKEKANN/Luo-Agent) `★4 · TypeScript` — 洛天依风格的本地桌面 AI Agent 实验项目
