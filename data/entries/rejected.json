@@ -194,6 +194,14 @@
       "issue": null
     },
     {
+      "id": 1344925460,
+      "full_name": "SummerTianYi/anime-agent-mvp",
+      "reason": "通用 3D 桌宠 Agent 框架，洛天依仅是内置示例人格，非项目定位",
+      "by": "IPF-Sinon",
+      "at": "2026-11-12",
+      "issue": null
+    },
+    {
       "id": 255495687,
       "full_name": "wangxinleo/practise-vue-shop-front",
       "reason": "Vue 练习商店项目，已归档，与洛天依无关",
