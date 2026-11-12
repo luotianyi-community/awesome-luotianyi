@@ -889,6 +889,23 @@
       ]
     },
     {
+      "id": 1428237765,
+      "full_name": "jinyiwei2012/Luo-Sandbox",
+      "aliases": [],
+      "category": "game-mod",
+      "desc": "让洛天依在 Minecraft 中生活：Agent-LuoTianyi 深度绑定的 Forge 1.20.1 服务端居民与世界集成蓝本（MIT，尚未实现）",
+      "stars": 1,
+      "language": "Java",
+      "pushed_at": "2026-11-10T19:08:48Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-12",
+      "source": "issue:22",
+      "evidence": [
+        "issue:22 approved by IPF-Sinon"
+      ]
+    },
+    {
       "id": 608913369,
       "full_name": "kkryuw/Luotianyi-Yuezhengling-Yanhe-vocaloid5-orignal-source",
       "aliases": [],

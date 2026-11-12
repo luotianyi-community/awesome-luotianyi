@@ -13,7 +13,7 @@
 </div>
 
 <!-- BEGIN:STATS -->
-**98 repositories · 9 categories · built 2026-11-12 · newest repository activity 2026-11-12**
+**99 repositories · 9 categories · built 2026-11-12 · newest repository activity 2026-11-12**
 
 | Category | Repos |
 | --- | --- |
@@ -22,12 +22,12 @@
 | 🗣️ TTS & Conversational AI | 11 |
 | 🎨 Themes, Skins & Wallpapers | 14 |
 | 🧰 Data, Wiki & Tooling | 15 |
-| 🎮 Games, Mods & Hardware Art | 17 |
+| 🎮 Games, Mods & Hardware Art | 18 |
 | 🎵 Audio, Sheets & Creative Assets | 5 |
 | 🌐 Community Sites & Services | 16 |
 | 📚 Docs & Tutorials | 4 |
 
-**Primary languages**：other (31) · JavaScript (18) · Python (18) · HTML (13) · TypeScript (4) · Java (3)
+**Primary languages**：other (31) · JavaScript (18) · Python (18) · HTML (13) · Java (4) · TypeScript (4)
 <!-- END:STATS -->
 
 ## Contents
@@ -149,7 +149,7 @@ Bonuses: a README, a LICENSE, a commit within the last 12 months, stars ≥ 3.
 - [XinChengP/Luo_Tianyi_Image](https://github.com/XinChengP/Luo_Tianyi_Image) — 这是一个用于存放洛天依相关图片的图床仓库，方便统一管理和引用素材。
 - [zxt4230980/LuoTianyiVOCALOID](https://github.com/zxt4230980/LuoTianyiVOCALOID) — 洛天依 Synthesizer V 工程文件（.svip3），含《关山酒》《雪落叹余生》等
 
-### 🎮 Games, Mods & Hardware Art (17)
+### 🎮 Games, Mods & Hardware Art (18)
 
 - [cyjin-yl/tianyitap](https://github.com/cyjin-yl/tianyitap) `★32 · JavaScript` — TianyiTap：Mikutap 的多音源改版，支持多歌姬音源
 - [Pearl-Luo/Tianyicraft](https://github.com/Pearl-Luo/Tianyicraft) `★14` — Tianyicraft 是美化 Minecraft 的洛天依主题资源包，覆盖死亡提示到界面文案
@@ -158,6 +158,7 @@ Bonuses: a README, a LICENSE, a commit within the last 12 months, stars ≥ 3.
 - [LonakoBc/luo-yi-ba](https://github.com/LonakoBc/luo-yi-ba) `★6 · JavaScript` — 洛一把：洛天依等 14 位歌姬的猜歌网页游戏，540 首曲库，含多人联机与曲目喜好表
 - [Cartethyia-0612/Tianyicraft-Soundpack](https://github.com/Cartethyia-0612/Tianyicraft-Soundpack) `★3` — 存储Tianyicraft音乐附加包的仓库
 - [llly712/pocket-tianyi](https://github.com/llly712/pocket-tianyi) `★2 · Python` — Pocket-sized Luo Tianyi vocal synthesizer based on ESP32-S3
+- [jinyiwei2012/Luo-Sandbox](https://github.com/jinyiwei2012/Luo-Sandbox) `★1 · Java` — 让洛天依在 Minecraft 中生活：Agent-LuoTianyi 深度绑定的 Forge 1.20.1 服务端居民与世界集成蓝本（MIT，尚未实现）
 - [Sakaki773/Vsinger_reversi](https://github.com/Sakaki773/Vsinger_reversi) `★1 · Python` — 洛天依与言和主题的翻转棋小游戏
 - [Sakaki773/VsingerShudu](https://github.com/Sakaki773/VsingerShudu) `★1 · Java` — 洛天依主题 9x9 数独游戏，包含 PC Tkinter 原型和原生 Android APK 版本。主题色以洛天依应援色 66CCFF 为主，界面使用淡化/虚化背景图，尽量保证主题感和可读性平衡。
 - [zb23333ww/astrbot_plugin_vsinger_gacha](https://github.com/zb23333ww/astrbot_plugin_vsinger_gacha) `★1 · Python` — B站收藏集抽卡 · AstrBot 移植版（Pillow 渲染，积分与 Azure 打卡互通）
