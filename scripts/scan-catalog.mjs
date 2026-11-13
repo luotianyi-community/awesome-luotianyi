@@ -118,6 +118,12 @@ async function main() {
       if (autoExclude(registry, record, 'name collision only: no luotianyi signal in description/topics/readme', { dryRun })) excluded += 1;
       continue;
     }
+    if (evaluation.verdict === 'excluded:aggregator') {
+      // Guards against index repos: they name every project they list, so a keyword hit says
+      // nothing about the repo's own subject.
+      if (autoExclude(registry, record, 'aggregator: README indexes many unrelated repositories', { dryRun })) excluded += 1;
+      continue;
+    }
     if (evaluation.score < rules.thresholds.queue) continue;
     if (rules.owner_denylist && rules.owner_denylist.some((owner) => record.full_name.toLowerCase().startsWith(owner.toLowerCase() + '/'))) {
       if (autoExclude(registry, record, 'owner denylist', { dryRun })) excluded += 1;

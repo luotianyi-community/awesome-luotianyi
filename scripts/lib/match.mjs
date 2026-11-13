@@ -34,7 +34,7 @@ export const DEFAULT_RULES = {
     no_readme_signal: -12,
     negative: -10
   },
-  thresholds: { queue: 30, issue: 45 },
+  thresholds: { queue: 30, issue: 45, aggregator_links: 40 },
   caps: { candidate_per_run: 400, readme_fetches: 70, issues_per_run: 20, issues_per_owner: 4, metadata_refresh: 220 },
   search_queries: [
     'luotianyi in:name,description,readme',
@@ -158,6 +158,24 @@ function cjkOnly(text, terms) {
   return matchTerms(text, terms).filter((term) => CJK.test(term));
 }
 
+// A project README links to itself, its docs, its releases. A curated index links to
+// everything it indexes, so the ratio of foreign repository links is a structural signal
+// that does not depend on which words happen to appear.
+export function foreignRepoLinks(readme, selfFullName) {
+  if (!readme) return { total: 0, foreign: 0 };
+  const self = String(selfFullName || '').toLowerCase();
+  const found = new Set();
+  let total = 0;
+  const re = /https?:\/\/(?:www\.)?github\.com\/([A-Za-z0-9_.-]+)\/([A-Za-z0-9_.-]+)/g;
+  let m;
+  while ((m = re.exec(readme)) !== null) {
+    const full = (m[1] + '/' + m[2]).toLowerCase().replace(/\.git$/, '');
+    total += 1;
+    if (full !== self) found.add(full);
+  }
+  return { total, foreign: found.size };
+}
+
 export function evaluateRepo(repo, rules, extra) {
   const cfg = rules || DEFAULT_RULES;
   const ctx = extra || {};
@@ -184,6 +202,12 @@ export function evaluateRepo(repo, rules, extra) {
   // Both were proposed as candidates on the strength of that single line.
   const readmeDensity = readmeText ? readmeStrong / Math.max(1, Math.ceil(readmeText.length / 20000)) : 0;
   const readmeStrongEffective = readmeDensity < 0.5 ? 0 : readmeStrong;
+  // Structural check on top of the density heuristic: an index links out to the projects it
+  // indexes, so many distinct foreign repo links mean the subject is the list, not any one
+  // entry in it. The threshold lives in the rules so it can be tuned without editing code.
+  const links = foreignRepoLinks(readmeText, repo.full_name || '');
+  const aggregatorMin = Number((cfg.thresholds && cfg.thresholds.aggregator_links) || 40);
+  const isAggregator = links.foreign >= aggregatorMin;
   const negativeHits = countHits(descriptionText + ' ' + topicsText, cfg.terms.negative || []);
 
   let score = 0;
@@ -248,6 +272,9 @@ export function evaluateRepo(repo, rules, extra) {
   // Recorded so downstream steps (open-issues) can apply the same core-term gate without
   // re-reading the README.
   if (coreHits > 0) signals.push('core');
+  // Recorded rather than folded into the score: being an index is a structural property,
+  // and a maintainer should be able to see why a repo was skipped.
+  if (isAggregator) signals.push('aggregator');
 
   return {
     score: Math.round(score),
@@ -257,7 +284,9 @@ export function evaluateRepo(repo, rules, extra) {
     contentHits,
     negativeHits,
     coreHits,
-    verdict: classify(repo, { score, nameCollision, contentHits, negativeHits, inspected, nameHit, coreHits }),
+    isAggregator,
+    foreignLinks: links.foreign,
+    verdict: classify(repo, { score, nameCollision, contentHits, negativeHits, inspected, nameHit, coreHits, isAggregator }),
     detail: { nameStrong, ownerStrong, descStrong, descWeak, topicStrong, topicWeak, readmeStrong, readmeWeak }
   };
 }
@@ -266,6 +295,10 @@ function classify(repo, state) {
   if (repo.archived) return 'excluded:archived';
   if (Number(repo.size) === 0) return 'excluded:empty';
   if (state.nameCollision && state.inspected) return 'excluded:name-collision';
+  // An index is not the thing it indexes. Skipping at classification time means the repo
+  // never becomes a candidate, never eats a README fetch next round, and never opens an
+  // issue a maintainer has to close by hand.
+  if (state.isAggregator) return 'excluded:aggregator';
   // A strong term in the repository NAME counts as evidence even when the repo has no
   // README at all: e.g. LuoTianYi_GrubTheme ships only fonts and a screenshot.
   const evidenced = state.contentHits > 0 || state.nameHit > 0;

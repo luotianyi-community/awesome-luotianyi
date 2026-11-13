@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { countHits, evaluateRepo, normalize, suggestCategory, loadRules, DEFAULT_RULES } from '../scripts/lib/match.mjs';
+import { countHits, evaluateRepo, normalize, suggestCategory, loadRules, foreignRepoLinks, DEFAULT_RULES } from '../scripts/lib/match.mjs';
 import { loadRegistry } from '../scripts/lib/registry.mjs';
 import path from 'node:path';
 
@@ -214,4 +214,42 @@ test('a focused README still earns the strong signal', () => {
   );
   assert.equal(result.signals.includes('readme:strong'), true);
   assert.equal(result.signals.includes('readme:diluted'), false);
+});
+
+test('an index of many repositories is excluded structurally', () => {
+  // Real case: losebird/dsh-plugin-market links to 2495 distinct repositories because
+  // that is what a plugin market does. Keyword matching cannot tell that apart from a
+  // project that happens to mention Luo Tianyi.
+  const links = [];
+  for (let i = 0; i < 60; i += 1) links.push('- [p' + i + '](https://github.com/someone/plugin-' + i + ')');
+  const result = evaluateRepo(
+    repo({ full_name: 'x/market', name: 'market', description: '洛天依 plugins market', topics: ['luotianyi'] }),
+    DEFAULT_RULES,
+    { readme: '# Market\n' + links.join('\n') + '\n洛天依', readmeChecked: true }
+  );
+  assert.equal(result.isAggregator, true);
+  assert.equal(result.signals.includes('aggregator'), true);
+  assert.equal(result.verdict, 'excluded:aggregator');
+});
+
+test('a normal project that links to a few dependencies is not an index', () => {
+  const readme = '洛天依桌宠\n- [dep](https://github.com/a/b)\n- [dep2](https://github.com/c/d)';
+  const result = evaluateRepo(
+    repo({ full_name: 'x/pet', name: 'pet', description: '洛天依桌宠', topics: [] }),
+    DEFAULT_RULES,
+    { readme, readmeChecked: true }
+  );
+  assert.equal(result.isAggregator, false);
+  assert.notEqual(result.verdict, 'excluded:aggregator');
+});
+
+test('links to the project itself are not counted as foreign', () => {
+  const readme = '[self](https://github.com/x/pet) [issue](https://github.com/x/pet/issues)';
+  assert.equal(foreignRepoLinks(readme, 'x/pet').foreign, 0);
+});
+
+test('the same repo linked twice counts once', () => {
+  const readme = '[a](https://github.com/o/r) [b](https://github.com/o/r)';
+  assert.equal(foreignRepoLinks(readme, 'x/y').foreign, 1);
+  assert.equal(foreignRepoLinks(readme, 'x/y').total, 2);
 });
