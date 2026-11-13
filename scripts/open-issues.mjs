@@ -19,7 +19,10 @@ const LABELS = [
 // *how many* are taken lives here; the loop in main() only performs the API calls.
 export function selectCandidates(entries, rules, options) {
   const opts = options || {};
-  const existingTitles = new Set((opts.existingTitles || []).map((t) => String(t).toLowerCase()));
+  // Accept any iterable. The caller builds a Set, the tests pass an array, and requiring
+  // one concrete type turned that difference into a runtime crash that only appeared in
+  // production -- the tests exercised the array path and the workflow hit the Set path.
+  const existingTitles = new Set(Array.from(opts.existingTitles || []).map((t) => String(t).toLowerCase()));
   const limit = Number(opts.limit || rules.caps.issues_per_run);
   const perOwner = Number(opts.perOwner || rules.caps.issues_per_owner);
 

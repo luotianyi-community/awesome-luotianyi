@@ -59,3 +59,12 @@ test('the owner cap counts across the whole selection, not per candidate', () =>
   const entries = [e('x/1', 99), e('x/2', 98), e('x/3', 97), e('x/4', 96), e('x/5', 95)];
   assert.equal(selectCandidates(entries, rules).picked.length, 4);
 });
+test('existingTitles accepts a Set as well as an array', () => {
+  // Regression: selectCandidates used (opts.existingTitles || []).map(...), which throws
+  // on a Set. Tests passed an array; the workflow passed a Set. The result was four
+  // consecutive radar failures whose preceding steps all reported success.
+  const e = { full_name: 'a/b', score: 90, signals: ['core'] };
+  assert.equal(selectCandidates([e], rules, { existingTitles: ['[candidate] a/b'] }).picked.length, 0);
+  assert.equal(selectCandidates([e], rules, { existingTitles: new Set(['[candidate] a/b']) }).picked.length, 0);
+  assert.equal(selectCandidates([e], rules).picked.length, 1);
+});
