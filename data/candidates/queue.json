@@ -67,7 +67,7 @@
       "desc": "ACE Studio 的控制面板：单文件 exe + 本地 Web UI（60 个工具）",
       "stars": 0,
       "language": "Go",
-      "pushed_at": "2026-11-09T13:30:27Z",
+      "pushed_at": "2026-11-13T13:32:12Z",
       "archived": false,
       "fork": false,
       "score": 31,
@@ -85,7 +85,7 @@
         "readme:strong"
       ],
       "first_seen": "2026-11-12",
-      "last_seen": "2026-11-12",
+      "last_seen": "2026-11-13",
       "issue": null
     },
     {
