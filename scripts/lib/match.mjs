@@ -177,6 +177,13 @@ export function evaluateRepo(repo, rules, extra) {
   const topicWeak = countHits(topicsText, cfg.terms.weak);
   const readmeStrong = readmeText ? countHits(readmeText, cfg.terms.strong) : 0;
   const readmeWeak = readmeText ? countHits(readmeText, cfg.terms.weak) : 0;
+  // A single mention inside an enormous README is a mention, not a topic. Aggregators and
+  // market listings carry hundreds of thousands of characters and name every project they
+  // index: losebird/dsh-plugin-market (435KB) lists one Luo Tianyi skin and scored 56;
+  // bilibili-collection (403KB) contains her name in one row of a generated table.
+  // Both were proposed as candidates on the strength of that single line.
+  const readmeDensity = readmeText ? readmeStrong / Math.max(1, Math.ceil(readmeText.length / 20000)) : 0;
+  const readmeStrongEffective = readmeDensity < 0.5 ? 0 : readmeStrong;
   const negativeHits = countHits(descriptionText + ' ' + topicsText, cfg.terms.negative || []);
 
   let score = 0;
@@ -186,7 +193,7 @@ export function evaluateRepo(repo, rules, extra) {
   score += Math.min(descWeak, 2) * weights.description_weak;
   score += Math.min(topicStrong, 2) * weights.topics_strong;
   score += Math.min(topicWeak, 1) * weights.topics_weak;
-  score += Math.min(readmeStrong, 2) * weights.readme_strong;
+  score += Math.min(readmeStrongEffective, 2) * weights.readme_strong;
   score += Math.min(readmeWeak, 1) * weights.readme_weak;
 
   if (nameStrong > 0) signals.push('name:strong');
@@ -195,7 +202,8 @@ export function evaluateRepo(repo, rules, extra) {
   if (descWeak > 0) signals.push('description:weak');
   if (topicStrong > 0) signals.push('topics:strong');
   if (topicWeak > 0) signals.push('topics:weak');
-  if (readmeStrong > 0) signals.push('readme:strong');
+  if (readmeStrongEffective > 0) signals.push('readme:strong');
+  else if (readmeStrong > 0) signals.push('readme:diluted');
   else if (readmeWeak > 0) signals.push('readme:weak');
 
   if (repo.archived) {

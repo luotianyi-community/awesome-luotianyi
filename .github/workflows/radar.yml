@@ -42,9 +42,13 @@ jobs:
           node-version: "22"
 
       # 退出码 0=正常，1=失败，2=限流放弃（不算失败）
+      # continue-on-error used to be set here so that a rate-limit exit (2) would not fail
+      # the job. Side effect: a genuine failure also reported outcome=success, so the step
+      # looked green and only the guard at the bottom went red. That is how four broken
+      # radar runs read as "scan succeeded, commit skipped". The exit code is handled
+      # explicitly below instead, so no step is masked.
       - name: Scan radar
         id: radar
-        continue-on-error: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PAGES: ${{ github.event.inputs.pages || '1' }}
@@ -67,7 +71,6 @@ jobs:
 
       - name: Open candidate issues
         id: issues
-        continue-on-error: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
@@ -89,27 +92,33 @@ jobs:
           exit "${code}"
 
       # 候选建完 Issue 后刷新看板，让剩下没达标的候选也可见
+      # The board is a convenience view, not catalog data, so a failure here must not
+      # abort the run -- but it must not vanish either. Without continue-on-error the
+      # exit code is real, and the warning pins it to the summary.
       - name: Refresh queue board
-        continue-on-error: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
-        run: node scripts/queue-board.mjs
+        run: |
+          set +e
+          node scripts/queue-board.mjs
+          code=$?
+          if [ "${code}" -ne 0 ]; then
+            echo "::warning::看板刷新失败（exit ${code}）：队列本身已更新，只是这个 Issue 没刷新"
+          fi
+          exit 0
 
       - name: Report radar outcome
         if: always()
         run: |
           echo "### radar" >> "$GITHUB_STEP_SUMMARY"
           echo "" >> "$GITHUB_STEP_SUMMARY"
-          echo "- scan-radar outcome: ${{ steps.radar.outcome }} (exit ${{ steps.radar.outputs.exit_code }})" >> "$GITHUB_STEP_SUMMARY"
-          echo "- open-issues outcome: ${{ steps.issues.outcome }} (exit ${{ steps.issues.outputs.exit_code }})" >> "$GITHUB_STEP_SUMMARY"
+          echo "- scan-radar exit: ${{ steps.radar.outputs.exit_code }} (0=ok, 2=rate limited, other=failed)" >> "$GITHUB_STEP_SUMMARY"
+          echo "- open-issues exit: ${{ steps.issues.outputs.exit_code }} (0=ok, 2=rate limited, other=failed)" >> "$GITHUB_STEP_SUMMARY"
 
-      # 限流(2) 已在上面按“不算失败”处理；真实失败在这里显式暴露
-      - name: Fail on genuine radar error
-        if: steps.radar.outcome == 'failure' || steps.issues.outcome == 'failure'
-        run: |
-          echo "::error::radar 抓取或开 Issue 真实失败（scan=${{ steps.radar.outputs.exit_code }} issues=${{ steps.issues.outputs.exit_code }}），本轮中止，不提交 state"
-          exit 1
+      # 限流(2) 已在上面的 run 块里转成 warning + exit 0；真实失败会让对应步骤直接变红，
+      # 不再需要这里兜底。保留这条会在失败时多打一遍重复的 error。
+      # 摘要里仍会记录两个 exit_code，便于排查。
 
       # radar 只碰 data/state 与候选队列；README 由 catalog-sync 统一渲染，
       # 这里刻意不跑 render / validate，避免两个工作流同时改 README 撞车。

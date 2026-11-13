@@ -54,9 +54,9 @@ jobs:
 
       # Exit 2 means rate limited: the run stops but is not a failure, and the next
       # monthly pass picks up where this one stopped.
+      # 不遮蔽：限流(2) 在 run 块里转 warning，真实失败直接让这一步变红。
       - name: Refresh metadata
         id: refresh
-        continue-on-error: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           LIMIT: ${{ github.event.inputs.limit || '' }}
@@ -80,11 +80,7 @@ jobs:
           echo "::error::refresh-metadata 失败，退出码 ${code}"
           exit "${code}"
 
-      - name: Fail on genuine refresh error
-        if: steps.refresh.outcome == 'failure'
-        run: |
-          echo "::error::refresh-metadata 真实失败（exit ${{ steps.refresh.outputs.exit_code }}），本轮中止"
-          exit 1
+      # 真实失败已由上面的步骤直接暴露，不再兜底。
 
       - name: Render README
         run: node scripts/render-readme.mjs

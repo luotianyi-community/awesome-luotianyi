@@ -60,13 +60,20 @@ jobs:
         run: node scripts/validate.mjs
 
       # 裁决后刷新看板：已处理的候选必须立刻从名单里消失
+      # 看板刷新失败不该让一次已经成功的裁决标红：裁决本身已落库，只是这个视图没更新。
       - name: Refresh queue board
         if: steps.changes.outputs.changed == 'true'
-        continue-on-error: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
-        run: node scripts/queue-board.mjs
+        run: |
+          set +e
+          node scripts/queue-board.mjs
+          code=$?
+          if [ "${code}" -ne 0 ]; then
+            echo "::warning::看板刷新失败（exit ${code}）：裁决已生效，只是看板没刷新"
+          fi
+          exit 0
 
       - name: Commit decision
         if: steps.changes.outputs.changed == 'true'

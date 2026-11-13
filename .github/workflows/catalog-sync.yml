@@ -52,9 +52,11 @@ jobs:
           node-version: "22"
 
       # 退出码 0=正常，1=失败，2=限流放弃（不算失败，下一轮按水位线续跑）
+      # No continue-on-error: a rate-limit exit (2) is converted to a warning inside the
+      # run block, so only a genuine failure turns the step red. Masking it made a broken
+      # scan report outcome=success and left the failure to a guard step far below.
       - name: Scan catalog
         id: scan
-        continue-on-error: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PAGES: ${{ github.event.inputs.pages || '2' }}
@@ -86,19 +88,22 @@ jobs:
           echo "- scan-catalog exit code: ${{ steps.scan.outputs.exit_code }}" >> "$GITHUB_STEP_SUMMARY"
 
       # 限流(2) 已在上面按“不算失败”处理；这里只拦真实失败，避免静默吞掉
-      - name: Fail on genuine scan error
-        if: steps.scan.outcome == 'failure'
-        run: |
-          echo "::error::scan-catalog 真实失败（exit ${{ steps.scan.outputs.exit_code }}），本轮中止，不提交任何改动"
-          exit 1
+      # 真实失败会让 Scan catalog 步骤直接变红，不需要这个兜底；限流(2) 已在上面转成 warning。
 
       # 队列看板：把未自动建 Issue 的候选汇总到一个 Issue，便于集中查看
+      # 看板是视图不是数据，失败不该中断本轮，但也不能静默吞掉。
       - name: Refresh queue board
-        continue-on-error: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
-        run: node scripts/queue-board.mjs
+        run: |
+          set +e
+          node scripts/queue-board.mjs
+          code=$?
+          if [ "${code}" -ne 0 ]; then
+            echo "::warning::看板刷新失败（exit ${code}）：队列本身已更新，只是这个 Issue 没刷新"
+          fi
+          exit 0
 
       - name: Render README
         run: node scripts/render-readme.mjs

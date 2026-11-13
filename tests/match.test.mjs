@@ -191,3 +191,27 @@ test('rules loader merges partial overrides with defaults', () => {
   assert.equal(merged.thresholds.queue, DEFAULT_RULES.thresholds.queue);
   assert.equal(Array.isArray(merged.search_queries), true);
 });
+
+test('a single mention inside a huge README is not a strong signal', () => {
+  // Real cases: losebird/dsh-plugin-market (435KB) lists one Luo Tianyi plugin and scored
+  // 56; 2513502304/bilibili-collection (403KB) has her name in one row of a generated
+  // table. Both are aggregators that name every project they index.
+  const marketplace = repo({ full_name: 'x/plugin-market', name: 'plugin-market', description: 'plugins market', topics: [] });
+  const result = evaluateRepo(marketplace, DEFAULT_RULES, {
+    readme: 'x'.repeat(400000) + ' 洛天依 theme',
+    readmeChecked: true
+  });
+  assert.equal(result.signals.includes('readme:diluted'), true);
+  assert.equal(result.signals.includes('readme:strong'), false);
+  assert.ok(result.score < DEFAULT_RULES.thresholds.issue, 'must not reach the issue line');
+});
+
+test('a focused README still earns the strong signal', () => {
+  const result = evaluateRepo(
+    repo({ full_name: 'a/pet', name: 'pet', description: '', topics: [] }),
+    DEFAULT_RULES,
+    { readme: '洛天依桌宠，一个桌面看板娘。', readmeChecked: true }
+  );
+  assert.equal(result.signals.includes('readme:strong'), true);
+  assert.equal(result.signals.includes('readme:diluted'), false);
+});
