@@ -143,6 +143,33 @@
       "issue": null
     },
     {
+      "id": 1423274670,
+      "full_name": "Rhonsua/deskpet",
+      "desc": "",
+      "stars": 4,
+      "language": "Python",
+      "pushed_at": "2026-11-13T13:56:12Z",
+      "archived": false,
+      "fork": false,
+      "score": 31,
+      "signals": [
+        "core",
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "core",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13",
+      "issue": null
+    },
+    {
       "id": 1391220837,
       "full_name": "SelinLee/ai-moe-atlas",
       "desc": "AI character atlas and asset toolkit · 中文 / English / 日本語 · Collect existing artwork, preserve provenance, normalize assets",
@@ -167,6 +194,33 @@
       ],
       "first_seen": "2026-11-12",
       "last_seen": "2026-11-12",
+      "issue": null
+    },
+    {
+      "id": 1449166778,
+      "full_name": "yeeyee6847/onmyoji-xiaotutou-py-bot",
+      "desc": "",
+      "stars": 0,
+      "language": "Python",
+      "pushed_at": "2026-11-13T16:14:45Z",
+      "archived": false,
+      "fork": false,
+      "score": 31,
+      "signals": [
+        "core",
+        "readme:strong"
+      ],
+      "category_suggestion": "community-site",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "core",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13",
       "issue": null
     }
   ]
