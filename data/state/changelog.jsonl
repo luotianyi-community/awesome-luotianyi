@@ -237,3 +237,4 @@
 {"at":"2026-11-13T22:40:55Z","action":"radar-scan","scanned":47,"queued":0,"excluded":0,"skipped":46,"watermark":"2026-11-13"}
 {"at":"2026-11-13T22:58:47Z","action":"catalog-scan","scanned":23,"queued":2,"excluded":0,"updated":0,"water":"2026-11-13"}
 {"at":"2026-11-14T03:21:12Z","action":"radar-scan","scanned":48,"queued":0,"excluded":0,"skipped":47,"watermark":"2026-11-14"}
+{"at":"2026-11-14T03:52:51Z","action":"catalog-scan","scanned":26,"queued":1,"excluded":0,"updated":0,"water":"2026-11-14"}
