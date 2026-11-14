@@ -33,6 +33,37 @@
       "issue": null
     },
     {
+      "id": 1351027489,
+      "full_name": "orge-8/cv_lyric_context",
+      "desc": "面向QQ机器人RAG的中文Vocaloid歌词上下文数据集，为MaiBot提供歌词与歌曲元数据。",
+      "stars": 0,
+      "language": "Python",
+      "pushed_at": "2026-11-14T09:45:53Z",
+      "archived": false,
+      "fork": false,
+      "score": 44,
+      "signals": [
+        "core",
+        "description:weak",
+        "readme:strong",
+        "topics:weak"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "core",
+        "description:weak",
+        "readme:strong",
+        "topics:weak"
+      ],
+      "first_seen": "2026-11-14",
+      "last_seen": "2026-11-14",
+      "issue": null
+    },
+    {
       "id": 1445333047,
       "full_name": "jinyiwei2012/VocaloidTTS",
       "desc": "Windows 桌面中文语调教工具：文本与拼音生成 VOCALOID VSQX，支持 X Studio 3、OpenUTAU 等工程导出。MIT 开源。",
@@ -116,12 +147,39 @@
       "issue": null
     },
     {
+      "id": 1404448537,
+      "full_name": "fangyugit/FClassPal",
+      "desc": "适合在班级大屏使用的 多平台快捷方式桌面小部件",
+      "stars": 1,
+      "language": "JavaScript",
+      "pushed_at": "2026-11-14T07:25:31Z",
+      "archived": false,
+      "fork": false,
+      "score": 31,
+      "signals": [
+        "core",
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "core",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-14",
+      "last_seen": "2026-11-14",
+      "issue": null
+    },
+    {
       "id": 1347445684,
       "full_name": "littlebook888/kaoyan-site",
       "desc": "小本子考研个人网站 · 个人备考自用（每日任务 / 学习计时 / 作息安排 / 通话边界记录）。个人使用，非公开内容，页面需口令访问。",
       "stars": 1,
       "language": "JavaScript",
-      "pushed_at": "2026-11-11T17:42:31Z",
+      "pushed_at": "2026-11-14T08:26:47Z",
       "archived": false,
       "fork": false,
       "score": 31,
@@ -139,7 +197,34 @@
         "readme:strong"
       ],
       "first_seen": "2026-11-12",
-      "last_seen": "2026-11-12",
+      "last_seen": "2026-11-14",
+      "issue": null
+    },
+    {
+      "id": 1365461189,
+      "full_name": "orge-8/music-request",
+      "desc": "",
+      "stars": 0,
+      "language": "Python",
+      "pushed_at": "2026-11-14T09:45:04Z",
+      "archived": false,
+      "fork": false,
+      "score": 31,
+      "signals": [
+        "core",
+        "readme:strong"
+      ],
+      "category_suggestion": "audio-assets",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "core",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-14",
+      "last_seen": "2026-11-14",
       "issue": null
     },
     {
