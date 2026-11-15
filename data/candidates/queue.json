@@ -25,7 +25,7 @@
         "readme:strong"
       ],
       "first_seen": "2026-11-14",
-      "last_seen": "2026-11-14",
+      "last_seen": "2026-11-15",
       "issue": {
         "number": 29,
         "url": "https://github.com/luotianyi-community/awesome-luotianyi/issues/29",
@@ -91,7 +91,7 @@
         "topics:weak"
       ],
       "first_seen": "2026-11-14",
-      "last_seen": "2026-11-14",
+      "last_seen": "2026-11-15",
       "issue": null
     },
     {
@@ -201,7 +201,7 @@
         "readme:strong"
       ],
       "first_seen": "2026-11-14",
-      "last_seen": "2026-11-14",
+      "last_seen": "2026-11-15",
       "issue": null
     },
     {
@@ -210,7 +210,7 @@
       "desc": "小本子考研个人网站 · 个人备考自用（每日任务 / 学习计时 / 作息安排 / 通话边界记录）。个人使用，非公开内容，页面需口令访问。",
       "stars": 1,
       "language": "JavaScript",
-      "pushed_at": "2026-11-14T19:11:20Z",
+      "pushed_at": "2026-11-15T03:21:08Z",
       "archived": false,
       "fork": false,
       "score": 31,
@@ -228,7 +228,7 @@
         "readme:strong"
       ],
       "first_seen": "2026-11-12",
-      "last_seen": "2026-11-14",
+      "last_seen": "2026-11-15",
       "issue": null
     },
     {
@@ -255,7 +255,7 @@
         "readme:strong"
       ],
       "first_seen": "2026-11-14",
-      "last_seen": "2026-11-14",
+      "last_seen": "2026-11-15",
       "issue": null
     },
     {
@@ -318,7 +318,7 @@
       "desc": "自我介绍的站点",
       "stars": 2,
       "language": "HTML",
-      "pushed_at": "2026-11-14T13:47:55Z",
+      "pushed_at": "2026-11-15T03:19:28Z",
       "archived": false,
       "fork": false,
       "score": 31,
@@ -336,7 +336,7 @@
         "readme:strong"
       ],
       "first_seen": "2026-11-14",
-      "last_seen": "2026-11-14",
+      "last_seen": "2026-11-15",
       "issue": null
     },
     {
@@ -363,7 +363,7 @@
         "readme:strong"
       ],
       "first_seen": "2026-11-13",
-      "last_seen": "2026-11-14",
+      "last_seen": "2026-11-15",
       "issue": null
     }
   ]

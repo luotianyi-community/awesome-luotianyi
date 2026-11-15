@@ -26,6 +26,12 @@
       "at": "2026-11-08"
     },
     {
+      "id": 1147838400,
+      "full_name": "anbeime/skill",
+      "reason": "aggregator: README indexes many unrelated repositories",
+      "at": "2026-11-15"
+    },
+    {
       "id": 1350545349,
       "full_name": "Aoi-Karlin/astrbot_plugin_mediawikitools",
       "reason": "curated out: not strongly related to Luo Tianyi",

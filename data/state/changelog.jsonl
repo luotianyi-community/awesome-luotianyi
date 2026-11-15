@@ -246,3 +246,5 @@
 {"at":"2026-11-14T22:28:59Z","action":"radar-scan","scanned":51,"queued":0,"excluded":0,"skipped":51,"watermark":"2026-11-14"}
 {"at":"2026-11-14T22:29:00Z","action":"issue-open","repo":"wwwsh111/dsh-music","number":29}
 {"at":"2026-11-15T02:43:19Z","action":"radar-scan","scanned":53,"queued":0,"excluded":0,"skipped":52,"watermark":"2026-11-15"}
+{"at":"2026-11-15T03:33:57Z","action":"exclude","repo":"anbeime/skill","id":1147838400,"reason":"aggregator: README indexes many unrelated repositories","actor":"automation"}
+{"at":"2026-11-15T03:34:03Z","action":"catalog-scan","scanned":30,"queued":0,"excluded":1,"updated":0,"water":"2026-11-15"}
