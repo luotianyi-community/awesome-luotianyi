@@ -256,3 +256,5 @@
 {"at":"2026-11-16T02:46:55Z","action":"radar-scan","scanned":32,"queued":0,"excluded":0,"skipped":32,"watermark":"2026-11-16"}
 {"at":"2026-11-16T03:33:26Z","action":"catalog-scan","scanned":27,"queued":0,"excluded":0,"updated":0,"water":"2026-11-16"}
 {"at":"2026-11-16T11:28:51Z","action":"radar-scan","scanned":29,"queued":0,"excluded":0,"skipped":29,"watermark":"2026-11-16"}
+{"at":"2026-11-16T14:10:04Z","action":"exclude","repo":"dshworks/awesome-dsh-themes","id":1333391018,"reason":"aggregator: README indexes many unrelated repositories","actor":"automation"}
+{"at":"2026-11-16T14:10:06Z","action":"catalog-scan","scanned":14,"queued":0,"excluded":1,"updated":0,"water":"2026-11-16"}
