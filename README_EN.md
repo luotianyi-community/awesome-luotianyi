@@ -13,7 +13,7 @@
 </div>
 
 <!-- BEGIN:STATS -->
-**101 repositories · 9 categories · built 2026-11-17 · newest repository activity 2026-11-16**
+**101 repositories · 9 categories · built 2026-11-17 · newest repository activity 2026-11-17**
 
 | Category | Repos |
 | --- | --- |
@@ -187,10 +187,10 @@ Bonuses: a README, a LICENSE, a commit within the last 12 months, stars ≥ 3.
 - [Agnarr1800/yanhe-luotianyi-1314](https://github.com/Agnarr1800/yanhe-luotianyi-1314) `★1 · JavaScript` — 言和 13 周年 × 洛天依 14 周年生日纪念网页（1314·一生一世）：角色档案、时光轴、经典合唱曲目、生日倒计时、祝福墙与数据管理后台，纯静态零依赖
 - [D-6CF-X/vmap](https://github.com/D-6CF-X/vmap) `★1 · Kotlin` — V-Map 虚拟歌姬演出城市打卡地图（洛天依·依你随行 / 初音未来·因音而遇），Kotlin + Compose 自绘中国地图
 - [duoduoeeee/hbv](https://github.com/duoduoeeee/hbv) `★1 · JavaScript` — 洛天依与言和生日自动祝福脚本：在指定日期自动向网页插入生日元素，引一行 JS 即可使用
+- [fanquanpp/mingyige](https://github.com/fanquanpp/mingyige) `★1 · TypeScript` — 鸣依阁 —— 洛天依个人站·在线访问：https://mingyige.pages.dev/
 - [klovelovely/6cf-f00](https://github.com/klovelovely/6cf-f00) `★1 · HTML` — 洛天依 × 乐正绫 主题单页
 - [qqwqqk/Vocaloid.github.io](https://github.com/qqwqqk/Vocaloid.github.io) `★1 · TypeScript` — vsinger music player
 - [2362371984/luotianyi-website](https://github.com/2362371984/luotianyi-website) `HTML` — 洛天依主题网站页面改动方案与修改版页面（含 index.html 与修改脚本）
-- [fanquanpp/mingyige](https://github.com/fanquanpp/mingyige) `TypeScript` — 鸣依阁 —— 洛天依个人站·在线访问：https://mingyige.pages.dev/
 - [fzr110911G/luotianyi](https://github.com/fzr110911G/luotianyi) `HTML` — 洛天依介绍页（HTML 静态站）
 - [jmgay114514/LuoTianyi](https://github.com/jmgay114514/LuoTianyi) `HTML` — Vsinger 六位角色介绍站，含洛天依、言和、乐正绫、乐正龙牙、徵羽摩柯与墨清弦分页
 - [Kotokowa/luotianyiPost](https://github.com/Kotokowa/luotianyiPost) `JavaScript` — 来自瓦纳海姆 · LUOTY：天依蓝 #66ccff 主题个人站，含天依立绘素材

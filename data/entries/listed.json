@@ -132,7 +132,7 @@
       "category": "game-mod",
       "stars": 14,
       "language": null,
-      "pushed_at": "2026-11-07T06:15:21Z",
+      "pushed_at": "2026-11-17T14:36:37Z",
       "archived": false,
       "fork": false,
       "added_at": "2026-11-08",
@@ -169,7 +169,7 @@
       "desc": "洛天依南北组主题沉金艺术纪念PCB票卡，嘉立创开源硬件，无电气功能纯收藏卡",
       "stars": 11,
       "language": null,
-      "pushed_at": "2026-11-16T11:03:50Z",
+      "pushed_at": "2026-11-17T11:44:44Z",
       "archived": false,
       "fork": false,
       "added_at": "2026-11-08",
@@ -871,6 +871,23 @@
       ]
     },
     {
+      "id": 1449331079,
+      "full_name": "fanquanpp/mingyige",
+      "aliases": [],
+      "category": "community-site",
+      "desc": "鸣依阁 —— 洛天依个人站·在线访问：https://mingyige.pages.dev/",
+      "stars": 1,
+      "language": "TypeScript",
+      "pushed_at": "2026-11-17T10:08:23Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-12",
+      "source": "issue:24",
+      "evidence": [
+        "issue:24 approved by IPF-Sinon"
+      ]
+    },
+    {
       "id": 723569083,
       "full_name": "ffccyy555/-",
       "aliases": [],
@@ -1258,23 +1275,6 @@
       "evidence": [
         "github-search",
         "score:101"
-      ]
-    },
-    {
-      "id": 1449331079,
-      "full_name": "fanquanpp/mingyige",
-      "aliases": [],
-      "category": "community-site",
-      "desc": "鸣依阁 —— 洛天依个人站·在线访问：https://mingyige.pages.dev/",
-      "stars": 0,
-      "language": "TypeScript",
-      "pushed_at": "2026-11-09T05:16:20Z",
-      "archived": false,
-      "fork": false,
-      "added_at": "2026-11-12",
-      "source": "issue:24",
-      "evidence": [
-        "issue:24 approved by IPF-Sinon"
       ]
     },
     {

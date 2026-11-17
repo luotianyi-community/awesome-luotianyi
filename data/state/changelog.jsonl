@@ -262,3 +262,6 @@
 {"at":"2026-11-17T01:14:42Z","action":"catalog-scan","scanned":18,"queued":1,"excluded":0,"updated":0,"water":"2026-11-17"}
 {"at":"2026-11-17T04:31:28Z","action":"radar-scan","scanned":32,"queued":0,"excluded":0,"skipped":32,"watermark":"2026-11-17"}
 {"at":"2026-11-17T14:29:51Z","action":"radar-scan","scanned":43,"queued":0,"excluded":0,"skipped":43,"watermark":"2026-11-17"}
+{"at":"2026-11-17T15:02:54Z","action":"exclude","repo":"fendouai/awesome-deepseek-harness","id":1334296858,"reason":"aggregator: README indexes many unrelated repositories","actor":"automation"}
+{"at":"2026-11-17T15:02:55Z","action":"exclude","repo":"chuidi-12/1","id":1461337207,"reason":"aggregator: README indexes many unrelated repositories","actor":"automation"}
+{"at":"2026-11-17T15:03:09Z","action":"catalog-scan","scanned":23,"queued":1,"excluded":2,"updated":1,"water":"2026-11-17"}
