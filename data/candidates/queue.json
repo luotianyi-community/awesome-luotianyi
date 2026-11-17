@@ -201,7 +201,34 @@
         "readme:strong"
       ],
       "first_seen": "2026-11-14",
-      "last_seen": "2026-11-16",
+      "last_seen": "2026-11-17",
+      "issue": null
+    },
+    {
+      "id": 1375909599,
+      "full_name": "Janson20/FusionMusicPlayer",
+      "desc": "从 FMCL 中把音乐播放器完整拆出来， 用 PySide6 + FluentUI QML 重新实现的独立桌面音乐播放器。",
+      "stars": 1,
+      "language": "Python",
+      "pushed_at": "2026-11-17T01:04:49Z",
+      "archived": false,
+      "fork": false,
+      "score": 31,
+      "signals": [
+        "core",
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "core",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-11-17",
       "issue": null
     },
     {
@@ -210,7 +237,7 @@
       "desc": "小本子考研个人网站 · 个人备考自用（每日任务 / 学习计时 / 作息安排 / 通话边界记录）。个人使用，非公开内容，页面需口令访问。",
       "stars": 1,
       "language": "JavaScript",
-      "pushed_at": "2026-11-16T13:37:24Z",
+      "pushed_at": "2026-11-16T17:37:21Z",
       "archived": false,
       "fork": false,
       "score": 31,
@@ -228,7 +255,7 @@
         "readme:strong"
       ],
       "first_seen": "2026-11-12",
-      "last_seen": "2026-11-16",
+      "last_seen": "2026-11-17",
       "issue": null
     },
     {
