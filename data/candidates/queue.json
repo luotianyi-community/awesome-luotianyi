@@ -69,7 +69,7 @@
       "desc": "面向QQ机器人RAG的中文Vocaloid歌词上下文数据集，为MaiBot提供歌词与歌曲元数据。",
       "stars": 0,
       "language": "Python",
-      "pushed_at": "2026-11-15T14:03:17Z",
+      "pushed_at": "2026-11-18T05:25:39Z",
       "archived": false,
       "fork": false,
       "score": 44,
@@ -91,7 +91,7 @@
         "topics:weak"
       ],
       "first_seen": "2026-11-14",
-      "last_seen": "2026-11-16",
+      "last_seen": "2026-11-18",
       "issue": null
     },
     {
@@ -183,7 +183,7 @@
       "desc": "适合在班级大屏使用的 多平台快捷方式桌面小部件",
       "stars": 1,
       "language": "JavaScript",
-      "pushed_at": "2026-11-17T13:48:30Z",
+      "pushed_at": "2026-11-18T05:40:03Z",
       "archived": false,
       "fork": false,
       "score": 31,
@@ -264,7 +264,7 @@
       "desc": "小本子考研个人网站 · 个人备考自用（每日任务 / 学习计时 / 作息安排 / 通话边界记录）。个人使用，非公开内容，页面需口令访问。",
       "stars": 1,
       "language": "JavaScript",
-      "pushed_at": "2026-11-17T17:13:13Z",
+      "pushed_at": "2026-11-18T14:20:12Z",
       "archived": false,
       "fork": false,
       "score": 31,
@@ -337,33 +337,6 @@
       ],
       "first_seen": "2026-11-13",
       "last_seen": "2026-11-18",
-      "issue": null
-    },
-    {
-      "id": 1391220837,
-      "full_name": "SelinLee/ai-moe-atlas",
-      "desc": "AI character atlas and asset toolkit · 中文 / English / 日本語 · Collect existing artwork, preserve provenance, normalize assets",
-      "stars": 8,
-      "language": "JavaScript",
-      "pushed_at": "2026-11-09T05:08:52Z",
-      "archived": false,
-      "fork": false,
-      "score": 31,
-      "signals": [
-        "core",
-        "readme:strong"
-      ],
-      "category_suggestion": "data-tools",
-      "sources": [
-        "catalog"
-      ],
-      "evidence": [
-        "github-search",
-        "core",
-        "readme:strong"
-      ],
-      "first_seen": "2026-11-12",
-      "last_seen": "2026-11-12",
       "issue": null
     },
     {

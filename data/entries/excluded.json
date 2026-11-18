@@ -512,6 +512,12 @@
       "at": "2026-11-10"
     },
     {
+      "id": 1391220837,
+      "full_name": "SelinLee/ai-moe-atlas",
+      "reason": "aggregator: README indexes many unrelated repositories",
+      "at": "2026-11-18"
+    },
+    {
       "id": 293834611,
       "full_name": "seunghyunhan/daily-arxiv-noti",
       "reason": "empty",
