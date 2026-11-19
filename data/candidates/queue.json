@@ -2,6 +2,37 @@
   "version": 1,
   "entries": [
     {
+      "id": 1463908725,
+      "full_name": "mistrain1128/rainlove-opensource",
+      "desc": "Luo Tianyi’s Japanese cover of “Rain Love” — ACE Studio vocal project, subtitle scripts, and MV shot prompts. A non-commercial fan project. ｜ 洛天依《雨爱》日语翻唱的 ACE Studio 调教工程、字幕脚本与 MV 分镜提示词。非商业同人作品。",
+      "stars": 0,
+      "language": "Python",
+      "pushed_at": "2026-11-19T09:11:45Z",
+      "archived": false,
+      "fork": false,
+      "score": 124,
+      "signals": [
+        "core",
+        "description:strong",
+        "description:weak",
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "core",
+        "description:strong",
+        "description:weak",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "issue": null
+    },
+    {
       "id": 1457754149,
       "full_name": "wwwsh111/dsh-music",
       "desc": "",
