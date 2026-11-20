@@ -29,12 +29,45 @@
         "readme:strong"
       ],
       "first_seen": "2026-11-19",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "issue": {
         "number": 30,
         "url": "https://github.com/luotianyi-community/awesome-luotianyi/issues/30",
         "created_at": "2026-11-19"
       }
+    },
+    {
+      "id": 1464881986,
+      "full_name": "cyu85289-gif/tianyi-dream-studio",
+      "desc": "天依绘梦所：洛天依主题的在线手绘画室 + AI 图生图，纯前端 Canvas 画板与 Node 生图代理",
+      "stars": 0,
+      "language": "HTML",
+      "pushed_at": "2026-11-20T02:30:55Z",
+      "archived": false,
+      "fork": false,
+      "score": 106,
+      "signals": [
+        "core",
+        "description:strong",
+        "readme:strong",
+        "topics:strong",
+        "topics:weak"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "core",
+        "description:strong",
+        "readme:strong",
+        "topics:strong",
+        "topics:weak"
+      ],
+      "first_seen": "2026-11-20",
+      "last_seen": "2026-11-20",
+      "issue": null
     },
     {
       "id": 1457754149,
@@ -317,7 +350,7 @@
         "readme:strong"
       ],
       "first_seen": "2026-11-12",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "issue": null
     },
     {
