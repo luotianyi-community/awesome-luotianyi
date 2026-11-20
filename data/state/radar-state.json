@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastRun": "2026-11-20T14:31:41Z",
+  "lastRun": "2026-11-20T21:10:11Z",
   "watermark": {
     "catalog": "2026-11-20",
     "radar": "2026-11-20"
@@ -8,5 +8,5 @@
   "seen": {},
   "cursors": {},
   "tombstones": [],
-  "lastIssueRun": "2026-11-20T12:58:26Z"
+  "lastIssueRun": "2026-11-20T21:10:12Z"
 }
