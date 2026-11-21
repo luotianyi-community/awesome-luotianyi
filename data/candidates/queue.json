@@ -131,7 +131,11 @@
       ],
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-21",
-      "issue": null
+      "issue": {
+        "number": 32,
+        "url": "https://github.com/luotianyi-community/awesome-luotianyi/issues/32",
+        "created_at": "2026-11-21"
+      }
     },
     {
       "id": 838626846,
