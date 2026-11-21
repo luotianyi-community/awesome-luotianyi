@@ -105,6 +105,35 @@
       }
     },
     {
+      "id": 1466393067,
+      "full_name": "YYYYYuno/gouzhi-qishi-mv",
+      "desc": "洛天依/ilem《勾指起誓》小克 × DeepSeek 同人 MV 工程：代码逐帧画世界（HyperFrames + Canvas 2D）+ GPT 角色立绘，由 Claude Code 制作",
+      "stars": 1,
+      "language": "JavaScript",
+      "pushed_at": "2026-11-21T09:46:41Z",
+      "archived": false,
+      "fork": false,
+      "score": 55,
+      "signals": [
+        "core",
+        "description:strong",
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "core",
+        "description:strong",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "issue": null
+    },
+    {
       "id": 838626846,
       "full_name": "include-xb/LuoPulse_Adornment",
       "desc": "中文虚拟歌手同人音乐游戏 A fan-made rhythm game about Chinese virtual singers",
@@ -336,7 +365,7 @@
       "desc": "小本子考研个人网站 · 个人备考自用（每日任务 / 学习计时 / 作息安排 / 通话边界记录）。个人使用，非公开内容，页面需口令访问。",
       "stars": 1,
       "language": "JavaScript",
-      "pushed_at": "2026-11-19T18:17:18Z",
+      "pushed_at": "2026-11-21T08:50:31Z",
       "archived": false,
       "fork": false,
       "score": 31,
@@ -354,7 +383,7 @@
         "readme:strong"
       ],
       "first_seen": "2026-11-12",
-      "last_seen": "2026-11-20",
+      "last_seen": "2026-11-21",
       "issue": null
     },
     {
