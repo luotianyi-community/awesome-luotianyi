@@ -704,6 +704,12 @@
       "at": "2026-11-08"
     },
     {
+      "id": 1424240945,
+      "full_name": "yunusarda-sudo/mcp-benchmark",
+      "reason": "aggregator: README indexes many unrelated repositories",
+      "at": "2026-11-22"
+    },
+    {
       "id": 140865187,
       "full_name": "yzjdxl/vsinger",
       "reason": "empty repository",

@@ -283,6 +283,33 @@
       "issue": null
     },
     {
+      "id": 1467244043,
+      "full_name": "eUsEr114514/eQQMusicListShow",
+      "desc": "114514123 歌单本地展示站：778 首曲目、封面网格与播放器，音频存放于 Releases",
+      "stars": 0,
+      "language": "JavaScript",
+      "pushed_at": "2026-11-22T06:38:08Z",
+      "archived": false,
+      "fork": false,
+      "score": 31,
+      "signals": [
+        "core",
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "core",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-22",
+      "last_seen": "2026-11-22",
+      "issue": null
+    },
+    {
       "id": 1404448537,
       "full_name": "fangyugit/FClassPal",
       "desc": "适合在班级大屏使用的 多平台快捷方式桌面小部件",
