@@ -138,6 +138,33 @@
       }
     },
     {
+      "id": 1340672212,
+      "full_name": "jinyiwei2012/ar-tianyi",
+      "desc": "",
+      "stars": 2,
+      "language": "C#",
+      "pushed_at": "2026-11-22T14:56:06Z",
+      "archived": false,
+      "fork": false,
+      "score": 50,
+      "signals": [
+        "core",
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "core",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-22",
+      "last_seen": "2026-11-22",
+      "issue": null
+    },
+    {
       "id": 838626846,
       "full_name": "include-xb/LuoPulse_Adornment",
       "desc": "中文虚拟歌手同人音乐游戏 A fan-made rhythm game about Chinese virtual singers",
