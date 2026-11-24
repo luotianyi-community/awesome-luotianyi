@@ -395,6 +395,33 @@
       "issue": null
     },
     {
+      "id": 1409617531,
+      "full_name": "FunnyMudTureGoPee/CodexRepository",
+      "desc": "Codex访问的仓库",
+      "stars": 0,
+      "language": null,
+      "pushed_at": "2026-11-24T07:49:09Z",
+      "archived": false,
+      "fork": false,
+      "score": 31,
+      "signals": [
+        "core",
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "core",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "issue": null
+    },
+    {
       "id": 1375909599,
       "full_name": "Janson20/FusionMusicPlayer",
       "desc": "从 FMCL 中把音乐播放器完整拆出来， 用 PySide6 + FluentUI QML 重新实现的独立桌面音乐播放器。",
