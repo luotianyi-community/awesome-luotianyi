@@ -313,3 +313,4 @@
 {"at":"2026-11-24T16:39:24Z","action":"catalog-scan","scanned":25,"queued":1,"excluded":0,"updated":0,"water":"2026-11-24"}
 {"at":"2026-11-24T21:16:19Z","action":"radar-scan","scanned":16,"queued":0,"excluded":0,"skipped":16,"watermark":"2026-11-24"}
 {"at":"2026-11-25T01:42:18Z","action":"catalog-scan","scanned":31,"queued":1,"excluded":0,"updated":0,"water":"2026-11-25"}
+{"at":"2026-11-25T04:20:10Z","action":"radar-scan","scanned":17,"queued":0,"excluded":0,"skipped":17,"watermark":"2026-11-25"}
