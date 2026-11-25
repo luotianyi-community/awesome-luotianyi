@@ -427,7 +427,7 @@
       "desc": "",
       "stars": 0,
       "language": "Go",
-      "pushed_at": "2026-11-24T17:44:04Z",
+      "pushed_at": "2026-11-25T08:48:59Z",
       "archived": false,
       "fork": false,
       "score": 31,
@@ -533,9 +533,9 @@
       "id": 1423274670,
       "full_name": "Rhonsua/deskpet",
       "desc": "",
-      "stars": 4,
+      "stars": 5,
       "language": "Python",
-      "pushed_at": "2026-11-17T16:15:14Z",
+      "pushed_at": "2026-11-25T12:29:09Z",
       "archived": false,
       "fork": false,
       "score": 31,
@@ -553,7 +553,7 @@
         "readme:strong"
       ],
       "first_seen": "2026-11-13",
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-25",
       "issue": null
     },
     {
