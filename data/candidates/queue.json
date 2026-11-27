@@ -449,6 +449,33 @@
       "issue": null
     },
     {
+      "id": 1422076717,
+      "full_name": "Henanshuaibi/G-music",
+      "desc": "G-music Android music player",
+      "stars": 1,
+      "language": "Java",
+      "pushed_at": "2026-11-27T12:01:42Z",
+      "archived": false,
+      "fork": false,
+      "score": 31,
+      "signals": [
+        "core",
+        "readme:strong"
+      ],
+      "category_suggestion": "audio-assets",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "core",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "issue": null
+    },
+    {
       "id": 1375909599,
       "full_name": "Janson20/FusionMusicPlayer",
       "desc": "从 FMCL 中把音乐播放器完整拆出来， 用 PySide6 + FluentUI QML 重新实现的独立桌面音乐播放器。",
