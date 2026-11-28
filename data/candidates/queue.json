@@ -481,7 +481,7 @@
       "desc": "从 FMCL 中把音乐播放器完整拆出来， 用 PySide6 + FluentUI QML 重新实现的独立桌面音乐播放器。",
       "stars": 1,
       "language": "Python",
-      "pushed_at": "2026-11-17T01:27:36Z",
+      "pushed_at": "2026-11-28T10:12:17Z",
       "archived": false,
       "fork": false,
       "score": 31,
@@ -499,7 +499,7 @@
         "readme:strong"
       ],
       "first_seen": "2026-11-17",
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-28",
       "issue": null
     },
     {
@@ -532,10 +532,10 @@
     {
       "id": 1365461189,
       "full_name": "orge-8/music-request",
-      "desc": "",
-      "stars": 0,
+      "desc": "MaiBot 点歌插件：网易云 / QQ 音乐 / B 站三平台搜索点播，自动解析音乐链接与分享卡片，支持本地歌曲库；卡片 / 语音 / 文件三种发送形态，LLM 自然语言点歌与相关度防错歌。",
+      "stars": 1,
       "language": "Python",
-      "pushed_at": "2026-11-15T04:08:52Z",
+      "pushed_at": "2026-11-28T08:37:25Z",
       "archived": false,
       "fork": false,
       "score": 31,
@@ -553,7 +553,34 @@
         "readme:strong"
       ],
       "first_seen": "2026-11-14",
-      "last_seen": "2026-11-16",
+      "last_seen": "2026-11-28",
+      "issue": null
+    },
+    {
+      "id": 1475337038,
+      "full_name": "orge-8/vc-knowledge",
+      "desc": "",
+      "stars": 0,
+      "language": "Python",
+      "pushed_at": "2026-11-28T09:58:59Z",
+      "archived": false,
+      "fork": false,
+      "score": 31,
+      "signals": [
+        "core",
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "core",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
       "issue": null
     },
     {
@@ -581,6 +608,33 @@
       ],
       "first_seen": "2026-11-13",
       "last_seen": "2026-11-26",
+      "issue": null
+    },
+    {
+      "id": 1475413139,
+      "full_name": "Vctrkk/JingHuaShuiYue-ShuangSheng",
+      "desc": "歌曲镜花水月的唱谱，拥有两个声部，通过声道差分的方法进行了提取后扒谱而成。差分提取程序由claude套皮的deepseek完成.",
+      "stars": 0,
+      "language": "Python",
+      "pushed_at": "2026-11-28T09:49:08Z",
+      "archived": false,
+      "fork": false,
+      "score": 31,
+      "signals": [
+        "core",
+        "readme:strong"
+      ],
+      "category_suggestion": "data-tools",
+      "sources": [
+        "catalog"
+      ],
+      "evidence": [
+        "github-search",
+        "core",
+        "readme:strong"
+      ],
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
       "issue": null
     },
     {

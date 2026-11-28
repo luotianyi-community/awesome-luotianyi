@@ -162,6 +162,23 @@
       ]
     },
     {
+      "id": 1370075727,
+      "full_name": "w8888-hh/luotianyi-running-app",
+      "aliases": [],
+      "category": "community-site",
+      "desc": "洛天依陪跑应用 - 节拍器 + 心率监测 + 音乐播放 + 语音引导的跑步健身 Web 应用",
+      "stars": 12,
+      "language": "HTML",
+      "pushed_at": "2026-11-28T14:11:44Z",
+      "archived": false,
+      "fork": false,
+      "added_at": "2026-11-08",
+      "source": "issue:2",
+      "evidence": [
+        "issue:2 approved by IPF-Sinon"
+      ]
+    },
+    {
       "id": 1350635162,
       "full_name": "alsunmengy/LuoTianyi-PCB-Art",
       "aliases": [],
@@ -169,7 +186,7 @@
       "desc": "洛天依南北组主题沉金艺术纪念PCB票卡，嘉立创开源硬件，无电气功能纯收藏卡",
       "stars": 11,
       "language": null,
-      "pushed_at": "2026-11-27T12:06:12Z",
+      "pushed_at": "2026-11-28T11:38:14Z",
       "archived": false,
       "fork": false,
       "added_at": "2026-11-08",
@@ -195,23 +212,6 @@
       "evidence": [
         "github-search",
         "score:116"
-      ]
-    },
-    {
-      "id": 1370075727,
-      "full_name": "w8888-hh/luotianyi-running-app",
-      "aliases": [],
-      "category": "community-site",
-      "desc": "洛天依陪跑应用 - 节拍器 + 心率监测 + 音乐播放 + 语音引导的跑步健身 Web 应用",
-      "stars": 10,
-      "language": "HTML",
-      "pushed_at": "2026-11-05T12:25:00Z",
-      "archived": false,
-      "fork": false,
-      "added_at": "2026-11-08",
-      "source": "issue:2",
-      "evidence": [
-        "issue:2 approved by IPF-Sinon"
       ]
     },
     {

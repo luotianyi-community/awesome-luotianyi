@@ -13,7 +13,7 @@
 </div>
 
 <!-- BEGIN:STATS -->
-**101 repositories · 9 categories · built 2026-11-28 · newest repository activity 2026-11-27**
+**101 repositories · 9 categories · built 2026-11-28 · newest repository activity 2026-11-28**
 
 | Category | Repos |
 | --- | --- |
@@ -180,7 +180,7 @@ Bonuses: a README, a LICENSE, a commit within the last 12 months, stars ≥ 3.
 
 ### 🌐 Community Sites & Services (18)
 
-- [w8888-hh/luotianyi-running-app](https://github.com/w8888-hh/luotianyi-running-app) `★10 · HTML` — 洛天依陪跑应用 - 节拍器 + 心率监测 + 音乐播放 + 语音引导的跑步健身 Web 应用
+- [w8888-hh/luotianyi-running-app](https://github.com/w8888-hh/luotianyi-running-app) `★12 · HTML` — 洛天依陪跑应用 - 节拍器 + 心率监测 + 音乐播放 + 语音引导的跑步健身 Web 应用
 - [tianyi-fanclub/tianyi-birthday-countdown](https://github.com/tianyi-fanclub/tianyi-birthday-countdown) `★4 · CSS` — 这是洛天依饭制 生日会倒计时🎂 网站。
 - [Drigrow/120712](https://github.com/Drigrow/120712) `★2 · HTML` — A website for Luo Tianyi
 - [yunmianY/luotianyi_blog](https://github.com/yunmianY/luotianyi_blog) `★2 · Vue` — 关于洛天依的fastapi，vue3,mysql的博客
